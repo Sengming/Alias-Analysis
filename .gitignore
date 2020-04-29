@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Misc
+*.gdb_history
+*.json
+*.swp
+*.dot
