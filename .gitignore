@@ -36,3 +36,6 @@
 *.json
 *.swp
 *.dot
+*.ll
+*.bc
+*.swo
