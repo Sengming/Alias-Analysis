@@ -7,7 +7,7 @@ OBJECTS:= $(SOURCES:.cpp=.o)
 #DEBUG:= -DDEBUG_BUILD
 
 # Test Targets
-TARGET_SOURCES:=$(shell find ./tests -type f -name '*.c')
+TARGET_SOURCES:=$(shell find ./tests -type f -name '*.c' -maxdepth 1)
 TARGET_OBJECTS:=$(TARGET_SOURCES:.c=.o)
 TARGET_BC:=$(TARGET_SOURCES:.c=_m2r.bc)
 
