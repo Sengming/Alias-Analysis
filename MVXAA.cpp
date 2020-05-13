@@ -1,25 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////
-
-#include <AndersenAA.h>
 #include <CollectGlobals.hpp>
-
-// llvm
-#include <llvm/ADT/SmallPtrSet.h>
-#include <llvm/ADT/SmallSet.h>
-#include <llvm/Analysis/ScalarEvolutionAliasAnalysis.h>
-#include <llvm/ExecutionEngine/ExecutionEngine.h>
-#include <llvm/IR/Constants.h>
-#include <llvm/IR/Function.h>
-#include <llvm/IR/InstVisitor.h>
-#include <llvm/IR/Module.h>
-#include <llvm/IR/Operator.h>
-#include <llvm/IR/PassManager.h>
-#include <llvm/Passes/PassBuilder.h>
-#include <llvm/Passes/PassPlugin.h>
-#include <llvm/Support/CommandLine.h>
-#include <llvm/Support/Debug.h>
-#include <llvm/Support/raw_ostream.h>
-#include <llvm/Transforms/Utils/BasicBlockUtils.h>
+#include <MVXAA.hpp>
 
 #define DEBUG_TYPE "mvxaa"
 #define USE_SET_SIZE (32)
@@ -29,89 +10,161 @@ using namespace llvm;
 cl::opt<std::string> MVX_FUNC("mvx-func", cl::desc("Specify function to guard"),
                               cl::value_desc("function name"));
 
-namespace {
+MVXAA::MVXAA()
+    : ModulePass(ID), m_pglobals(nullptr), m_pwpa(nullptr), m_targetGlobals() {}
 
-class MVXAA : public ModulePass, public InstVisitor<MVXAA> {
-  protected:
-    DenseSet<Value *> *m_pglobals;
-    Module *m_pmodule;
-    AndersenAAResult *m_pAaResult;
-    Andersen *m_pPointsToGraph;
-    StringRef m_mvxFunc;
+/**
+ * @brief We only have a single module, this assumes llvm-link has been called
+ * on each bc file. We only want to handle globals first.
+ *
+ * @param M
+ *
+ * @return
+ */
+bool MVXAA::runOnModule(Module &M) {
+    m_pglobals = getAnalysis<CollectGlobals>().getResult();
 
-  public:
-    static char ID;
+    // Create SVF and run on module
+    SVFModule *svfModule = LLVMModuleSet::getLLVMModuleSet()->buildSVFModule(M);
 
-    MVXAA() : ModulePass(ID) {}
+    m_pwpa = new WPAPass();
+    m_pwpa->runOnModule(svfModule);
 
-    virtual bool runOnModule(Module &M) override {
-        m_pAaResult = &getAnalysis<AndersenAAWrapperPass>().getResult();
-        m_pPointsToGraph = &m_pAaResult->getPointsToSets();
-        m_pglobals = getAnalysis<CollectGlobals>().getResult();
+    // Iterate through callgraph of function we're interested in
+    CallGraph *CG = new CallGraph(M);
 
-        // Visit Store instructions and load instructions
-        visit(M);
-        return false;
+    if (Function *guardedFunc = M.getFunction(m_mvxFunc)) {
+        CallGraphNode *guardedHead = CG->getOrInsertFunction(guardedFunc);
+        for (auto IT = df_begin(guardedHead), end = df_end(guardedHead);
+             IT != end; ++IT) {
+            if (Function *F = IT->getFunction()) {
+                this->visit(F);
+            }
+        }
+    } else {
+        llvm_unreachable("Guarded function name doesn't match any functions");
     }
 
-    void visitStoreInst(StoreInst &I) {
-        LLVM_DEBUG(dbgs() << "Store instruction called: " << I << "\n");
+    outs() << "Target Globals to Move:\n";
+    for (Value *TG : m_targetGlobals) {
+        outs() << *TG << "\n";
+    }
 
-        Value *ptrOperand = I.getPointerOperand();
-        LLVM_DEBUG(dbgs() << "Pointer Operand of Store:: " << *ptrOperand
-                          << "\n";);
+    return false;
+}
 
-        if (GEPOperator *GEP = dyn_cast<GEPOperator>(ptrOperand)) {
-            // for (auto op = GEP->op_begin(), end = GEP->op_end(); op != end;
-            //     ++op) {
-            //    outs() << "Operands: " << **op << "\t";
-            //}
-            Value *gepPtrOperand = GEP->getPointerOperand();
-            std::vector<const llvm::Value *> pointsToSet;
-            if (m_pPointsToGraph->getPointsToSet(gepPtrOperand, pointsToSet)) {
-                for (const Value *target : pointsToSet) {
-                    outs() << "GEP " << *target << " -> "
-                           << *I.getValueOperand() << "\n";
+/**
+ * @brief Stores are added for a more conservative estimate, because a Store
+ * does not mean a use of the stored-to location and if the FROM location was a
+ * pointer from a global to a global, it would have been loaded in a prior
+ * instruction, captured by the visitLoadInst
+ *
+ * @param I
+ */
+void MVXAA::visitStoreInst(StoreInst &I) {
+    LLVM_DEBUG(dbgs() << "STORE:" << I << "\n");
+
+    Value *ptrOperand = I.getPointerOperand();
+    Value *valueOperand = I.getValueOperand();
+
+    if (GEPOperator *GEP = dyn_cast<GEPOperator>(ptrOperand)) {
+        // GEP essentially indexes into a container, so pointer operand of GEP
+        // is the base Value ptr
+        Value *gepPtrOperand = GEP->getPointerOperand();
+        // Must not be undef value
+        assert(!dyn_cast<UndefValue>(gepPtrOperand) &&
+               "No undef values allowed");
+
+        if (m_pglobals->find(gepPtrOperand) != m_pglobals->end()) {
+            if (valueOperand->getType()->isPointerTy()) {
+                if (Value *aliasedGlobal = aliasesGlobal(valueOperand)) {
+                    LLVM_DEBUG(dbgs() << "STORE GEP Alias:\n"
+                                      << std::string(30, '*') << "\n"
+                                      << *valueOperand << "\naliases\n"
+                                      << *aliasedGlobal << "\n"
+                                      << std::string(30, '*') << "\n");
+                    m_targetGlobals.insert(ptrOperand);
                 }
             }
         }
-
+    } else {
+        // If the pointer operand, where the store instruction is storing to is
+        // a global, then get that that operand is pointing to
         if (m_pglobals->find(ptrOperand) != m_pglobals->end()) {
-            LLVM_DEBUG(dbgs() << "found global stored: "
-                              << *I.getPointerOperand() << "\n";);
-            std::vector<const llvm::Value *> pointsToSet;
-            if (m_pPointsToGraph->getPointsToSet(ptrOperand, pointsToSet)) {
-                for (const Value *target : pointsToSet) {
-                    // outs() << "Global " << *target << " -> "
-                    //       << *I.getValueOperand() << "\n";
-                    outs() << "Global " << *I.getValueOperand() << " -> "
-                           << *target << "\n";
+            if (valueOperand->getType()->isPointerTy()) {
+                if (Value *aliasedGlobal = aliasesGlobal(valueOperand)) {
+                    LLVM_DEBUG(dbgs() << "STORE Alias:\n"
+                                      << std::string(30, '*') << "\n"
+                                      << *valueOperand << "\naliases\n"
+                                      << *aliasedGlobal << "\n"
+                                      << std::string(30, '*') << "\n");
+                    m_targetGlobals.insert(ptrOperand);
                 }
             }
         }
     }
+}
 
-    void visitLoadInst(LoadInst &I) {
-        LLVM_DEBUG(dbgs() << "Load instruction called" << I << "\n");
-        if (m_pglobals->find(I.getPointerOperand()) != m_pglobals->end()) {
-            LLVM_DEBUG(dbgs() << "found global loaded: "
-                              << *I.getPointerOperand() << "\n";);
+/**
+ * @brief Load instructions have a LHS and a RHS. We check if the LHS is a
+ * pointer type and if it is, does it alias any other global, which are pointers
+ * too by LLVM's definition. Before any use of a global->global it will have to
+ * be loaded.
+ *
+ * @param I
+ */
+void MVXAA::visitLoadInst(LoadInst &I) {
+    LLVM_DEBUG(dbgs() << "LOAD:" << I << "\n");
+    // If we are loading from a global
+    if (m_pglobals->find(I.getPointerOperand()) != m_pglobals->end()) {
+        // If our value that's loaded into is a pointer type, and it aliases to
+        // a global:
+        Value *loadVal = dyn_cast<Value>(&I);
+        assert(loadVal && "Load instruction should be value");
+        if (loadVal->getType()->isPointerTy()) {
+            if (Value *aliasedGlobal = aliasesGlobal(loadVal)) {
+                LLVM_DEBUG(dbgs() << "LOAD Alias:\n"
+                                  << std::string(30, '*') << "\n"
+                                  << *loadVal << "\naliases\n"
+                                  << *aliasedGlobal << "\n"
+                                  << std::string(30, '*') << "\n");
+                m_targetGlobals.insert(I.getPointerOperand());
+            }
         }
     }
+}
 
-    void getAnalysisUsage(AnalysisUsage &AU) const override {
-        AU.setPreservesAll();
-        AU.addRequired<AndersenAAWrapperPass>();
-        AU.addRequired<CollectGlobals>();
+/**
+ * @brief Helper function to check if value in input param aliases any global
+ * variables
+ *
+ * @param V Value to check against all known globals
+ *
+ * @return nullptr if no aliases, if there is an alias, the global which we
+ * alias to
+ */
+Value *MVXAA::aliasesGlobal(Value *V) const {
+    Value *retVal = nullptr;
+    assert(m_pwpa && "WPA pointer not initialized!");
+    for (Value *GV : *m_pglobals) {
+        if (m_pwpa->alias(MemoryLocation(V), MemoryLocation(GV))) {
+            retVal = GV;
+            break;
+        }
     }
+    return retVal;
+}
 
-    bool doInitialization(Module &M) override {
-        m_mvxFunc = MVX_FUNC;
-        outs() << "MVX func: " << m_mvxFunc << "\n";
-        return false;
-    }
-};
+void MVXAA::getAnalysisUsage(AnalysisUsage &AU) const {
+    AU.setPreservesAll();
+    AU.addRequired<CollectGlobals>();
+}
+
+bool MVXAA::doInitialization(Module &M) {
+    m_mvxFunc = MVX_FUNC;
+    LLVM_DEBUG(dbgs() << "MVX func: " << m_mvxFunc << "\n");
+    return false;
+}
 char MVXAA::ID = 0;
 RegisterPass<MVXAA> X("mvx-aa", "MVX AA Pass");
 
-} // namespace

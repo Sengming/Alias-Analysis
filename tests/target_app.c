@@ -1,13 +1,14 @@
 #define _GNU_SOURCE
+#include <sched.h>
 #include <stdio.h>
-#include <unistd.h>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include <sched.h>
+#include <unistd.h>
 //#include <lightweight_mvx.h>
 
-char *globalpointer;
+void *globalpointer;
+void *otherglobal;
 
 struct pointed_to {
     int b;
@@ -15,6 +16,8 @@ struct pointed_to {
 };
 
 struct storage_struct {
+    struct pointed_to *test;
+    char *test2;
     int a;
     struct pointed_to *ptr;
 };
@@ -22,25 +25,27 @@ struct storage_struct {
 struct storage_struct storage;
 struct pointed_to pointed;
 
+struct storage_struct anotherstorage;
+
 struct storage_struct *copy_storage;
 
 void call_other_function(char *string) {
     int pid = 0;
-    char *stack;
-    char *stackTop;
     char *pointer;
 
-    printf("This is the string: %s\n", string);
-    stack = (char *)malloc(4096);
-    stackTop = stack + 4096;
-
-    pointer = stack;
-    globalpointer = pointer;
-
-    storage.ptr = &pointed;
-    copy_storage = &storage;
-
-    printf("Pointer is %p\n", pointer);
+    // copy_storage->ptr->c = 5;
+    if (copy_storage->ptr->c > 0) {
+        (*((int *)otherglobal))++;
+        anotherstorage.ptr = (struct pointed_to *)globalpointer;
+    }
 }
 
-int main() { call_other_function("Pass this string to function"); }
+int main() {
+    copy_storage = &storage;
+    globalpointer = &pointed;
+    storage.ptr = &pointed;
+    otherglobal = &storage.a;
+
+    call_other_function("Pass this string to function");
+    return 0;
+}
