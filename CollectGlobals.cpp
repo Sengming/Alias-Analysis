@@ -12,7 +12,7 @@ using namespace llvm;
 
 bool CollectGlobals::runOnModule(Module &M) {
     for (GlobalVariable &G : M.globals()) {
-        m_globals.insert(&cast<Value>(G));
+        m_globals->insert(&cast<Value>(G));
     }
 
     return false;
@@ -20,7 +20,9 @@ bool CollectGlobals::runOnModule(Module &M) {
 
 bool CollectGlobals::doInitialization(Module &M) { return false; }
 
-DenseSet<Value *> *CollectGlobals::getResult() { return &m_globals; }
+std::unique_ptr<DenseSet<Value *>> CollectGlobals::getResult() {
+    return std::move(m_globals);
+}
 
 void CollectGlobals::getAnalysisUsage(AnalysisUsage &AU) const {
     AU.setPreservesAll();

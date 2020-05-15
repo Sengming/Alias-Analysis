@@ -29,11 +29,21 @@ using namespace llvm;
  */
 class MVXAA : public ModulePass, public InstVisitor<MVXAA> {
   protected:
-    DenseSet<Value *> *m_pglobals;
+    typedef std::pair<StringRef, unsigned> GlobalPair_t;
+
+    std::unique_ptr<DenseSet<Value *>> m_pglobals;
     StringRef m_mvxFunc;
-    WPAPass *m_pwpa;
+    std::unique_ptr<WPAPass> m_pwpa;
     DenseSet<Value *> m_targetGlobals;
+    DenseSet<Value *> m_targetGEPSet;
+
+    // For Reporting
+    std::unique_ptr<raw_fd_ostream> m_pinfoFile;
+    DenseSet<GlobalPair_t> m_globalsAndOffsets;
+
+    // Helpers
     Value *aliasesGlobal(Value *V) const;
+    void dumpGlobalsToFile(DenseSet<GlobalPair_t> &globalsList);
 
   public:
     static char ID;
@@ -41,13 +51,14 @@ class MVXAA : public ModulePass, public InstVisitor<MVXAA> {
 
     virtual bool runOnModule(Module &M) override;
 
-    void visitStoreInst(StoreInst &I);
     void visitLoadInst(LoadInst &I);
-    // void visitInstruction(Instruction &I);
+
+    void resolveGEPParents(const DenseSet<Value *> &gepSet);
 
     void getAnalysisUsage(AnalysisUsage &AU) const override;
 
     bool doInitialization(Module &M) override;
+    bool doFinalization(Module &M) override;
 };
 
 #endif

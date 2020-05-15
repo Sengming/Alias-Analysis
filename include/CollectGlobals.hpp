@@ -22,13 +22,13 @@ using namespace llvm;
 
 class CollectGlobals : public ModulePass {
   protected:
-    DenseSet<Value *> m_globals;
+    std::unique_ptr<DenseSet<Value *>> m_globals;
 
   public:
     static char ID;
 
-    CollectGlobals() : ModulePass(ID) {}
-    DenseSet<Value *> *getResult();
+    CollectGlobals() : ModulePass(ID), m_globals(new DenseSet<Value *>) {}
+    std::unique_ptr<DenseSet<Value *>> getResult();
 
     bool doInitialization(Module &M) override;
     virtual bool runOnModule(Module &M) override;

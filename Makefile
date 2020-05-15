@@ -7,7 +7,7 @@ OBJECTS:= $(SOURCES:.cpp=.o)
 #DEBUG:= -DDEBUG_BUILD
 
 # Test Targets
-TARGET_SOURCES:=$(shell find ./tests -type f -name '*.c' -maxdepth 1)
+TARGET_SOURCES:=$(shell find ./tests -maxdepth 1 -type f -name '*.c')
 TARGET_OBJECTS:=$(TARGET_SOURCES:.c=.o)
 TARGET_BC:=$(TARGET_SOURCES:.c=_m2r.bc)
 
@@ -30,18 +30,20 @@ all: mvxaa.so
 	clang -Xclang -O0 -emit-llvm -c $^ -o $(^:.c=.bc)
 	opt -mem2reg $(^:.c=.bc) -o $@
 
+test: all
+	clang $(TARGET_SOURCES) -o target_app_merged
 ########################################
 
 mvxaa.so: $(OBJECTS)
 	$(CXX) $(LINKFLAGS) -dylib -shared  $^ $(SVF_LIB)/libSvf.a $(SVF_LIB)/CUDD/libCudd.a -o $@
 
 clean:
-	rm -f *.o *~ *.so tests/*.bc tests/*.o tests/target_app
+	rm -f *.o *~ *.so tests/*.bc tests/*.o tests/target_app target_app_merged *.dump
 
 # Run
 run_mvxaa: $(TARGET_BC) all
 	llvm-link $(TARGET_BC) -o ./tests/target_app_merged.bc
-	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="call_other_function" ./tests/target_app_merged.bc -o /dev/zero
+	opt -load ./mvxaa.so --mvx-aa -fspta -debug-only="mvxaa" -mvx-func="call_other_function" ./tests/target_app_merged.bc -o /dev/zero
 
 run_mvxaa_tiny: $(TINY_TARGET_BC) all
 	llvm-link $(TINY_TARGET_BC) -o ./tests/tiny-web-server/tiny_merged.bc

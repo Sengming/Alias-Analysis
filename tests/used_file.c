@@ -16,7 +16,7 @@ void used_function(char *string) {
     char *stack;
     char *stackTop;
     char *pointer;
-    used_function_ptr = (char*)copy_storage;
+    used_function_ptr = (char *)copy_storage;
     printf("This is the string: %s\n", string);
     stack = (char *)malloc(4096);
     stackTop = stack + 4096;
