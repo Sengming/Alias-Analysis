@@ -47,7 +47,8 @@ run_mvxaa: $(TARGET_BC) all
 
 run_mvxaa_tiny: $(TINY_TARGET_BC) all
 	llvm-link $(TINY_TARGET_BC) -o ./tests/tiny-web-server/tiny_merged.bc
-	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="rio_readinitb" ./tests/tiny-web-server/tiny_merged.bc -o /dev/zero
+	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="rio_readlineb" ./tests/tiny-web-server/tiny_merged.bc -o /dev/zero
+	#opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="rio_readinitb" ./tests/tiny-web-server/tiny_merged.bc -o /dev/zero
 
 # Haven't fully tested
 debug_mvxaa: ./tests/target_app_m2r.bc all  

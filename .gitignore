@@ -39,3 +39,6 @@
 *.ll
 *.bc
 *.swo
+global_addresses.dump
+cscope.out
+tags

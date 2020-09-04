@@ -19,6 +19,7 @@
 #include <llvm/Transforms/Utils/BasicBlockUtils.h>
 
 // svf
+#include <WPA/Andersen.h>
 #include <WPA/WPAPass.h>
 
 using namespace llvm;
@@ -28,10 +29,17 @@ using namespace llvm;
  * iterating over the CallGraph of a specific guarded function
  */
 class MVXAA : public ModulePass, public InstVisitor<MVXAA> {
+
   protected:
     typedef std::pair<StringRef, unsigned> GlobalPair_t;
 
     std::unique_ptr<DenseSet<Value *>> m_pglobals;
+
+    // All calls of function pointers in program
+    DenseSet<CallInst *> m_fpointers;
+
+    Module *m_pmainmodule;
+
     StringRef m_mvxFunc;
     std::unique_ptr<WPAPass> m_pwpa;
     DenseSet<Value *> m_targetGlobals;
@@ -44,6 +52,7 @@ class MVXAA : public ModulePass, public InstVisitor<MVXAA> {
     // Helpers
     Value *aliasesGlobal(Value *V) const;
     void dumpGlobalsToFile(DenseSet<GlobalPair_t> &globalsList);
+    void processPointerOperand(Value *ptrOperand);
 
   public:
     static char ID;
@@ -52,6 +61,7 @@ class MVXAA : public ModulePass, public InstVisitor<MVXAA> {
     virtual bool runOnModule(Module &M) override;
 
     void visitLoadInst(LoadInst &I);
+    void visitCallInst(CallInst &I);
 
     void resolveGEPParents(const DenseSet<Value *> &gepSet);
 

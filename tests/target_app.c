@@ -36,15 +36,16 @@ void call_other_function(char *string) {
     int pid = 0;
     char *pointer;
 
-    // copy_storage->ptr->c = 5;
     if (copy_storage->ptr->c > 0) {
         (*((int *)otherglobal))++;
+	anotherstorage.usedfunc("test");
         if (copy_storage->ptr->reverseptr->a > 1)
             anotherstorage.ptr = (struct pointed_to *)globalpointer;
-        copy_storage->usedfunc("test");
+	used_function("anothertest");
     }
 }
 
+// copy_storage->usedfunc("test");
 int main() {
     pointed.reverseptr = &anotherstorage;
     storage.usedfunc = used_function;

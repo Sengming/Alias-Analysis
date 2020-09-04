@@ -25,11 +25,12 @@ MVXAA::MVXAA()
 bool MVXAA::runOnModule(Module &M) {
     // Take ownership of the globals
     m_pglobals = getAnalysis<CollectGlobals>().getResult();
-
+    m_pmainmodule = &M;
     // Create SVF and run on module
     SVFModule *svfModule = LLVMModuleSet::getLLVMModuleSet()->buildSVFModule(M);
     m_pwpa = std::make_unique<WPAPass>();
     m_pwpa->runOnModule(svfModule);
+    // Andersen *ander = AndersenWaveDiff::createAndersenWaveDiff(svfModule);
 
     // Iterate through callgraph of function we're interested in
     CallGraph *CG = new CallGraph(M);
@@ -59,6 +60,7 @@ bool MVXAA::runOnModule(Module &M) {
 
     // Now dump the data to file:
     dumpGlobalsToFile(m_globalsAndOffsets);
+
     return false;
 }
 
@@ -81,22 +83,53 @@ void MVXAA::visitLoadInst(LoadInst &I) {
         assert(loadVal && "Load instruction should be value");
         if (loadVal->getType()->isPointerTy()) {
             if (Value *aliasedGlobal = aliasesGlobal(loadVal)) {
-                if (m_pglobals->find(pointerOperand) != m_pglobals->end()) {
-                    LLVM_DEBUG(dbgs() << "LOAD Alias:\n"
-                                      << std::string(30, '*') << "\n"
-                                      << *loadVal << "\naliases\n"
-                                      << *aliasedGlobal << "\n"
-                                      << std::string(30, '*') << "\n");
-                    m_targetGlobals.insert(pointerOperand);
-                } else if (isa<GetElementPtrInst>(pointerOperand)) {
-                    m_targetGEPSet.insert(pointerOperand);
-                } else {
-                    errs() << "LOAD: There is a with ptroperand and loadval "
-                              "both aliasing globals, but the ptroperand is "
-                              "not a GEP instruction.\n";
-                }
+                LLVM_DEBUG(dbgs() << "LOAD Alias:\n"
+                                  << std::string(30, '*') << "\n"
+                                  << *loadVal << "\naliases\n"
+                                  << *aliasedGlobal << "\n"
+                                  << std::string(30, '*') << "\n");
+                processPointerOperand(pointerOperand);
             }
         }
+    }
+}
+
+/**
+ * @brief Check if call instructions within visited function are indirect calls
+ * aka function ptrs.
+ *
+ * @param I
+ */
+void MVXAA::visitCallInst(CallInst &I) {
+    LLVM_DEBUG(dbgs() << "CALL: " << I << "\n");
+    if (I.getCalledFunction() == nullptr) {
+        m_fpointers.insert(&I);
+
+        LoadInst *loadInst = dyn_cast_or_null<LoadInst>(I.getCalledOperand());
+        assert(loadInst && "Indirect call's operand should be a load inst!");
+
+        // If the load instruction's pointer operand aliases any globals
+        if (Value *aliasedGlobal =
+                aliasesGlobal(loadInst->getPointerOperand())) {
+            processPointerOperand(loadInst->getPointerOperand());
+        }
+    }
+}
+
+/**
+ * @brief Helper method, common to visitCallInst and visitLoadInst
+ *
+ * @param ptrOperand
+ */
+void MVXAA::processPointerOperand(Value *ptrOperand) {
+    if (m_pglobals->find(ptrOperand) != m_pglobals->end()) {
+        m_targetGlobals.insert(ptrOperand);
+    } else if (isa<GetElementPtrInst>(ptrOperand)) {
+        m_targetGEPSet.insert(ptrOperand);
+    } else {
+        errs() << "LOAD: There is a with ptroperand and loadval "
+                  "both aliasing globals, but the ptroperand is "
+                  "not a GEP instruction.\n";
     }
 }
 
@@ -122,16 +155,21 @@ Value *MVXAA::aliasesGlobal(Value *V) const {
 }
 
 /**
- * @brief Resolves load instructions loading from a GEP instruction, this is the
- * main method that handles pointers to pointers to pointers. Given two global
- * objects of a struct type with pointer members pointing at each other, such
- * that a->ptr = b and b->ptr = a. a->ptr->ptr is a double dereference, but llvm
- * will break this into a sequence of loads followed by GEP instructions. The
+ * @brief Resolves load instructions loading from a GEP instruction, this is
+ the
+ * main method that handles pointers to pointers to pointers. Given two
+ global
+ * objects of a struct type with pointer members pointing at each other,
+ such
+ * that a->ptr = b and b->ptr = a. a->ptr->ptr is a double dereference, but
+ llvm
+ * will break this into a sequence of loads followed by GEP instructions.
+ The
  * instructions should look similar to the following:
  *
  * LOAD: %1 = load %struct.struct_type*, %struct.struct_type** @a, align 8
- * GEP : %ptr = getelementptr inbounds %struct.struct_type, %struct.struct_type*
- %1,
+ * GEP : %ptr = getelementptr inbounds %struct.struct_type,
+ %struct.struct_type* %1,
  * i32 0, i32 3
  *
  * LOAD: %2 = load %struct.struct_type*, %struct.struct_type** %ptr,
@@ -145,12 +183,14 @@ Value *MVXAA::aliasesGlobal(Value *V) const {
  * @param gepSet
  */
 void MVXAA::resolveGEPParents(const DenseSet<Value *> &gepSet) {
+    outs() << "GEP SET------------------------------------: \n";
     for (Value *V : gepSet) {
         GetElementPtrInst *GEPinst = dyn_cast<GetElementPtrInst>(V);
         assert(GEPinst && "Not a GEP Instruction!");
-        // If the pointerOperand is a Load instruction, then check if that load
-        // aliases any globals. If it does, that is the parent global. Next,
-        // check the offset of the member and push that into the pair.
+        outs() << "V: " << *V << "\n";
+        // If the pointerOperand is a Load instruction, then check if that
+        // load aliases any globals. If it does, that is the parent global.
+        // Next, check the offset of the member and push that into the pair.
         if (LoadInst *LI = dyn_cast<LoadInst>(GEPinst->getPointerOperand())) {
             if (Value *globalAlias = aliasesGlobal(LI)) {
                 if (ConstantInt *CI =
@@ -163,6 +203,22 @@ void MVXAA::resolveGEPParents(const DenseSet<Value *> &gepSet) {
                 } else {
                     llvm_unreachable("GEP Offset is not a constant int!");
                 }
+            }
+        } else if (m_pglobals->find(GEPinst->getPointerOperand()) !=
+                   m_pglobals->end()) {
+            // The other case, where GEP doesn't have a load instruction but has
+            // the global's symbol as the pointerOperand. This is the case for
+            // loads preceeding function ptrs.
+            Value *globalMatch = GEPinst->getPointerOperand();
+            if (ConstantInt *CI =
+                    dyn_cast<ConstantInt>(GEPinst->getOperand(2))) {
+                LLVM_DEBUG(dbgs()
+                               << "GEP Parent Resolution: " << *globalMatch
+                               << " offset: " << CI->getZExtValue() << "\n";);
+                m_globalsAndOffsets.insert(
+                    GlobalPair_t(globalMatch->getName(), CI->getZExtValue()));
+            } else {
+                llvm_unreachable("GEP Offset is not a constant int!");
             }
         }
     }
