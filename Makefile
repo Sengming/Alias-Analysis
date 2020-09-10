@@ -2,7 +2,7 @@ CC=/usr/local/bin/clang
 CXX=/usr/local/bin/clang++
 INC=-I/usr/local/include/ -I ./include/ -I ../SVF/include/
 SVF_LIB=../SVF/lib
-SOURCES:= $(shell find . -type f -name '*.cpp')
+SOURCES:= $(shell find . -maxdepth 1 -type f -name '*.cpp')
 OBJECTS:= $(SOURCES:.cpp=.o)
 #DEBUG:= -DDEBUG_BUILD
 
@@ -48,7 +48,20 @@ run_mvxaa: $(TARGET_BC) all
 run_mvxaa_tiny: $(TINY_TARGET_BC) all
 	llvm-link $(TINY_TARGET_BC) -o ./tests/tiny-web-server/tiny_merged.bc
 	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="rio_readlineb" ./tests/tiny-web-server/tiny_merged.bc -o /dev/zero
-	#opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="rio_readinitb" ./tests/tiny-web-server/tiny_merged.bc -o /dev/zero
+
+run_mvxaa_sshd: all sshd
+	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="server_accept_loop" ./tests/openssh-portable/sshd_merged.bc -o /dev/zero
+
+run_mvxaa_nginx: all nginx
+	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="ngx_single_process_cycle" ./tests/nginx-1.3.9/nginx_merged_m2r.bc -o /dev/zero
+
+# Builds of tests
+
+sshd:
+	cd ./tests/openssh-portable/ && $(MAKE) sshd_merged
+
+nginx:
+	cd ./tests/nginx-1.3.9/ && ./myconfig.sh && $(MAKE) build
 
 # Haven't fully tested
 debug_mvxaa: ./tests/target_app_m2r.bc all  

@@ -1,0 +1,2153 @@
+glibc.log:34:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:35:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:38:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:39:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:42:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:43:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:46:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:47:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:50:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:51:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:64:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:65:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:68:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:69:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:72:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:73:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:77:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:87:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:88:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:90:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:100:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:101:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:103:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:113:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:114:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:116:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:126:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:127:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:129:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:139:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:140:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:142:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:152:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:153:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:155:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:165:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:166:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:168:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:178:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:179:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:181:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:191:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:192:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:202:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:212:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:213:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:215:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:225:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:226:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:228:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:241:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:251:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:252:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:254:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:264:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:265:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:267:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:277:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:278:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:280:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:290:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:291:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:293:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:303:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:304:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:306:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:316:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:317:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:319:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:329:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:330:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:332:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:342:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:343:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:345:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:355:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:356:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:358:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:368:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:369:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:371:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:396:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:403:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:404:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:406:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:417:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:418:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:420:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:442:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:452:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:453:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:455:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:465:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:466:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:468:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:481:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:491:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:492:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:494:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:504:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:505:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:507:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:517:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:518:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:520:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:530:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:531:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:533:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:543:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:544:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:546:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:556:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:557:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:559:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:569:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:570:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:572:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:582:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:583:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:585:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:595:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:596:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:598:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:608:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:609:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:611:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:621:Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:622:135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+glibc.log:635:Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:636:135	in ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S
+glibc.log:653:#0  __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:677:#0  __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:685:Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:686:135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+glibc.log:698:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:699:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:701:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:710:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:711:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:728:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:729:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:731:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:745:Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:746:135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+glibc.log:771:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:794:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:817:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:818:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:820:#0  __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:840:Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:841:135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+glibc.log:843:#0  __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:874:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:875:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:877:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:906:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:907:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:909:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:938:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:939:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:941:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:974:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:975:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:977:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1010:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1011:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:1013:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1046:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1047:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:1049:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1078:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1079:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:1081:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1110:Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+glibc.log:1111:135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+glibc.log:1146:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1166:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1167:210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+glibc.log:1169:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1189:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1190:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+glibc.log:1192:#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1215:Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+glibc.log:1216:210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+cscope.out:19228:(c->read);
+cscope.out:19404:(c->
+cscope.out:51552:, c->
+cscope.out:51554:, c->
+cscope.out:51556:, c->
+cscope.out:51566:, 1, c->
+cscope.out:54450: && src->
+cscope.out:54744:, src->
+cscope.out:55478:; c; c = c->
+cscope.out:55506:(c->
+cscope.out:56648:; c; c = c->
+cscope.out:56792:, c->
+cscope.out:62422:, &rc->
+cscope.out:72278:, uc->
+cscope.out:77408:, src->
+cscope.out:86312: : c->
+cscope.out:86926: || c->
+cscope.out:89308: | c->
+cscope.out:99182: || c->
+cscope.out:109914:(c->
+cscope.out:110310:(c->
+cscope.out:110342:(c->
+cscope.out:110598:, &c->
+cscope.out:111794:; c; c = c->next) {
+cscope.out:117388: = c->
+cscope.out:117548: = c->
+cscope.out:117652:(c->read);
+cscope.out:118354: = c->
+cscope.out:118514: = c->
+cscope.out:118604:(c->write);
+cscope.out:118634:, c->
+cscope.out:123880:(c->
+cscope.out:328726: = bc->event_handler;
+cscope.out:328892: = bc->event_handler;
+cscope.out:328940: / 8] &= ~(1 << (bc->slot & 7));
+cscope.out:356604:, c->
+cscope.out:356760:, c->
+cscope.out:356798: + c->
+cscope.out:357358: = c->body_start;
+cscope.out:357374: = c->uniq;
+cscope.out:357382: = c->fs_size;
+cscope.out:357576:, c->
+cscope.out:357580:, c->
+cscope.out:357650:, c->
+cscope.out:357654:, c->
+cscope.out:359176: = c->body_start;
+cscope.out:359310: - c->
+cscope.out:359420: - c->
+cscope.out:359528: || c->
+cscope.out:373996: = c->
+cscope.out:374860:(c->
+cscope.out:377962:[--hc->
+cscope.out:378104:[hc->
+cscope.out:382796:[hc->
+cscope.out:383036:, hc->
+cscope.out:383100:, hc->
+cscope.out:393098:] >= '1' && sc->source->data[i] <= '9') {
+cscope.out:393840: ? sc->variables : 1;
+cscope.out:393848:(sc->
+cscope.out:393902:(sc->
+cscope.out:393970:(sc->
+cscope.out:394066: || sc->
+cscope.out:394432:, &sc->
+cscope.out:395124:), &sc->
+cscope.out:407602: = c->log;
+cscope.out:407610: = c->log;
+cscope.out:407618: = c->log;
+cscope.out:410030: || c->
+cscope.out:451708:, &c->
+cscope.out:451762: = c->
+cscope.out:453570:(c->read);
+cscope.out:649318: "hmac-md5"
+cscope.out:649344: "hmac-sha1"
+cscope.out:670616: "rc4-hmac-md5"
+cscope.out:677822:	@/usr/include/stdc-predef.h
+cscope.out:682718:/usr/include/stdc-predef.h
+Binary file cscope.out matches
+conf/mime.types:28:    application/mac-binhex40              hqx;
+auto/options:276:        --with-cc-opt=*)                 NGX_CC_OPT="$value"        ;;
+auto/options:428:  --with-cc-opt=OPTIONS              set additional C compiler options
+myconfig.sh:1:CC=/usr/local/musl/bin/musl-gcc ./configure --without-pcre --without-http_rewrite_module --without-http_gzip_module --with-debug --with-cc-opt='-O0 -g'
+src/http/ngx_http_busy_lock.c:24:        if (bc->time) {
+src/http/ngx_http_busy_lock.c:25:            bc->time = 0;
+src/http/ngx_http_busy_lock.c:32:    if (bc->time) {
+src/http/ngx_http_busy_lock.c:33:        if (bc->time < bl->timeout) {
+src/http/ngx_http_busy_lock.c:34:            ngx_add_timer(bc->event, 1000);
+src/http/ngx_http_busy_lock.c:51:        ngx_add_timer(bc->event, 1000);
+src/http/ngx_http_busy_lock.c:52:        bc->event->event_handler = bc->event_handler;
+src/http/ngx_http_busy_lock.c:71:    ngx_log_debug3(NGX_LOG_DEBUG_HTTP, bc->event->log, 0,
+src/http/ngx_http_busy_lock.c:85:    if (bc->time) {
+src/http/ngx_http_busy_lock.c:86:        if (bc->time < bl->timeout) {
+src/http/ngx_http_busy_lock.c:87:            ngx_add_timer(bc->event, 1000);
+src/http/ngx_http_busy_lock.c:103:        ngx_add_timer(bc->event, 1000);
+src/http/ngx_http_busy_lock.c:104:        bc->event->event_handler = bc->event_handler;
+src/http/ngx_http_busy_lock.c:124:        bl->md5_mask[bc->slot / 8] &= ~(1 << (bc->slot & 7));
+src/http/ngx_http_busy_lock.c:154:            if (ngx_memcmp(&bl->md5[i * 16], bc->md5, 16) == 0) {
+src/http/ngx_http_busy_lock.c:186:        ngx_memcpy(&bl->md5[free * 16], bc->md5, 16);
+src/http/ngx_http_busy_lock.c:188:        bc->slot = free;
+src/http/ngx_http_variables.c:2107:    rc->pool = cf->pool;
+src/http/ngx_http_variables.c:2110:        ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "%V", &rc->err);
+src/http/ngx_http_variables.c:2119:    re->regex = rc->regex;
+src/http/ngx_http_variables.c:2120:    re->ncaptures = rc->captures;
+src/http/ngx_http_variables.c:2125:    n = (ngx_uint_t) rc->named_captures;
+src/http/ngx_http_variables.c:2131:    rv = ngx_palloc(rc->pool, n * sizeof(ngx_http_regex_variable_t));
+src/http/ngx_http_variables.c:2138:    re->name = rc->pattern;
+src/http/ngx_http_variables.c:2140:    size = rc->name_size;
+src/http/ngx_http_variables.c:2141:    p = rc->names;
+src/http/ngx_http_request_body.c:219:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request_body.c:266:            n = c->recv(c, rb->buf->last, size);
+src/http/ngx_http_request_body.c:268:            ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request_body.c:276:                ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request_body.c:281:                c->error = 1;
+src/http/ngx_http_request_body.c:310:        ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request_body.c:317:        if (!c->read->ready) {
+src/http/ngx_http_request_body.c:319:            ngx_add_timer(c->read, clcf->client_body_timeout);
+src/http/ngx_http_request_body.c:321:            if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/http/ngx_http_request_body.c:329:    if (c->read->timer_set) {
+src/http/ngx_http_request_body.c:330:        ngx_del_timer(c->read);
+src/http/ngx_http_request_body.c:519:    rev = c->read;
+src/http/ngx_http_request_body.c:522:        c->timedout = 1;
+src/http/ngx_http_request_body.c:523:        c->error = 1;
+src/http/ngx_http_request_body.c:552:        c->error = 1;
+src/http/ngx_http_request_body.c:560:        c->error = 1;
+src/http/ngx_http_write_filter_module.c:59:    if (c->error) {
+src/http/ngx_http_write_filter_module.c:73:        ngx_log_debug7(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/http/ngx_http_write_filter_module.c:84:            ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/ngx_http_write_filter_module.c:125:        ngx_log_debug7(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/http/ngx_http_write_filter_module.c:136:            ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/ngx_http_write_filter_module.c:167:    ngx_log_debug3(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_write_filter_module.c:182:    if (c->write->delayed) {
+src/http/ngx_http_write_filter_module.c:183:        c->buffered |= NGX_HTTP_WRITE_BUFFERED;
+src/http/ngx_http_write_filter_module.c:187:    if (size == 0 && !(c->buffered & NGX_LOWLEVEL_BUFFERED)) {
+src/http/ngx_http_write_filter_module.c:196:            c->buffered &= ~NGX_HTTP_WRITE_BUFFERED;
+src/http/ngx_http_write_filter_module.c:201:        ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/ngx_http_write_filter_module.c:211:                - (c->sent - clcf->limit_rate_after);
+src/http/ngx_http_write_filter_module.c:214:            c->write->delayed = 1;
+src/http/ngx_http_write_filter_module.c:215:            ngx_add_timer(c->write,
+src/http/ngx_http_write_filter_module.c:218:            c->buffered |= NGX_HTTP_WRITE_BUFFERED;
+src/http/ngx_http_write_filter_module.c:233:    sent = c->sent;
+src/http/ngx_http_write_filter_module.c:235:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_write_filter_module.c:238:    chain = c->send_chain(c, r->out, limit);
+src/http/ngx_http_write_filter_module.c:240:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_write_filter_module.c:244:        c->error = 1;
+src/http/ngx_http_write_filter_module.c:250:        nsent = c->sent;
+src/http/ngx_http_write_filter_module.c:269:            c->write->delayed = 1;
+src/http/ngx_http_write_filter_module.c:270:            ngx_add_timer(c->write, delay);
+src/http/ngx_http_write_filter_module.c:275:        && c->write->ready
+src/http/ngx_http_write_filter_module.c:276:        && c->sent - sent >= limit - (off_t) (2 * ngx_pagesize))
+src/http/ngx_http_write_filter_module.c:278:        c->write->delayed = 1;
+src/http/ngx_http_write_filter_module.c:279:        ngx_add_timer(c->write, 1);
+src/http/ngx_http_write_filter_module.c:291:        c->buffered |= NGX_HTTP_WRITE_BUFFERED;
+src/http/ngx_http_write_filter_module.c:295:    c->buffered &= ~NGX_HTTP_WRITE_BUFFERED;
+src/http/ngx_http_write_filter_module.c:297:    if ((c->buffered & NGX_LOWLEVEL_BUFFERED) && r->postponed == NULL) {
+src/http/ngx_http_copy_filter_module.c:91:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_copy_filter_module.c:107:        ctx->sendfile = c->sendfile;
+src/http/ngx_http_copy_filter_module.c:128:            c->aio_sendfile = (clcf->aio == NGX_HTTP_AIO_SENDFILE);
+src/http/ngx_http_copy_filter_module.c:152:        ngx_log_debug3(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_copy_filter_module.c:157:        if (c->busy_sendfile) {
+src/http/ngx_http_copy_filter_module.c:164:                c->busy_sendfile = NULL;
+src/http/ngx_http_copy_filter_module.c:168:            file = c->busy_sendfile->file;
+src/http/ngx_http_copy_filter_module.c:169:            offset = c->busy_sendfile->file_pos;
+src/http/ngx_http_copy_filter_module.c:172:                c->aio_sendfile = (offset != file->aio->last_offset);
+src/http/ngx_http_copy_filter_module.c:175:                if (c->aio_sendfile == 0) {
+src/http/ngx_http_copy_filter_module.c:176:                    ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/ngx_http_copy_filter_module.c:182:            c->busy_sendfile = NULL;
+src/http/ngx_http_header_filter_module.c:333:        switch (c->local_sockaddr->sa_family) {
+src/http/ngx_http_header_filter_module.c:337:            sin6 = (struct sockaddr_in6 *) c->local_sockaddr;
+src/http/ngx_http_header_filter_module.c:347:            sin = (struct sockaddr_in *) c->local_sockaddr;
+src/http/ngx_http_header_filter_module.c:359:            if (c->ssl)
+src/http/ngx_http_header_filter_module.c:522:        if (c->ssl) {
+src/http/ngx_http_header_filter_module.c:598:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_file_cache.c:161:    if (ngx_array_init(&c->keys, r->pool, 4, sizeof(ngx_str_t)) != NGX_OK) {
+src/http/ngx_http_file_cache.c:166:    c->file.log = r->connection->log;
+src/http/ngx_http_file_cache.c:167:    c->file.fd = NGX_INVALID_FILE;
+src/http/ngx_http_file_cache.c:181:    cache = c->file_cache;
+src/http/ngx_http_file_cache.c:216:    ngx_crc32_init(c->crc32);
+src/http/ngx_http_file_cache.c:219:    key = c->keys.elts;
+src/http/ngx_http_file_cache.c:220:    for (i = 0; i < c->keys.nelts; i++) {
+src/http/ngx_http_file_cache.c:226:        ngx_crc32_update(&c->crc32, key[i].data, key[i].len);
+src/http/ngx_http_file_cache.c:230:    c->header_start = sizeof(ngx_http_file_cache_header_t)
+src/http/ngx_http_file_cache.c:233:    ngx_crc32_final(c->crc32);
+src/http/ngx_http_file_cache.c:234:    ngx_md5_final(c->key, &md5);
+src/http/ngx_http_file_cache.c:251:    if (c->waiting) {
+src/http/ngx_http_file_cache.c:255:    if (c->buf) {
+src/http/ngx_http_file_cache.c:259:    cache = c->file_cache;
+src/http/ngx_http_file_cache.c:261:    if (c->node == NULL) {
+src/http/ngx_http_file_cache.c:274:                   "http file cache exists: %i e:%d", rc, c->exists);
+src/http/ngx_http_file_cache.c:288:        if (c->error) {
+src/http/ngx_http_file_cache.c:289:            return c->error;
+src/http/ngx_http_file_cache.c:292:        c->temp_file = 1;
+src/http/ngx_http_file_cache.c:293:        test = c->exists ? 1 : 0;
+src/http/ngx_http_file_cache.c:298:        if (c->min_uses > 1) {
+src/http/ngx_http_file_cache.c:308:            c->temp_file = 1;
+src/http/ngx_http_file_cache.c:326:    of.uniq = c->uniq;
+src/http/ngx_http_file_cache.c:333:    if (ngx_open_cached_file(clcf->open_file_cache, &c->file.name, &of, r->pool)
+src/http/ngx_http_file_cache.c:347:                          ngx_open_file_n " \"%s\" failed", c->file.name.data);
+src/http/ngx_http_file_cache.c:355:    c->file.fd = of.fd;
+src/http/ngx_http_file_cache.c:356:    c->file.log = r->connection->log;
+src/http/ngx_http_file_cache.c:357:    c->uniq = of.uniq;
+src/http/ngx_http_file_cache.c:358:    c->length = of.size;
+src/http/ngx_http_file_cache.c:359:    c->fs_size = (of.fs_size + cache->bsize - 1) / cache->bsize;
+src/http/ngx_http_file_cache.c:361:    c->buf = ngx_create_temp_buf(r->pool, c->body_start);
+src/http/ngx_http_file_cache.c:362:    if (c->buf == NULL) {
+src/http/ngx_http_file_cache.c:384:    if (!c->lock) {
+src/http/ngx_http_file_cache.c:388:    cache = c->file_cache;
+src/http/ngx_http_file_cache.c:392:    if (!c->node->updating) {
+src/http/ngx_http_file_cache.c:393:        c->node->updating = 1;
+src/http/ngx_http_file_cache.c:394:        c->updating = 1;
+src/http/ngx_http_file_cache.c:401:                   c->updating, c->wait_time);
+src/http/ngx_http_file_cache.c:403:    if (c->updating) {
+src/http/ngx_http_file_cache.c:407:    c->waiting = 1;
+src/http/ngx_http_file_cache.c:411:    if (c->wait_time == 0) {
+src/http/ngx_http_file_cache.c:412:        c->wait_time = now + c->lock_timeout;
+src/http/ngx_http_file_cache.c:414:        c->wait_event.handler = ngx_http_file_cache_lock_wait_handler;
+src/http/ngx_http_file_cache.c:415:        c->wait_event.data = r;
+src/http/ngx_http_file_cache.c:416:        c->wait_event.log = r->connection->log;
+src/http/ngx_http_file_cache.c:419:    timer = c->wait_time - now;
+src/http/ngx_http_file_cache.c:421:    ngx_add_timer(&c->wait_event, (timer > 500) ? 500 : timer);
+src/http/ngx_http_file_cache.c:443:                   c->wait_time, ngx_current_msec);
+src/http/ngx_http_file_cache.c:445:    timer = c->wait_time - ngx_current_msec;
+src/http/ngx_http_file_cache.c:450:        c->lock = 0;
+src/http/ngx_http_file_cache.c:454:    cache = c->file_cache;
+src/http/ngx_http_file_cache.c:459:    if (c->node->updating) {
+src/http/ngx_http_file_cache.c:472:    c->waiting = 0;
+src/http/ngx_http_file_cache.c:493:    if ((size_t) n < c->header_start) {
+src/http/ngx_http_file_cache.c:495:                      "cache file \"%s\" is too small", c->file.name.data);
+src/http/ngx_http_file_cache.c:499:    h = (ngx_http_file_cache_header_t *) c->buf->pos;
+src/http/ngx_http_file_cache.c:501:    if (h->crc32 != c->crc32) {
+src/http/ngx_http_file_cache.c:503:                      "cache file \"%s\" has md5 collision", c->file.name.data);
+src/http/ngx_http_file_cache.c:507:    if (h->body_start > c->body_start) {
+src/http/ngx_http_file_cache.c:510:                      c->file.name.data);
+src/http/ngx_http_file_cache.c:514:    c->buf->last += n;
+src/http/ngx_http_file_cache.c:516:    c->valid_sec = h->valid_sec;
+src/http/ngx_http_file_cache.c:517:    c->last_modified = h->last_modified;
+src/http/ngx_http_file_cache.c:518:    c->date = h->date;
+src/http/ngx_http_file_cache.c:519:    c->valid_msec = h->valid_msec;
+src/http/ngx_http_file_cache.c:520:    c->header_start = h->header_start;
+src/http/ngx_http_file_cache.c:521:    c->body_start = h->body_start;
+src/http/ngx_http_file_cache.c:525:    cache = c->file_cache;
+src/http/ngx_http_file_cache.c:531:        if (!c->node->exists) {
+src/http/ngx_http_file_cache.c:532:            c->node->uses = 1;
+src/http/ngx_http_file_cache.c:533:            c->node->body_start = c->body_start;
+src/http/ngx_http_file_cache.c:534:            c->node->exists = 1;
+src/http/ngx_http_file_cache.c:535:            c->node->uniq = c->uniq;
+src/http/ngx_http_file_cache.c:536:            c->node->fs_size = c->fs_size;
+src/http/ngx_http_file_cache.c:538:            cache->sh->size += c->fs_size;
+src/http/ngx_http_file_cache.c:546:    if (c->valid_sec < now) {
+src/http/ngx_http_file_cache.c:550:        if (c->node->updating) {
+src/http/ngx_http_file_cache.c:554:            c->node->updating = 1;
+src/http/ngx_http_file_cache.c:555:            c->updating = 1;
+src/http/ngx_http_file_cache.c:563:                       rc, c->valid_sec, now);
+src/http/ngx_http_file_cache.c:589:    n = ngx_file_aio_read(&c->file, c->buf->pos, c->body_start, 0, r->pool);
+src/http/ngx_http_file_cache.c:595:    c->file.aio->data = r;
+src/http/ngx_http_file_cache.c:596:    c->file.aio->handler = ngx_http_cache_aio_event_handler;
+src/http/ngx_http_file_cache.c:607:    return ngx_read_file(&c->file, c->buf->pos, c->body_start, 0);
+src/http/ngx_http_file_cache.c:639:    fcn = c->node;
+src/http/ngx_http_file_cache.c:642:        fcn = ngx_http_file_cache_lookup(cache, c->key);
+src/http/ngx_http_file_cache.c:648:        if (c->node == NULL) {
+src/http/ngx_http_file_cache.c:664:        if (fcn->exists || fcn->uses >= c->min_uses) {
+src/http/ngx_http_file_cache.c:666:            c->exists = fcn->exists;
+src/http/ngx_http_file_cache.c:668:                c->body_start = fcn->body_start;
+src/http/ngx_http_file_cache.c:698:    ngx_memcpy((u_char *) &fcn->node.key, c->key, sizeof(ngx_rbtree_key_t));
+src/http/ngx_http_file_cache.c:700:    ngx_memcpy(fcn->key, &c->key[sizeof(ngx_rbtree_key_t)],
+src/http/ngx_http_file_cache.c:728:    c->uniq = fcn->uniq;
+src/http/ngx_http_file_cache.c:729:    c->error = fcn->error;
+src/http/ngx_http_file_cache.c:730:    c->node = fcn;
+src/http/ngx_http_file_cache.c:748:    if (c->file.name.len) {
+src/http/ngx_http_file_cache.c:752:    c->file.name.len = path->name.len + 1 + path->len
+src/http/ngx_http_file_cache.c:755:    c->file.name.data = ngx_pnalloc(r->pool, c->file.name.len + 1);
+src/http/ngx_http_file_cache.c:756:    if (c->file.name.data == NULL) {
+src/http/ngx_http_file_cache.c:760:    ngx_memcpy(c->file.name.data, path->name.data, path->name.len);
+src/http/ngx_http_file_cache.c:762:    p = c->file.name.data + path->name.len + 1 + path->len;
+src/http/ngx_http_file_cache.c:763:    p = ngx_hex_dump(p, c->key, NGX_HTTP_CACHE_KEY_LEN);
+src/http/ngx_http_file_cache.c:766:    ngx_create_hashed_filename(path, c->file.name.data, c->file.name.len);
+src/http/ngx_http_file_cache.c:769:                   "cache file: \"%s\"", c->file.name.data);
+src/http/ngx_http_file_cache.c:878:    h->valid_sec = c->valid_sec;
+src/http/ngx_http_file_cache.c:879:    h->last_modified = c->last_modified;
+src/http/ngx_http_file_cache.c:880:    h->date = c->date;
+src/http/ngx_http_file_cache.c:881:    h->crc32 = c->crc32;
+src/http/ngx_http_file_cache.c:882:    h->valid_msec = (u_short) c->valid_msec;
+src/http/ngx_http_file_cache.c:883:    h->header_start = (u_short) c->header_start;
+src/http/ngx_http_file_cache.c:884:    h->body_start = (u_short) c->body_start;
+src/http/ngx_http_file_cache.c:890:    key = c->keys.elts;
+src/http/ngx_http_file_cache.c:891:    for (i = 0; i < c->keys.nelts; i++) {
+src/http/ngx_http_file_cache.c:912:    if (c->updated) {
+src/http/ngx_http_file_cache.c:919:    c->updated = 1;
+src/http/ngx_http_file_cache.c:920:    c->updating = 0;
+src/http/ngx_http_file_cache.c:922:    cache = c->file_cache;
+src/http/ngx_http_file_cache.c:929:                   tf->file.name.data, c->file.name.data);
+src/http/ngx_http_file_cache.c:938:    rc = ngx_ext_rename_file(&tf->file.name, &c->file.name, &ext);
+src/http/ngx_http_file_cache.c:956:    c->node->count--;
+src/http/ngx_http_file_cache.c:957:    c->node->uniq = uniq;
+src/http/ngx_http_file_cache.c:958:    c->node->body_start = c->body_start;
+src/http/ngx_http_file_cache.c:960:    cache->sh->size += fs_size - c->node->fs_size;
+src/http/ngx_http_file_cache.c:961:    c->node->fs_size = fs_size;
+src/http/ngx_http_file_cache.c:964:        c->node->exists = 1;
+src/http/ngx_http_file_cache.c:967:    c->node->updating = 0;
+src/http/ngx_http_file_cache.c:984:                   "http file cache send: %s", c->file.name.data);
+src/http/ngx_http_file_cache.c:986:    if (r != r->main && c->length - c->body_start == 0) {
+src/http/ngx_http_file_cache.c:1008:    b->file_pos = c->body_start;
+src/http/ngx_http_file_cache.c:1009:    b->file_last = c->length;
+src/http/ngx_http_file_cache.c:1011:    b->in_file = (c->length - c->body_start) ? 1: 0;
+src/http/ngx_http_file_cache.c:1015:    b->file->fd = c->file.fd;
+src/http/ngx_http_file_cache.c:1016:    b->file->name = c->file.name;
+src/http/ngx_http_file_cache.c:1032:    if (c->updated || c->node == NULL) {
+src/http/ngx_http_file_cache.c:1036:    cache = c->file_cache;
+src/http/ngx_http_file_cache.c:1038:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->file.log, 0,
+src/http/ngx_http_file_cache.c:1039:                   "http file cache free, fd: %d", c->file.fd);
+src/http/ngx_http_file_cache.c:1043:    fcn = c->node;
+src/http/ngx_http_file_cache.c:1046:    if (c->updating) {
+src/http/ngx_http_file_cache.c:1050:    if (c->error) {
+src/http/ngx_http_file_cache.c:1051:        fcn->error = c->error;
+src/http/ngx_http_file_cache.c:1053:        if (c->valid_sec) {
+src/http/ngx_http_file_cache.c:1054:            fcn->valid_sec = c->valid_sec;
+src/http/ngx_http_file_cache.c:1055:            fcn->valid_msec = c->valid_msec;
+src/http/ngx_http_file_cache.c:1058:    } else if (!fcn->exists && fcn->count == 0 && c->min_uses == 1) {
+src/http/ngx_http_file_cache.c:1062:        c->node = NULL;
+src/http/ngx_http_file_cache.c:1067:    c->updated = 1;
+src/http/ngx_http_file_cache.c:1068:    c->updating = 0;
+src/http/ngx_http_file_cache.c:1070:    if (c->temp_file) {
+src/http/ngx_http_file_cache.c:1072:            ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->file.log, 0,
+src/http/ngx_http_file_cache.c:1077:                ngx_log_error(NGX_LOG_CRIT, c->file.log, ngx_errno,
+src/http/ngx_http_file_cache.c:1084:    if (c->wait_event.timer_set) {
+src/http/ngx_http_file_cache.c:1085:        ngx_del_timer(&c->wait_event);
+src/http/ngx_http_file_cache.c:1095:    if (c->updated) {
+src/http/ngx_http_file_cache.c:1099:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->file.log, 0,
+src/http/ngx_http_file_cache.c:1102:    if (c->updating) {
+src/http/ngx_http_file_cache.c:1103:        ngx_log_error(NGX_LOG_ALERT, c->file.log, 0,
+src/http/ngx_http_file_cache.c:1104:                      "stalled cache updating, error:%ui", c->error);
+src/http/ngx_http_file_cache.c:1500:    fcn = ngx_http_file_cache_lookup(cache, c->key);
+src/http/ngx_http_file_cache.c:1511:        ngx_memcpy((u_char *) &fcn->node.key, c->key, sizeof(ngx_rbtree_key_t));
+src/http/ngx_http_file_cache.c:1513:        ngx_memcpy(fcn->key, &c->key[sizeof(ngx_rbtree_key_t)],
+src/http/ngx_http_file_cache.c:1528:        fcn->fs_size = c->fs_size;
+src/http/ngx_http_file_cache.c:1530:        cache->sh->size += c->fs_size;
+src/http/ngx_http_core_module.c:1955:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_core_module.c:1962:        c->error = 1;
+src/http/ngx_http_core_module.c:2221:    if (cc->elts) {
+src/http/ngx_http_core_module.c:2479:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_core_module.c:2497:    if (c->data == r && r->postponed == NULL) {
+src/http/ngx_http_core_module.c:2498:        c->data = sr;
+src/http/modules/ngx_http_userid_filter_module.c:76:static u_char expires[] = "; expires=Thu, 31-Dec-37 23:55:55 GMT";
+src/http/modules/ngx_http_userid_filter_module.c:529:            switch (c->local_sockaddr->sa_family) {
+src/http/modules/ngx_http_userid_filter_module.c:533:                sin6 = (struct sockaddr_in6 *) c->local_sockaddr;
+src/http/modules/ngx_http_userid_filter_module.c:545:                sin = (struct sockaddr_in *) c->local_sockaddr;
+src/http/modules/ngx_http_ssi_filter_module.c:2296:        if (enc->len == 4 && ngx_strncmp(enc->data, "none", 4) == 0) {
+src/http/modules/ngx_http_ssi_filter_module.c:2300:        } else if (enc->len == 3 && ngx_strncmp(enc->data, "url", 3) == 0) {
+src/http/modules/ngx_http_ssi_filter_module.c:2304:        } else if (enc->len == 6 && ngx_strncmp(enc->data, "entity", 6) == 0) {
+src/http/modules/ngx_http_upstream_keepalive_module.c:220:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_keepalive_module.c:244:        if (ngx_memn2cmp((u_char *) &item->sockaddr, (u_char *) pc->sockaddr,
+src/http/modules/ngx_http_upstream_keepalive_module.c:245:                         item->socklen, pc->socklen)
+src/http/modules/ngx_http_upstream_keepalive_module.c:251:            ngx_log_debug1(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_keepalive_module.c:254:            c->idle = 0;
+src/http/modules/ngx_http_upstream_keepalive_module.c:255:            c->log = pc->log;
+src/http/modules/ngx_http_upstream_keepalive_module.c:256:            c->read->log = pc->log;
+src/http/modules/ngx_http_upstream_keepalive_module.c:257:            c->write->log = pc->log;
+src/http/modules/ngx_http_upstream_keepalive_module.c:258:            c->pool->log = pc->log;
+src/http/modules/ngx_http_upstream_keepalive_module.c:260:            pc->connection = c;
+src/http/modules/ngx_http_upstream_keepalive_module.c:261:            pc->cached = 1;
+src/http/modules/ngx_http_upstream_keepalive_module.c:282:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_keepalive_module.c:294:    c = pc->connection;
+src/http/modules/ngx_http_upstream_keepalive_module.c:298:        || c->read->eof
+src/http/modules/ngx_http_upstream_keepalive_module.c:299:        || c->read->error
+src/http/modules/ngx_http_upstream_keepalive_module.c:300:        || c->read->timedout
+src/http/modules/ngx_http_upstream_keepalive_module.c:301:        || c->write->error
+src/http/modules/ngx_http_upstream_keepalive_module.c:302:        || c->write->timedout)
+src/http/modules/ngx_http_upstream_keepalive_module.c:311:    if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/http/modules/ngx_http_upstream_keepalive_module.c:315:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_keepalive_module.c:337:    pc->connection = NULL;
+src/http/modules/ngx_http_upstream_keepalive_module.c:339:    if (c->read->timer_set) {
+src/http/modules/ngx_http_upstream_keepalive_module.c:340:        ngx_del_timer(c->read);
+src/http/modules/ngx_http_upstream_keepalive_module.c:342:    if (c->write->timer_set) {
+src/http/modules/ngx_http_upstream_keepalive_module.c:343:        ngx_del_timer(c->write);
+src/http/modules/ngx_http_upstream_keepalive_module.c:346:    c->write->handler = ngx_http_upstream_keepalive_dummy_handler;
+src/http/modules/ngx_http_upstream_keepalive_module.c:347:    c->read->handler = ngx_http_upstream_keepalive_close_handler;
+src/http/modules/ngx_http_upstream_keepalive_module.c:349:    c->data = item;
+src/http/modules/ngx_http_upstream_keepalive_module.c:350:    c->idle = 1;
+src/http/modules/ngx_http_upstream_keepalive_module.c:351:    c->log = ngx_cycle->log;
+src/http/modules/ngx_http_upstream_keepalive_module.c:352:    c->read->log = ngx_cycle->log;
+src/http/modules/ngx_http_upstream_keepalive_module.c:353:    c->write->log = ngx_cycle->log;
+src/http/modules/ngx_http_upstream_keepalive_module.c:354:    c->pool->log = ngx_cycle->log;
+src/http/modules/ngx_http_upstream_keepalive_module.c:356:    item->socklen = pc->socklen;
+src/http/modules/ngx_http_upstream_keepalive_module.c:357:    ngx_memcpy(&item->sockaddr, pc->sockaddr, pc->socklen);
+src/http/modules/ngx_http_upstream_keepalive_module.c:359:    if (c->read->ready) {
+src/http/modules/ngx_http_upstream_keepalive_module.c:360:        ngx_http_upstream_keepalive_close_handler(c->read);
+src/http/modules/ngx_http_upstream_keepalive_module.c:392:    if (c->close) {
+src/http/modules/ngx_http_upstream_keepalive_module.c:396:    n = recv(c->fd, buf, 1, MSG_PEEK);
+src/http/modules/ngx_http_upstream_keepalive_module.c:401:        if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/http/modules/ngx_http_upstream_keepalive_module.c:410:    item = c->data;
+src/http/modules/ngx_http_upstream_keepalive_module.c:426:    if (c->ssl) {
+src/http/modules/ngx_http_upstream_keepalive_module.c:427:        c->ssl->no_wait_shutdown = 1;
+src/http/modules/ngx_http_upstream_keepalive_module.c:428:        c->ssl->no_send_shutdown = 1;
+src/http/modules/ngx_http_upstream_keepalive_module.c:431:            c->ssl->handler = ngx_http_upstream_keepalive_close;
+src/http/modules/ngx_http_upstream_keepalive_module.c:438:    ngx_destroy_pool(c->pool);
+src/http/modules/ngx_http_realip_module.c:195:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0, "realip: \"%s\"", ip);
+src/http/modules/ngx_http_realip_module.c:197:    addr.sockaddr = c->sockaddr;
+src/http/modules/ngx_http_realip_module.c:198:    addr.socklen = c->socklen;
+src/http/modules/ngx_http_realip_module.c:199:    /* addr.name = c->addr_text; */
+src/http/modules/ngx_http_realip_module.c:237:    p = ngx_pnalloc(c->pool, len);
+src/http/modules/ngx_http_realip_module.c:247:    ctx->sockaddr = c->sockaddr;
+src/http/modules/ngx_http_realip_module.c:248:    ctx->socklen = c->socklen;
+src/http/modules/ngx_http_realip_module.c:249:    ctx->addr_text = c->addr_text;
+src/http/modules/ngx_http_realip_module.c:251:    c->sockaddr = addr->sockaddr;
+src/http/modules/ngx_http_realip_module.c:252:    c->socklen = addr->socklen;
+src/http/modules/ngx_http_realip_module.c:253:    c->addr_text.len = len;
+src/http/modules/ngx_http_realip_module.c:254:    c->addr_text.data = p;
+src/http/modules/ngx_http_realip_module.c:269:    c->sockaddr = ctx->sockaddr;
+src/http/modules/ngx_http_realip_module.c:270:    c->socklen = ctx->socklen;
+src/http/modules/ngx_http_realip_module.c:271:    c->addr_text = ctx->addr_text;
+src/http/modules/ngx_http_upstream_ip_hash_module.c:159:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_ip_hash_module.c:160:                   "get ip hash peer, try: %ui", pc->tries);
+src/http/modules/ngx_http_upstream_ip_hash_module.c:170:    pc->cached = 0;
+src/http/modules/ngx_http_upstream_ip_hash_module.c:171:    pc->connection = NULL;
+src/http/modules/ngx_http_upstream_ip_hash_module.c:202:            ngx_log_debug2(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_ip_hash_module.c:225:            pc->tries--;
+src/http/modules/ngx_http_upstream_ip_hash_module.c:235:    pc->sockaddr = peer->sockaddr;
+src/http/modules/ngx_http_upstream_ip_hash_module.c:236:    pc->socklen = peer->socklen;
+src/http/modules/ngx_http_upstream_ip_hash_module.c:237:    pc->name = &peer->name;
+src/http/modules/ngx_http_upstream_least_conn_module.c:169:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_least_conn_module.c:170:                   "get least conn peer, try: %ui", pc->tries);
+src/http/modules/ngx_http_upstream_least_conn_module.c:176:    pc->cached = 0;
+src/http/modules/ngx_http_upstream_least_conn_module.c:177:    pc->connection = NULL;
+src/http/modules/ngx_http_upstream_least_conn_module.c:234:        ngx_log_debug0(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_least_conn_module.c:241:        ngx_log_debug0(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_least_conn_module.c:287:    pc->sockaddr = best->sockaddr;
+src/http/modules/ngx_http_upstream_least_conn_module.c:288:    pc->socklen = best->socklen;
+src/http/modules/ngx_http_upstream_least_conn_module.c:289:    pc->name = &best->name;
+src/http/modules/ngx_http_upstream_least_conn_module.c:299:    if (pc->tries == 1 && peers->next) {
+src/http/modules/ngx_http_upstream_least_conn_module.c:300:        pc->tries += peers->next->number;
+src/http/modules/ngx_http_upstream_least_conn_module.c:308:        ngx_log_debug0(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_least_conn_module.c:314:        pc->tries = lcp->rrp.peers->number;
+src/http/modules/ngx_http_upstream_least_conn_module.c:334:    pc->name = peers->name;
+src/http/modules/ngx_http_upstream_least_conn_module.c:346:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/modules/ngx_http_upstream_least_conn_module.c:347:                   "free least conn peer %ui %ui", pc->tries, state);
+src/http/modules/ngx_http_upstream_least_conn_module.c:354:    if (state == 0 && pc->tries == 0) {
+src/http/modules/ngx_http_headers_filter_module.c:238:        cc->hash = 1;
+src/http/modules/ngx_http_headers_filter_module.c:239:        ngx_str_set(&cc->key, "Cache-Control");
+src/http/modules/ngx_http_headers_filter_module.c:252:        ngx_str_set(&cc->value, "no-cache");
+src/http/modules/ngx_http_headers_filter_module.c:259:        ngx_str_set(&cc->value, "max-age=315360000");
+src/http/modules/ngx_http_headers_filter_module.c:271:        ngx_str_set(&cc->value, "max-age=0");
+src/http/modules/ngx_http_headers_filter_module.c:295:        ngx_str_set(&cc->value, "no-cache");
+src/http/modules/ngx_http_headers_filter_module.c:299:    cc->value.data = ngx_pnalloc(r->pool,
+src/http/modules/ngx_http_headers_filter_module.c:301:    if (cc->value.data == NULL) {
+src/http/modules/ngx_http_headers_filter_module.c:305:    cc->value.len = ngx_sprintf(cc->value.data, "max-age=%T", max_age)
+src/http/modules/ngx_http_headers_filter_module.c:306:                    - cc->value.data;
+src/http/modules/ngx_http_headers_filter_module.c:361:    cc->hash = 1;
+src/http/modules/ngx_http_headers_filter_module.c:362:    ngx_str_set(&cc->key, "Cache-Control");
+src/http/modules/ngx_http_headers_filter_module.c:363:    cc->value = *value;
+src/http/modules/ngx_http_limit_conn_module.c:215:            lc->len = (u_char) len;
+src/http/modules/ngx_http_limit_conn_module.c:216:            lc->conn = 1;
+src/http/modules/ngx_http_limit_conn_module.c:217:            ngx_memcpy(lc->data, vv->data, len);
+src/http/modules/ngx_http_limit_conn_module.c:225:            if ((ngx_uint_t) lc->conn >= limits[i].conn) {
+src/http/modules/ngx_http_limit_conn_module.c:237:            lc->conn++;
+src/http/modules/ngx_http_limit_conn_module.c:241:                       "limit conn: %08XD %d", node->key, lc->conn);
+src/http/modules/ngx_http_limit_conn_module.c:361:                   "limit conn cleanup: %08XD %d", node->key, lc->conn);
+src/http/modules/ngx_http_limit_conn_module.c:363:    lc->conn--;
+src/http/modules/ngx_http_limit_conn_module.c:365:    if (lc->conn == 0) {
+src/http/modules/ngx_http_charset_filter_module.c:1470:    c->tables = NULL;
+src/http/modules/ngx_http_charset_filter_module.c:1471:    c->name = *name;
+src/http/modules/ngx_http_charset_filter_module.c:1472:    c->length = 0;
+src/http/modules/ngx_http_charset_filter_module.c:1475:        c->utf8 = 1;
+src/http/modules/ngx_http_charset_filter_module.c:1478:        c->utf8 = 0;
+src/http/modules/perl/ngx_http_perl_module.c:712:            ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/modules/perl/ngx_http_perl_module.c:740:        ngx_log_error(NGX_LOG_ERR, c->log, 0,
+src/http/modules/perl/ngx_http_perl_module.c:751:        ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/modules/ngx_http_xslt_filter_module.c:259:                ctx->ctxt->myDoc->extSubset = NULL;
+src/http/modules/ngx_http_xslt_filter_module.c:274:            ctx->doc->extSubset = NULL;
+src/http/modules/ngx_http_xslt_filter_module.c:432:    if (doc->children == NULL) {
+src/http/modules/ngx_http_xslt_filter_module.c:436:        xmlAddPrevSibling(doc->children, (xmlNodePtr) dtd);
+src/http/modules/ngx_http_xslt_filter_module.c:441:    doc->extSubset = dtd;
+src/http/modules/ngx_http_xslt_filter_module.c:547:    doc_type = doc->type;
+src/http/ngx_http_upstream.c:427:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:428:                   "http init upstream, client timer: %d", c->read->timer_set);
+src/http/ngx_http_upstream.c:430:    if (c->read->timer_set) {
+src/http/ngx_http_upstream.c:431:        ngx_del_timer(c->read);
+src/http/ngx_http_upstream.c:436:        if (!c->write->active) {
+src/http/ngx_http_upstream.c:437:            if (ngx_add_event(c->write, NGX_WRITE_EVENT, NGX_CLEAR_EVENT)
+src/http/ngx_http_upstream.c:709:        c->min_uses = u->conf->cache_min_uses;
+src/http/ngx_http_upstream.c:710:        c->body_start = u->conf->buffer_size;
+src/http/ngx_http_upstream.c:711:        c->file_cache = u->conf->cache->data;
+src/http/ngx_http_upstream.c:713:        c->lock = u->conf->cache_lock;
+src/http/ngx_http_upstream.c:714:        c->lock_timeout = u->conf->cache_lock_timeout;
+src/http/ngx_http_upstream.c:756:        c->valid_sec = 0;
+src/http/ngx_http_upstream.c:768:            u->buffer.pos = u->buffer.start + c->header_start;
+src/http/ngx_http_upstream.c:812:    if (c->header_start == c->body_start) {
+src/http/ngx_http_upstream.c:819:    u->buffer = *c->buf;
+src/http/ngx_http_upstream.c:820:    u->buffer.pos += c->header_start;
+src/http/ngx_http_upstream.c:920:    r = c->data;
+src/http/ngx_http_upstream.c:925:    ctx = c->log->data;
+src/http/ngx_http_upstream.c:928:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:974:    if (c->error) {
+src/http/ngx_http_upstream.c:1003:        c->error = 1;
+src/http/ngx_http_upstream.c:1032:    n = recv(c->fd, buf, 1, MSG_PEEK);
+src/http/ngx_http_upstream.c:1070:    c->error = 1;
+src/http/ngx_http_upstream.c:1149:    c->data = r;
+src/http/ngx_http_upstream.c:1151:    c->write->handler = ngx_http_upstream_handler;
+src/http/ngx_http_upstream.c:1152:    c->read->handler = ngx_http_upstream_handler;
+src/http/ngx_http_upstream.c:1157:    c->sendfile &= r->connection->sendfile;
+src/http/ngx_http_upstream.c:1158:    u->output.sendfile = c->sendfile;
+src/http/ngx_http_upstream.c:1160:    if (c->pool == NULL) {
+src/http/ngx_http_upstream.c:1164:        c->pool = ngx_create_pool(128, r->connection->log);
+src/http/ngx_http_upstream.c:1165:        if (c->pool == NULL) {
+src/http/ngx_http_upstream.c:1172:    c->log = r->connection->log;
+src/http/ngx_http_upstream.c:1173:    c->pool->log = c->log;
+src/http/ngx_http_upstream.c:1174:    c->read->log = c->log;
+src/http/ngx_http_upstream.c:1175:    c->write->log = c->log;
+src/http/ngx_http_upstream.c:1221:        ngx_add_timer(c->write, u->conf->connect_timeout);
+src/http/ngx_http_upstream.c:1227:    if (u->ssl && c->ssl == NULL) {
+src/http/ngx_http_upstream.c:1255:    c->sendfile = 0;
+src/http/ngx_http_upstream.c:1271:        c->ssl->handler = ngx_http_upstream_ssl_handshake;
+src/http/ngx_http_upstream.c:1285:    r = c->data;
+src/http/ngx_http_upstream.c:1288:    if (c->ssl->handshaked) {
+src/http/ngx_http_upstream.c:1294:        c->write->handler = ngx_http_upstream_handler;
+src/http/ngx_http_upstream.c:1295:        c->read->handler = ngx_http_upstream_handler;
+src/http/ngx_http_upstream.c:1384:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:1392:    c->log->action = "sending request to upstream";
+src/http/ngx_http_upstream.c:1403:    if (c->write->timer_set) {
+src/http/ngx_http_upstream.c:1404:        ngx_del_timer(c->write);
+src/http/ngx_http_upstream.c:1408:        ngx_add_timer(c->write, u->conf->send_timeout);
+src/http/ngx_http_upstream.c:1410:        if (ngx_handle_write_event(c->write, u->conf->send_lowat) != NGX_OK) {
+src/http/ngx_http_upstream.c:1421:    if (c->tcp_nopush == NGX_TCP_NOPUSH_SET) {
+src/http/ngx_http_upstream.c:1422:        if (ngx_tcp_push(c->fd) == NGX_ERROR) {
+src/http/ngx_http_upstream.c:1423:            ngx_log_error(NGX_LOG_CRIT, c->log, ngx_socket_errno,
+src/http/ngx_http_upstream.c:1430:        c->tcp_nopush = NGX_TCP_NOPUSH_UNSET;
+src/http/ngx_http_upstream.c:1433:    ngx_add_timer(c->read, u->conf->read_timeout);
+src/http/ngx_http_upstream.c:1436:    if (c->read->ready) {
+src/http/ngx_http_upstream.c:1454:    if (ngx_handle_write_event(c->write, 0) != NGX_OK) {
+src/http/ngx_http_upstream.c:1473:    if (c->write->timedout) {
+src/http/ngx_http_upstream.c:1480:    if (u->ssl && c->ssl == NULL) {
+src/http/ngx_http_upstream.c:1490:        (void) ngx_handle_write_event(c->write, 0);
+src/http/ngx_http_upstream.c:1508:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:1511:    c->log->action = "reading response header from upstream";
+src/http/ngx_http_upstream.c:1513:    if (c->read->timedout) {
+src/http/ngx_http_upstream.c:1558:        n = c->recv(c, u->buffer.last, u->buffer.end - u->buffer.last);
+src/http/ngx_http_upstream.c:1565:            if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/http/ngx_http_upstream.c:1575:            ngx_log_error(NGX_LOG_ERR, c->log, 0,
+src/http/ngx_http_upstream.c:1597:                ngx_log_error(NGX_LOG_ERR, c->log, 0,
+src/http/ngx_http_upstream.c:1812:        if (c->write->pending_eof || c->read->pending_eof) {
+src/http/ngx_http_upstream.c:1813:            if (c->write->pending_eof) {
+src/http/ngx_http_upstream.c:1814:                err = c->write->kq_errno;
+src/http/ngx_http_upstream.c:1817:                err = c->read->kq_errno;
+src/http/ngx_http_upstream.c:1820:            c->log->action = "connecting to upstream";
+src/http/ngx_http_upstream.c:1837:        if (getsockopt(c->fd, SOL_SOCKET, SO_ERROR, (void *) &err, &len)
+src/http/ngx_http_upstream.c:1844:            c->log->action = "connecting to upstream";
+src/http/ngx_http_upstream.c:1987:    rev = c->read;
+src/http/ngx_http_upstream.c:1989:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:2005:            ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/ngx_http_upstream.c:2011:        n = c->recv(c, b->last, size);
+src/http/ngx_http_upstream.c:2076:            if (ngx_shutdown_socket(c->fd, NGX_WRITE_SHUTDOWN) == -1) {
+src/http/ngx_http_upstream.c:2083:            c->error = 1;
+src/http/ngx_http_upstream.c:2119:        if (clcf->tcp_nodelay && c->tcp_nodelay == NGX_TCP_NODELAY_UNSET) {
+src/http/ngx_http_upstream.c:2120:            ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0, "tcp_nodelay");
+src/http/ngx_http_upstream.c:2124:            if (setsockopt(c->fd, IPPROTO_TCP, TCP_NODELAY,
+src/http/ngx_http_upstream.c:2133:            c->tcp_nodelay = NGX_TCP_NODELAY_SET;
+src/http/ngx_http_upstream.c:2231:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:2250:    p->log = c->log;
+src/http/ngx_http_upstream.c:2261:    p->temp_file->file.log = c->log;
+src/http/ngx_http_upstream.c:2326:        c->sendfile = 0;
+src/http/ngx_http_upstream.c:2361:    wev = c->write;
+src/http/ngx_http_upstream.c:2363:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:2366:    c->log->action = "sending to client";
+src/http/ngx_http_upstream.c:2369:        c->timedout = 1;
+src/http/ngx_http_upstream.c:2387:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:2390:    c->log->action = "reading upstream";
+src/http/ngx_http_upstream.c:2392:    if (c->read->timedout) {
+src/http/ngx_http_upstream.c:2572:    wev = c->write;
+src/http/ngx_http_upstream.c:2574:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:2577:    c->log->action = "sending to client";
+src/http/ngx_http_upstream.c:2603:            c->timedout = 1;
+src/http/ngx_http_upstream.c:2611:            ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:2639:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_upstream.c:2642:    c->log->action = "reading upstream";
+src/http/ngx_http_upstream.c:2644:    if (c->read->timedout) {
+src/http/ngx_http_script.c:347:    for (i = 0; i < sc->source->len; /* void */ ) {
+src/http/ngx_http_script.c:351:        if (sc->source->data[i] == '$') {
+src/http/ngx_http_script.c:353:            if (++i == sc->source->len) {
+src/http/ngx_http_script.c:361:            if (sc->source->data[i] >= '1' && sc->source->data[i] <= '9') {
+src/http/ngx_http_script.c:363:                n = sc->source->data[i] - '0';
+src/http/ngx_http_script.c:365:                if (sc->captures_mask & (1 << n)) {
+src/http/ngx_http_script.c:366:                    sc->dup_capture = 1;
+src/http/ngx_http_script.c:369:                sc->captures_mask |= 1 << n;
+src/http/ngx_http_script.c:382:            if (sc->source->data[i] == '{') {
+src/http/ngx_http_script.c:385:                if (++i == sc->source->len) {
+src/http/ngx_http_script.c:389:                name.data = &sc->source->data[i];
+src/http/ngx_http_script.c:393:                name.data = &sc->source->data[i];
+src/http/ngx_http_script.c:396:            for ( /* void */ ; i < sc->source->len; i++, name.len++) {
+src/http/ngx_http_script.c:397:                ch = sc->source->data[i];
+src/http/ngx_http_script.c:417:                ngx_conf_log_error(NGX_LOG_EMERG, sc->cf, 0,
+src/http/ngx_http_script.c:427:            sc->variables++;
+src/http/ngx_http_script.c:436:        if (sc->source->data[i] == '?' && sc->compile_args) {
+src/http/ngx_http_script.c:437:            sc->args = 1;
+src/http/ngx_http_script.c:438:            sc->compile_args = 0;
+src/http/ngx_http_script.c:449:        name.data = &sc->source->data[i];
+src/http/ngx_http_script.c:451:        while (i < sc->source->len) {
+src/http/ngx_http_script.c:453:            if (sc->source->data[i] == '$') {
+src/http/ngx_http_script.c:457:            if (sc->source->data[i] == '?') {
+src/http/ngx_http_script.c:459:                sc->args = 1;
+src/http/ngx_http_script.c:461:                if (sc->compile_args) {
+src/http/ngx_http_script.c:470:        sc->size += name.len;
+src/http/ngx_http_script.c:472:        if (ngx_http_script_add_copy_code(sc, &name, (i == sc->source->len))
+src/http/ngx_http_script.c:483:    ngx_conf_log_error(NGX_LOG_EMERG, sc->cf, 0, "invalid variable name");
+src/http/ngx_http_script.c:561:    if (sc->flushes && *sc->flushes == NULL) {
+src/http/ngx_http_script.c:562:        n = sc->variables ? sc->variables : 1;
+src/http/ngx_http_script.c:563:        *sc->flushes = ngx_array_create(sc->cf->pool, n, sizeof(ngx_uint_t));
+src/http/ngx_http_script.c:564:        if (*sc->flushes == NULL) {
+src/http/ngx_http_script.c:569:    if (*sc->lengths == NULL) {
+src/http/ngx_http_script.c:570:        n = sc->variables * (2 * sizeof(ngx_http_script_copy_code_t)
+src/http/ngx_http_script.c:574:        *sc->lengths = ngx_array_create(sc->cf->pool, n, 1);
+src/http/ngx_http_script.c:575:        if (*sc->lengths == NULL) {
+src/http/ngx_http_script.c:580:    if (*sc->values == NULL) {
+src/http/ngx_http_script.c:581:        n = (sc->variables * (2 * sizeof(ngx_http_script_copy_code_t)
+src/http/ngx_http_script.c:584:                + sc->source->len
+src/http/ngx_http_script.c:588:        *sc->values = ngx_array_create(sc->cf->pool, n, 1);
+src/http/ngx_http_script.c:589:        if (*sc->values == NULL) {
+src/http/ngx_http_script.c:594:    sc->variables = 0;
+src/http/ngx_http_script.c:606:    if (sc->zero) {
+src/http/ngx_http_script.c:616:    if (sc->conf_prefix || sc->root_prefix) {
+src/http/ngx_http_script.c:622:    if (sc->complete_lengths) {
+src/http/ngx_http_script.c:623:        code = ngx_http_script_add_code(*sc->lengths, sizeof(uintptr_t), NULL);
+src/http/ngx_http_script.c:631:    if (sc->complete_values) {
+src/http/ngx_http_script.c:632:        code = ngx_http_script_add_code(*sc->values, sizeof(uintptr_t),
+src/http/ngx_http_script.c:633:                                        &sc->main);
+src/http/ngx_http_script.c:691:    zero = (sc->zero && last);
+src/http/ngx_http_script.c:694:    code = ngx_http_script_add_code(*sc->lengths,
+src/http/ngx_http_script.c:706:    code = ngx_http_script_add_code(*sc->values, size, &sc->main);
+src/http/ngx_http_script.c:719:        sc->zero = 0;
+src/http/ngx_http_script.c:768:    index = ngx_http_get_variable_index(sc->cf, name);
+src/http/ngx_http_script.c:774:    if (sc->flushes) {
+src/http/ngx_http_script.c:775:        p = ngx_array_push(*sc->flushes);
+src/http/ngx_http_script.c:783:    code = ngx_http_script_add_code(*sc->lengths,
+src/http/ngx_http_script.c:792:    code = ngx_http_script_add_code(*sc->values,
+src/http/ngx_http_script.c:794:                                    &sc->main);
+src/http/ngx_http_script.c:868:    code = ngx_http_script_add_code(*sc->lengths, sizeof(uintptr_t), NULL);
+src/http/ngx_http_script.c:875:    code = ngx_http_script_add_code(*sc->values, sizeof(uintptr_t), &sc->main);
+src/http/ngx_http_script.c:1176:    code = ngx_http_script_add_code(*sc->lengths,
+src/http/ngx_http_script.c:1188:    code = ngx_http_script_add_code(*sc->values,
+src/http/ngx_http_script.c:1190:                                    &sc->main);
+src/http/ngx_http_script.c:1198:    if (sc->ncaptures < n) {
+src/http/ngx_http_script.c:1199:        sc->ncaptures = n;
+src/http/ngx_http_script.c:1291:    code = ngx_http_script_add_code(*sc->lengths,
+src/http/ngx_http_script.c:1299:    code->conf_prefix = sc->conf_prefix;
+src/http/ngx_http_script.c:1301:    code = ngx_http_script_add_code(*sc->values,
+src/http/ngx_http_script.c:1303:                                    &sc->main);
+src/http/ngx_http_script.c:1309:    code->conf_prefix = sc->conf_prefix;
+src/http/ngx_http_parse_time.c:25:        rfc850,   /* Tuesday, 10-Dec-02 23:50:13 */
+src/http/ngx_http_postpone_filter_module.c:60:    ngx_log_debug3(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_postpone_filter_module.c:63:    if (r != c->data) {
+src/http/ngx_http_postpone_filter_module.c:72:        ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/ngx_http_postpone_filter_module.c:82:        if (in || c->buffered) {
+src/http/ngx_http_postpone_filter_module.c:98:            ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_postpone_filter_module.c:104:            c->data = pr->request;
+src/http/ngx_http_postpone_filter_module.c:110:            ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/ngx_http_postpone_filter_module.c:115:            ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:196:    ctx = ngx_palloc(c->pool, sizeof(ngx_http_log_ctx_t));
+src/http/ngx_http_request.c:206:    c->log->connection = c->number;
+src/http/ngx_http_request.c:207:    c->log->handler = ngx_http_log_error;
+src/http/ngx_http_request.c:208:    c->log->data = ctx;
+src/http/ngx_http_request.c:209:    c->log->action = "reading client request line";
+src/http/ngx_http_request.c:211:    c->log_error = NGX_ERROR_INFO;
+src/http/ngx_http_request.c:213:    rev = c->read;
+src/http/ngx_http_request.c:215:    c->write->handler = ngx_http_empty_handler;
+src/http/ngx_http_request.c:233:    ngx_add_timer(rev, c->listening->post_accept_timeout);
+src/http/ngx_http_request.c:273:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/http/ngx_http_request.c:279:    c->requests++;
+src/http/ngx_http_request.c:281:    hc = c->data;
+src/http/ngx_http_request.c:284:        hc = ngx_pcalloc(c->pool, sizeof(ngx_http_connection_t));
+src/http/ngx_http_request.c:291:    r = hc->request;
+src/http/ngx_http_request.c:296:        r->pipeline = hc->pipeline;
+src/http/ngx_http_request.c:298:        if (hc->nbusy) {
+src/http/ngx_http_request.c:299:            r->header_in = hc->busy[0];
+src/http/ngx_http_request.c:303:        r = ngx_pcalloc(c->pool, sizeof(ngx_http_request_t));
+src/http/ngx_http_request.c:309:        hc->request = r;
+src/http/ngx_http_request.c:312:    c->data = r;
+src/http/ngx_http_request.c:315:    c->sent = 0;
+src/http/ngx_http_request.c:320:    port = c->listening->servers;
+src/http/ngx_http_request.c:337:        switch (c->local_sockaddr->sa_family) {
+src/http/ngx_http_request.c:341:            sin6 = (struct sockaddr_in6 *) c->local_sockaddr;
+src/http/ngx_http_request.c:359:            sin = (struct sockaddr_in *) c->local_sockaddr;
+src/http/ngx_http_request.c:378:        switch (c->local_sockaddr->sa_family) {
+src/http/ngx_http_request.c:414:        if (c->ssl == NULL) {
+src/http/ngx_http_request.c:416:            c->log->action = "SSL handshaking";
+src/http/ngx_http_request.c:419:                ngx_log_error(NGX_LOG_ERR, c->log, 0,
+src/http/ngx_http_request.c:443:    c->log->file = clcf->error_log->file;
+src/http/ngx_http_request.c:444:    if (!(c->log->log_level & NGX_LOG_DEBUG_CONNECTION)) {
+src/http/ngx_http_request.c:445:        c->log->log_level = clcf->error_log->log_level;
+src/http/ngx_http_request.c:448:    if (c->buffer == NULL) {
+src/http/ngx_http_request.c:449:        c->buffer = ngx_create_temp_buf(c->pool,
+src/http/ngx_http_request.c:451:        if (c->buffer == NULL) {
+src/http/ngx_http_request.c:458:        r->header_in = c->buffer;
+src/http/ngx_http_request.c:461:    r->pool = ngx_create_pool(cscf->request_pool_size, c->log);
+src/http/ngx_http_request.c:494:    c->single_connection = 1;
+src/http/ngx_http_request.c:495:    c->destroyed = 0;
+src/http/ngx_http_request.c:516:    ctx = c->log->data;
+src/http/ngx_http_request.c:545:    r = c->data;
+src/http/ngx_http_request.c:551:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/http/ngx_http_request.c:552:        c->timedout = 1;
+src/http/ngx_http_request.c:557:    n = recv(c->fd, (char *) buf, 1, MSG_PEEK);
+src/http/ngx_http_request.c:562:            ngx_add_timer(rev, c->listening->post_accept_timeout);
+src/http/ngx_http_request.c:582:                    ngx_add_timer(rev, c->listening->post_accept_timeout);
+src/http/ngx_http_request.c:585:                c->ssl->handler = ngx_http_ssl_handshake_handler;
+src/http/ngx_http_request.c:601:    c->log->action = "reading client request line";
+src/http/ngx_http_request.c:613:    if (c->ssl->handshaked) {
+src/http/ngx_http_request.c:623:        c->ssl->no_wait_shutdown = 1;
+src/http/ngx_http_request.c:625:        c->log->action = "reading client request line";
+src/http/ngx_http_request.c:627:        c->read->handler = ngx_http_process_request_line;
+src/http/ngx_http_request.c:628:        /* STUB: epoll edge */ c->write->handler = ngx_http_empty_handler;
+src/http/ngx_http_request.c:630:        ngx_http_process_request_line(c->read);
+src/http/ngx_http_request.c:635:    r = c->data;
+src/http/ngx_http_request.c:662:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:671:    r = c->data;
+src/http/ngx_http_request.c:728:    r = c->data;
+src/http/ngx_http_request.c:733:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/http/ngx_http_request.c:734:        c->timedout = 1;
+src/http/ngx_http_request.c:782:                    ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:840:                        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:873:            ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:876:            ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:879:            ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:882:            ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:892:                    ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:939:            c->log->action = "reading client request headers";
+src/http/ngx_http_request.c:951:            ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:972:                ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:997:    r = c->data;
+src/http/ngx_http_request.c:1003:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/http/ngx_http_request.c:1004:        c->timedout = 1;
+src/http/ngx_http_request.c:1033:                        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:1047:                    ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:1075:                ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:1158:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:1177:    rev = c->read;
+src/http/ngx_http_request.c:1186:        n = c->recv(c, r->header_in->last,
+src/http/ngx_http_request.c:1207:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:1212:        c->error = 1;
+src/http/ngx_http_request.c:1213:        c->log->action = "reading client request headers";
+src/http/ngx_http_request.c:1260:    if (hc->nfree) {
+src/http/ngx_http_request.c:1261:        b = hc->free[--hc->nfree];
+src/http/ngx_http_request.c:1267:    } else if (hc->nbusy < cscf->large_client_header_buffers.num) {
+src/http/ngx_http_request.c:1269:        if (hc->busy == NULL) {
+src/http/ngx_http_request.c:1270:            hc->busy = ngx_palloc(r->connection->pool,
+src/http/ngx_http_request.c:1272:            if (hc->busy == NULL) {
+src/http/ngx_http_request.c:1291:    hc->busy[hc->nbusy++] = b;
+src/http/ngx_http_request.c:1500:        if (c->ssl) {
+src/http/ngx_http_request.c:1501:            c->ssl->no_send_shutdown = 1;
+src/http/ngx_http_request.c:1631:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:1639:    if (c->ssl) {
+src/http/ngx_http_request.c:1647:            rc = SSL_get_verify_result(c->ssl->connection);
+src/http/ngx_http_request.c:1652:                ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:1657:                                       (SSL_get0_session(c->ssl->connection)));
+src/http/ngx_http_request.c:1664:                cert = SSL_get_peer_certificate(c->ssl->connection);
+src/http/ngx_http_request.c:1667:                    ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/http/ngx_http_request.c:1671:                                       (SSL_get0_session(c->ssl->connection)));
+src/http/ngx_http_request.c:1684:    if (c->read->timer_set) {
+src/http/ngx_http_request.c:1685:        ngx_del_timer(c->read);
+src/http/ngx_http_request.c:1695:    c->read->handler = ngx_http_request_handler;
+src/http/ngx_http_request.c:1696:    c->write->handler = ngx_http_request_handler;
+src/http/ngx_http_request.c:1868:    r = c->data;
+src/http/ngx_http_request.c:1870:    ctx = c->log->data;
+src/http/ngx_http_request.c:1873:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:1896:        if (c->destroyed) {
+src/http/ngx_http_request.c:1900:        r = c->data;
+src/http/ngx_http_request.c:1911:        ctx = c->log->data;
+src/http/ngx_http_request.c:1914:        ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:1954:    ngx_log_debug5(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:1956:                   rc, &r->uri, &r->args, r == c->data, r->main->count);
+src/http/ngx_http_request.c:1964:        c->error = 1;
+src/http/ngx_http_request.c:1981:        || c->error)
+src/http/ngx_http_request.c:2005:            if (c->read->timer_set) {
+src/http/ngx_http_request.c:2006:                ngx_del_timer(c->read);
+src/http/ngx_http_request.c:2009:            if (c->write->timer_set) {
+src/http/ngx_http_request.c:2010:                ngx_del_timer(c->write);
+src/http/ngx_http_request.c:2014:        c->read->handler = ngx_http_request_handler;
+src/http/ngx_http_request.c:2015:        c->write->handler = ngx_http_request_handler;
+src/http/ngx_http_request.c:2034:        if (r == c->data) {
+src/http/ngx_http_request.c:2050:                ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/ngx_http_request.c:2061:            c->data = pr;
+src/http/ngx_http_request.c:2065:            ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:2082:        ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:2089:    if (r->buffered || c->buffered || r->postponed || r->blocked) {
+src/http/ngx_http_request.c:2098:    if (r != c->data) {
+src/http/ngx_http_request.c:2099:        ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/http/ngx_http_request.c:2116:    if (c->read->timer_set) {
+src/http/ngx_http_request.c:2117:        ngx_del_timer(c->read);
+src/http/ngx_http_request.c:2120:    if (c->write->timer_set) {
+src/http/ngx_http_request.c:2121:        c->write->delayed = 0;
+src/http/ngx_http_request.c:2122:        ngx_del_timer(c->write);
+src/http/ngx_http_request.c:2125:    if (c->read->eof) {
+src/http/ngx_http_request.c:2282:    wev = c->write;
+src/http/ngx_http_request.c:2291:            ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT,
+src/http/ngx_http_request.c:2293:            c->timedout = 1;
+src/http/ngx_http_request.c:2327:    ngx_log_debug3(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:2336:    if (r->buffered || r->postponed || (r == r->main && c->buffered)) {
+src/http/ngx_http_request.c:2396:    rev = c->read;
+src/http/ngx_http_request.c:2398:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0, "http test reading");
+src/http/ngx_http_request.c:2409:        c->error = 1;
+src/http/ngx_http_request.c:2417:    n = recv(c->fd, buf, 1, MSG_PEEK);
+src/http/ngx_http_request.c:2421:        c->error = 1;
+src/http/ngx_http_request.c:2431:            c->error = 1;
+src/http/ngx_http_request.c:2454:    ngx_log_error(NGX_LOG_INFO, c->log, err,
+src/http/ngx_http_request.c:2474:    rev = c->read;
+src/http/ngx_http_request.c:2478:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0, "set http keepalive handler");
+src/http/ngx_http_request.c:2487:    c->log->action = "closing request";
+src/http/ngx_http_request.c:2496:        if (b != c->buffer) {
+src/http/ngx_http_request.c:2500:             * request processing then we do not use c->buffer for
+src/http/ngx_http_request.c:2508:            if (hc->free == NULL) {
+src/http/ngx_http_request.c:2509:                hc->free = ngx_palloc(c->pool,
+src/http/ngx_http_request.c:2512:                if (hc->free == NULL) {
+src/http/ngx_http_request.c:2518:            for (i = 0; i < hc->nbusy - 1; i++) {
+src/http/ngx_http_request.c:2519:                f = hc->busy[i];
+src/http/ngx_http_request.c:2520:                hc->free[hc->nfree++] = f;
+src/http/ngx_http_request.c:2525:            hc->busy[0] = b;
+src/http/ngx_http_request.c:2526:            hc->nbusy = 1;
+src/http/ngx_http_request.c:2534:    c->data = hc;
+src/http/ngx_http_request.c:2543:    wev = c->write;
+src/http/ngx_http_request.c:2548:        ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0, "pipelined request");
+src/http/ngx_http_request.c:2554:        hc->pipeline = 1;
+src/http/ngx_http_request.c:2555:        c->log->action = "reading client pipelined request line";
+src/http/ngx_http_request.c:2562:    hc->pipeline = 0;
+src/http/ngx_http_request.c:2567:     * c->buffer's memory if they were allocated outside the c->pool.
+src/http/ngx_http_request.c:2568:     * The large header buffers are always allocated outside the c->pool and
+src/http/ngx_http_request.c:2572:    if (ngx_pfree(c->pool, r) == NGX_OK) {
+src/http/ngx_http_request.c:2573:        hc->request = NULL;
+src/http/ngx_http_request.c:2576:    b = c->buffer;
+src/http/ngx_http_request.c:2578:    if (ngx_pfree(c->pool, b->start) == NGX_OK) {
+src/http/ngx_http_request.c:2582:         * c->buffer's memory was freed
+src/http/ngx_http_request.c:2592:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0, "hc free: %p %d",
+src/http/ngx_http_request.c:2593:                   hc->free, hc->nfree);
+src/http/ngx_http_request.c:2595:    if (hc->free) {
+src/http/ngx_http_request.c:2596:        for (i = 0; i < hc->nfree; i++) {
+src/http/ngx_http_request.c:2597:            ngx_pfree(c->pool, hc->free[i]->start);
+src/http/ngx_http_request.c:2598:            hc->free[i] = NULL;
+src/http/ngx_http_request.c:2601:        hc->nfree = 0;
+src/http/ngx_http_request.c:2604:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0, "hc busy: %p %d",
+src/http/ngx_http_request.c:2605:                   hc->busy, hc->nbusy);
+src/http/ngx_http_request.c:2607:    if (hc->busy) {
+src/http/ngx_http_request.c:2608:        for (i = 0; i < hc->nbusy; i++) {
+src/http/ngx_http_request.c:2609:            ngx_pfree(c->pool, hc->busy[i]->start);
+src/http/ngx_http_request.c:2610:            hc->busy[i] = NULL;
+src/http/ngx_http_request.c:2613:        hc->nbusy = 0;
+src/http/ngx_http_request.c:2617:    if (c->ssl) {
+src/http/ngx_http_request.c:2631:    c->log->action = "keepalive";
+src/http/ngx_http_request.c:2633:    if (c->tcp_nopush == NGX_TCP_NOPUSH_SET) {
+src/http/ngx_http_request.c:2634:        if (ngx_tcp_push(c->fd) == -1) {
+src/http/ngx_http_request.c:2640:        c->tcp_nopush = NGX_TCP_NOPUSH_UNSET;
+src/http/ngx_http_request.c:2649:        && c->tcp_nodelay == NGX_TCP_NODELAY_UNSET)
+src/http/ngx_http_request.c:2651:        ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0, "tcp_nodelay");
+src/http/ngx_http_request.c:2653:        if (setsockopt(c->fd, IPPROTO_TCP, TCP_NODELAY,
+src/http/ngx_http_request.c:2659:            c->log_error = NGX_ERROR_IGNORE_EINVAL;
+src/http/ngx_http_request.c:2665:            c->log_error = NGX_ERROR_INFO;
+src/http/ngx_http_request.c:2670:        c->tcp_nodelay = NGX_TCP_NODELAY_SET;
+src/http/ngx_http_request.c:2678:    c->idle = 1;
+src/http/ngx_http_request.c:2697:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0, "http keepalive handler");
+src/http/ngx_http_request.c:2699:    if (rev->timedout || c->close) {
+src/http/ngx_http_request.c:2708:            c->log->handler = NULL;
+src/http/ngx_http_request.c:2709:            ngx_log_error(NGX_LOG_INFO, c->log, rev->kq_errno,
+src/http/ngx_http_request.c:2711:                          "keepalive connection", &c->addr_text);
+src/http/ngx_http_request.c:2713:            if (c->ssl) {
+src/http/ngx_http_request.c:2714:                c->ssl->no_send_shutdown = 1;
+src/http/ngx_http_request.c:2724:    b = c->buffer;
+src/http/ngx_http_request.c:2730:         * The c->buffer's memory was freed by ngx_http_set_keepalive().
+src/http/ngx_http_request.c:2731:         * However, the c->buffer->start and c->buffer->end were not changed
+src/http/ngx_http_request.c:2735:        b->pos = ngx_palloc(c->pool, size);
+src/http/ngx_http_request.c:2751:    c->log_error = NGX_ERROR_IGNORE_ECONNRESET;
+src/http/ngx_http_request.c:2754:    n = c->recv(c, b->last, size);
+src/http/ngx_http_request.c:2755:    c->log_error = NGX_ERROR_INFO;
+src/http/ngx_http_request.c:2764:         * c->buffer's memory for a keepalive connection.
+src/http/ngx_http_request.c:2767:        if (ngx_pfree(c->pool, b->start) == NGX_OK) {
+src/http/ngx_http_request.c:2770:             * the special note that c->buffer's memory was freed
+src/http/ngx_http_request.c:2784:    c->log->handler = NULL;
+src/http/ngx_http_request.c:2787:        ngx_log_error(NGX_LOG_INFO, c->log, ngx_socket_errno,
+src/http/ngx_http_request.c:2788:                      "client %V closed keepalive connection", &c->addr_text);
+src/http/ngx_http_request.c:2799:    c->log->handler = ngx_http_log_error;
+src/http/ngx_http_request.c:2800:    c->log->action = "reading client request line";
+src/http/ngx_http_request.c:2802:    c->idle = 0;
+src/http/ngx_http_request.c:2820:    rev = c->read;
+src/http/ngx_http_request.c:2831:    wev = c->write;
+src/http/ngx_http_request.c:2841:    if (ngx_shutdown_socket(c->fd, NGX_WRITE_SHUTDOWN) == -1) {
+src/http/ngx_http_request.c:2865:    r = c->data;
+src/http/ngx_http_request.c:2867:    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:2882:        n = c->recv(c, buffer, NGX_HTTP_LINGERING_BUFFER_SIZE);
+src/http/ngx_http_request.c:2884:        ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0, "lingering read: %d", n);
+src/http/ngx_http_request.c:3007:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:3011:        ngx_log_error(NGX_LOG_ALERT, c->log, 0, "http request count is zero");
+src/http/ngx_http_request.c:3122:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/http/ngx_http_request.c:3123:                   "close http connection: %d", c->fd);
+src/http/ngx_http_request.c:3127:    if (c->ssl) {
+src/http/ngx_http_request.c:3129:            c->ssl->handler = ngx_http_close_connection;
+src/http/ngx_http_request.c:3140:    c->destroyed = 1;
+src/http/ngx_http_request.c:3142:    pool = c->pool;
+Binary file src/http/.ngx_http_request.c.swp matches
+src/http/ngx_http_upstream_round_robin.c:402:    ngx_log_debug1(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/ngx_http_upstream_round_robin.c:403:                   "get rr peer, try: %ui", pc->tries);
+src/http/ngx_http_upstream_round_robin.c:417:        c->read->lock = c->read->own_lock;
+src/http/ngx_http_upstream_round_robin.c:418:        c->write->lock = c->write->own_lock;
+src/http/ngx_http_upstream_round_robin.c:421:        pc->connection = c;
+src/http/ngx_http_upstream_round_robin.c:422:        pc->cached = 1;
+src/http/ngx_http_upstream_round_robin.c:427:    pc->cached = 0;
+src/http/ngx_http_upstream_round_robin.c:428:    pc->connection = NULL;
+src/http/ngx_http_upstream_round_robin.c:447:        ngx_log_debug2(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/ngx_http_upstream_round_robin.c:452:    pc->sockaddr = peer->sockaddr;
+src/http/ngx_http_upstream_round_robin.c:453:    pc->socklen = peer->socklen;
+src/http/ngx_http_upstream_round_robin.c:454:    pc->name = &peer->name;
+src/http/ngx_http_upstream_round_robin.c:458:    if (pc->tries == 1 && rrp->peers->next) {
+src/http/ngx_http_upstream_round_robin.c:459:        pc->tries += rrp->peers->next->number;
+src/http/ngx_http_upstream_round_robin.c:472:        ngx_log_debug0(NGX_LOG_DEBUG_HTTP, pc->log, 0, "backup servers");
+src/http/ngx_http_upstream_round_robin.c:475:        pc->tries = rrp->peers->number;
+src/http/ngx_http_upstream_round_robin.c:499:    pc->name = peers->name;
+src/http/ngx_http_upstream_round_robin.c:582:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/ngx_http_upstream_round_robin.c:583:                   "free rr peer %ui %ui", pc->tries, state);
+src/http/ngx_http_upstream_round_robin.c:585:    if (state == 0 && pc->tries == 0) {
+src/http/ngx_http_upstream_round_robin.c:592:        pc->tries = 0;
+src/http/ngx_http_upstream_round_robin.c:611:        ngx_log_debug2(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/ngx_http_upstream_round_robin.c:630:    if (pc->tries) {
+src/http/ngx_http_upstream_round_robin.c:631:        pc->tries--;
+src/http/ngx_http_upstream_round_robin.c:657:    rc = ngx_ssl_set_session(pc->connection, ssl_session);
+src/http/ngx_http_upstream_round_robin.c:659:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/ngx_http_upstream_round_robin.c:678:    ssl_session = ngx_ssl_get_session(pc->connection);
+src/http/ngx_http_upstream_round_robin.c:684:    ngx_log_debug2(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/http/ngx_http_upstream_round_robin.c:699:        ngx_log_debug2(NGX_LOG_DEBUG_HTTP, pc->log, 0,
+src/event/ngx_event_busy_lock.c:191:        for (c = bl->events->next; c; c = c->next) {
+src/event/ngx_event_accept.c:53:    ls = lc->listening;
+src/event/ngx_event_accept.c:64:            s = accept4(lc->fd, (struct sockaddr *) sa, &socklen,
+src/event/ngx_event_accept.c:67:            s = accept(lc->fd, (struct sockaddr *) sa, &socklen);
+src/event/ngx_event_accept.c:70:        s = accept(lc->fd, (struct sockaddr *) sa, &socklen);
+src/event/ngx_event_accept.c:159:        c->pool = ngx_create_pool(ls->pool_size, ev->log);
+src/event/ngx_event_accept.c:160:        if (c->pool == NULL) {
+src/event/ngx_event_accept.c:165:        c->sockaddr = ngx_palloc(c->pool, socklen);
+src/event/ngx_event_accept.c:166:        if (c->sockaddr == NULL) {
+src/event/ngx_event_accept.c:171:        ngx_memcpy(c->sockaddr, sa, socklen);
+src/event/ngx_event_accept.c:173:        log = ngx_palloc(c->pool, sizeof(ngx_log_t));
+src/event/ngx_event_accept.c:204:        c->recv = ngx_recv;
+src/event/ngx_event_accept.c:205:        c->send = ngx_send;
+src/event/ngx_event_accept.c:206:        c->recv_chain = ngx_recv_chain;
+src/event/ngx_event_accept.c:207:        c->send_chain = ngx_send_chain;
+src/event/ngx_event_accept.c:209:        c->log = log;
+src/event/ngx_event_accept.c:210:        c->pool->log = log;
+src/event/ngx_event_accept.c:212:        c->socklen = socklen;
+src/event/ngx_event_accept.c:213:        c->listening = ls;
+src/event/ngx_event_accept.c:214:        c->local_sockaddr = ls->sockaddr;
+src/event/ngx_event_accept.c:216:        c->unexpected_eof = 1;
+src/event/ngx_event_accept.c:219:        if (c->sockaddr->sa_family == AF_UNIX) {
+src/event/ngx_event_accept.c:220:            c->tcp_nopush = NGX_TCP_NOPUSH_DISABLED;
+src/event/ngx_event_accept.c:221:            c->tcp_nodelay = NGX_TCP_NODELAY_DISABLED;
+src/event/ngx_event_accept.c:224:            c->sendfile = 0;
+src/event/ngx_event_accept.c:229:        rev = c->read;
+src/event/ngx_event_accept.c:230:        wev = c->write;
+src/event/ngx_event_accept.c:258:        c->number = ngx_atomic_fetch_add(ngx_connection_counter, 1);
+src/event/ngx_event_accept.c:265:        rev->lock = &c->lock;
+src/event/ngx_event_accept.c:266:        wev->lock = &c->lock;
+src/event/ngx_event_accept.c:267:        rev->own_lock = &c->lock;
+src/event/ngx_event_accept.c:268:        wev->own_lock = &c->lock;
+src/event/ngx_event_accept.c:272:            c->addr_text.data = ngx_pnalloc(c->pool, ls->addr_text_max_len);
+src/event/ngx_event_accept.c:273:            if (c->addr_text.data == NULL) {
+src/event/ngx_event_accept.c:278:            c->addr_text.len = ngx_sock_ntop(c->sockaddr, c->addr_text.data,
+src/event/ngx_event_accept.c:280:            if (c->addr_text.len == 0) {
+src/event/ngx_event_accept.c:299:            if (cidr[i].family != c->sockaddr->sa_family) {
+src/event/ngx_event_accept.c:307:                sin6 = (struct sockaddr_in6 *) c->sockaddr;
+src/event/ngx_event_accept.c:325:                sin = (struct sockaddr_in *) c->sockaddr;
+src/event/ngx_event_accept.c:345:                       "*%d accept: %V fd:%d", c->number, &c->addr_text, s);
+src/event/ngx_event_accept.c:420:        if (c->read->active) {
+src/event/ngx_event_accept.c:431:            if (ngx_add_event(c->read, NGX_READ_EVENT, 0) == NGX_ERROR) {
+src/event/ngx_event_accept.c:453:        if (!c->read->active) {
+src/event/ngx_event_accept.c:463:            if (ngx_del_event(c->read, NGX_READ_EVENT, NGX_DISABLE_EVENT)
+src/event/ngx_event_accept.c:482:    fd = c->fd;
+src/event/ngx_event_accept.c:483:    c->fd = (ngx_socket_t) -1;
+src/event/ngx_event_accept.c:486:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_socket_errno,
+src/event/ngx_event_accept.c:490:    if (c->pool) {
+src/event/ngx_event_accept.c:491:        ngx_destroy_pool(c->pool);
+src/event/ngx_event_pipe.c:144:             * and not to call c->recv_chain().
+src/event/ngx_event.c:754:        c->log = &ls[i].log;
+src/event/ngx_event.c:756:        c->listening = &ls[i];
+src/event/ngx_event.c:759:        rev = c->read;
+src/event/ngx_event.c:761:        rev->log = c->log;
+src/event/ngx_event.c:859:        c->write->available = lowat;
+src/event/ngx_event.c:865:    if (lowat == 0 || c->sndlowat) {
+src/event/ngx_event.c:871:    if (setsockopt(c->fd, SOL_SOCKET, SO_SNDLOWAT,
+src/event/ngx_event.c:880:    c->sndlowat = 1;
+src/event/ngx_event_openssl.c:485:    ngx_log_debug5(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:511:        if (c->ssl->handshaked) {
+src/event/ngx_event_openssl.c:512:            c->ssl->renegotiation = 1;
+src/event/ngx_event_openssl.c:513:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, 0, "SSL renegotiation");
+src/event/ngx_event_openssl.c:626:     * Elliptic-Curve Diffie-Hellman parameters are either "named curves"
+src/event/ngx_event_openssl.c:663:    sc = ngx_pcalloc(c->pool, sizeof(ngx_ssl_connection_t));
+src/event/ngx_event_openssl.c:668:    sc->buffer = ((flags & NGX_SSL_BUFFER) != 0);
+src/event/ngx_event_openssl.c:670:    sc->connection = SSL_new(ssl->ctx);
+src/event/ngx_event_openssl.c:672:    if (sc->connection == NULL) {
+src/event/ngx_event_openssl.c:673:        ngx_ssl_error(NGX_LOG_ALERT, c->log, 0, "SSL_new() failed");
+src/event/ngx_event_openssl.c:677:    if (SSL_set_fd(sc->connection, c->fd) == 0) {
+src/event/ngx_event_openssl.c:678:        ngx_ssl_error(NGX_LOG_ALERT, c->log, 0, "SSL_set_fd() failed");
+src/event/ngx_event_openssl.c:683:        SSL_set_connect_state(sc->connection);
+src/event/ngx_event_openssl.c:686:        SSL_set_accept_state(sc->connection);
+src/event/ngx_event_openssl.c:689:    if (SSL_set_ex_data(sc->connection, ngx_ssl_connection_index, c) == 0) {
+src/event/ngx_event_openssl.c:690:        ngx_ssl_error(NGX_LOG_ALERT, c->log, 0, "SSL_set_ex_data() failed");
+src/event/ngx_event_openssl.c:694:    c->ssl = sc;
+src/event/ngx_event_openssl.c:704:        if (SSL_set_session(c->ssl->connection, session) == 0) {
+src/event/ngx_event_openssl.c:705:            ngx_ssl_error(NGX_LOG_ALERT, c->log, 0, "SSL_set_session() failed");
+src/event/ngx_event_openssl.c:720:    ngx_ssl_clear_error(c->log);
+src/event/ngx_event_openssl.c:722:    n = SSL_do_handshake(c->ssl->connection);
+src/event/ngx_event_openssl.c:724:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "SSL_do_handshake: %d", n);
+src/event/ngx_event_openssl.c:728:        if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:732:        if (ngx_handle_write_event(c->write, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:744:        cipher = SSL_get_current_cipher(c->ssl->connection);
+src/event/ngx_event_openssl.c:767:            ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:769:                           SSL_get_version(c->ssl->connection), &buf[1]);
+src/event/ngx_event_openssl.c:771:            if (SSL_session_reused(c->ssl->connection)) {
+src/event/ngx_event_openssl.c:772:                ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:777:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:783:        c->ssl->handshaked = 1;
+src/event/ngx_event_openssl.c:785:        c->recv = ngx_ssl_recv;
+src/event/ngx_event_openssl.c:786:        c->send = ngx_ssl_write;
+src/event/ngx_event_openssl.c:787:        c->recv_chain = ngx_ssl_recv_chain;
+src/event/ngx_event_openssl.c:788:        c->send_chain = ngx_ssl_send_chain;
+src/event/ngx_event_openssl.c:791:        if (c->ssl->connection->s3) {
+src/event/ngx_event_openssl.c:792:            c->ssl->connection->s3->flags |= SSL3_FLAGS_NO_RENEGOTIATE_CIPHERS;
+src/event/ngx_event_openssl.c:798:    sslerr = SSL_get_error(c->ssl->connection, n);
+src/event/ngx_event_openssl.c:800:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "SSL_get_error: %d", sslerr);
+src/event/ngx_event_openssl.c:803:        c->read->ready = 0;
+src/event/ngx_event_openssl.c:804:        c->read->handler = ngx_ssl_handshake_handler;
+src/event/ngx_event_openssl.c:805:        c->write->handler = ngx_ssl_handshake_handler;
+src/event/ngx_event_openssl.c:807:        if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:815:        c->write->ready = 0;
+src/event/ngx_event_openssl.c:816:        c->read->handler = ngx_ssl_handshake_handler;
+src/event/ngx_event_openssl.c:817:        c->write->handler = ngx_ssl_handshake_handler;
+src/event/ngx_event_openssl.c:819:        if (ngx_handle_write_event(c->write, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:828:    c->ssl->no_wait_shutdown = 1;
+src/event/ngx_event_openssl.c:829:    c->ssl->no_send_shutdown = 1;
+src/event/ngx_event_openssl.c:830:    c->read->eof = 1;
+src/event/ngx_event_openssl.c:833:        ngx_log_error(NGX_LOG_INFO, c->log, err,
+src/event/ngx_event_openssl.c:839:    c->read->error = 1;
+src/event/ngx_event_openssl.c:854:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:858:        c->ssl->handler(c);
+src/event/ngx_event_openssl.c:866:    c->ssl->handler(c);
+src/event/ngx_event_openssl.c:907:                c->read->ready = 1;
+src/event/ngx_event_openssl.c:923:    if (c->ssl->last == NGX_ERROR) {
+src/event/ngx_event_openssl.c:924:        c->read->error = 1;
+src/event/ngx_event_openssl.c:928:    if (c->ssl->last == NGX_DONE) {
+src/event/ngx_event_openssl.c:929:        c->read->ready = 0;
+src/event/ngx_event_openssl.c:930:        c->read->eof = 1;
+src/event/ngx_event_openssl.c:936:    ngx_ssl_clear_error(c->log);
+src/event/ngx_event_openssl.c:945:        n = SSL_read(c->ssl->connection, buf, size);
+src/event/ngx_event_openssl.c:947:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "SSL_read: %d", n);
+src/event/ngx_event_openssl.c:953:        c->ssl->last = ngx_ssl_handle_recv(c, n);
+src/event/ngx_event_openssl.c:955:        if (c->ssl->last == NGX_OK) {
+src/event/ngx_event_openssl.c:972:        switch (c->ssl->last) {
+src/event/ngx_event_openssl.c:975:            c->read->ready = 0;
+src/event/ngx_event_openssl.c:976:            c->read->eof = 1;
+src/event/ngx_event_openssl.c:980:            c->read->error = 1;
+src/event/ngx_event_openssl.c:985:            return c->ssl->last;
+src/event/ngx_event_openssl.c:997:    if (c->ssl->renegotiation) {
+src/event/ngx_event_openssl.c:1004:        ngx_log_error(NGX_LOG_NOTICE, c->log, 0, "SSL renegotiation disabled");
+src/event/ngx_event_openssl.c:1007:            ngx_ssl_error(NGX_LOG_DEBUG, c->log, 0,
+src/event/ngx_event_openssl.c:1013:        c->ssl->no_wait_shutdown = 1;
+src/event/ngx_event_openssl.c:1014:        c->ssl->no_send_shutdown = 1;
+src/event/ngx_event_openssl.c:1021:        if (c->ssl->saved_write_handler) {
+src/event/ngx_event_openssl.c:1023:            c->write->handler = c->ssl->saved_write_handler;
+src/event/ngx_event_openssl.c:1024:            c->ssl->saved_write_handler = NULL;
+src/event/ngx_event_openssl.c:1025:            c->write->ready = 1;
+src/event/ngx_event_openssl.c:1027:            if (ngx_handle_write_event(c->write, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:1031:            ngx_post_event(c->write, &ngx_posted_events);
+src/event/ngx_event_openssl.c:1037:    sslerr = SSL_get_error(c->ssl->connection, n);
+src/event/ngx_event_openssl.c:1041:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "SSL_get_error: %d", sslerr);
+src/event/ngx_event_openssl.c:1044:        c->read->ready = 0;
+src/event/ngx_event_openssl.c:1050:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/event/ngx_event_openssl.c:1053:        c->write->ready = 0;
+src/event/ngx_event_openssl.c:1055:        if (ngx_handle_write_event(c->write, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:1063:        if (c->ssl->saved_write_handler == NULL) {
+src/event/ngx_event_openssl.c:1064:            c->ssl->saved_write_handler = c->write->handler;
+src/event/ngx_event_openssl.c:1065:            c->write->handler = ngx_ssl_write_handler;
+src/event/ngx_event_openssl.c:1071:    c->ssl->no_wait_shutdown = 1;
+src/event/ngx_event_openssl.c:1072:    c->ssl->no_send_shutdown = 1;
+src/event/ngx_event_openssl.c:1075:        ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:1093:    c->read->handler(c->read);
+src/event/ngx_event_openssl.c:1113:    if (!c->ssl->buffer) {
+src/event/ngx_event_openssl.c:1132:            c->sent += n;
+src/event/ngx_event_openssl.c:1149:    buf = c->ssl->buf;
+src/event/ngx_event_openssl.c:1152:        buf = ngx_create_temp_buf(c->pool, NGX_SSL_BUFSIZE);
+src/event/ngx_event_openssl.c:1157:        c->ssl->buf = buf;
+src/event/ngx_event_openssl.c:1161:        buf->start = ngx_palloc(c->pool, NGX_SSL_BUFSIZE);
+src/event/ngx_event_openssl.c:1197:            ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:1213:        if (!flush && buf->last < buf->end && c->ssl->buffer) {
+src/event/ngx_event_openssl.c:1224:            c->buffered |= NGX_SSL_BUFFERED;
+src/event/ngx_event_openssl.c:1229:        c->sent += n;
+src/event/ngx_event_openssl.c:1246:        c->buffered |= NGX_SSL_BUFFERED;
+src/event/ngx_event_openssl.c:1249:        c->buffered &= ~NGX_SSL_BUFFERED;
+src/event/ngx_event_openssl.c:1262:    ngx_ssl_clear_error(c->log);
+src/event/ngx_event_openssl.c:1264:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "SSL to write: %d", size);
+src/event/ngx_event_openssl.c:1266:    n = SSL_write(c->ssl->connection, data, size);
+src/event/ngx_event_openssl.c:1268:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "SSL_write: %d", n);
+src/event/ngx_event_openssl.c:1272:        if (c->ssl->saved_read_handler) {
+src/event/ngx_event_openssl.c:1274:            c->read->handler = c->ssl->saved_read_handler;
+src/event/ngx_event_openssl.c:1275:            c->ssl->saved_read_handler = NULL;
+src/event/ngx_event_openssl.c:1276:            c->read->ready = 1;
+src/event/ngx_event_openssl.c:1278:            if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:1282:            ngx_post_event(c->read, &ngx_posted_events);
+src/event/ngx_event_openssl.c:1288:    sslerr = SSL_get_error(c->ssl->connection, n);
+src/event/ngx_event_openssl.c:1292:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "SSL_get_error: %d", sslerr);
+src/event/ngx_event_openssl.c:1295:        c->write->ready = 0;
+src/event/ngx_event_openssl.c:1301:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/event/ngx_event_openssl.c:1304:        c->read->ready = 0;
+src/event/ngx_event_openssl.c:1306:        if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:1315:        if (c->ssl->saved_read_handler == NULL) {
+src/event/ngx_event_openssl.c:1316:            c->ssl->saved_read_handler = c->read->handler;
+src/event/ngx_event_openssl.c:1317:            c->read->handler = ngx_ssl_read_handler;
+src/event/ngx_event_openssl.c:1323:    c->ssl->no_wait_shutdown = 1;
+src/event/ngx_event_openssl.c:1324:    c->ssl->no_send_shutdown = 1;
+src/event/ngx_event_openssl.c:1325:    c->write->error = 1;
+src/event/ngx_event_openssl.c:1340:    c->write->handler(c->write);
+src/event/ngx_event_openssl.c:1347:    if (c->ssl->buf && c->ssl->buf->start) {
+src/event/ngx_event_openssl.c:1348:        if (ngx_pfree(c->pool, c->ssl->buf->start) == NGX_OK) {
+src/event/ngx_event_openssl.c:1349:            c->ssl->buf->start = NULL;
+src/event/ngx_event_openssl.c:1361:    if (c->timedout) {
+src/event/ngx_event_openssl.c:1363:        SSL_set_quiet_shutdown(c->ssl->connection, 1);
+src/event/ngx_event_openssl.c:1366:        mode = SSL_get_shutdown(c->ssl->connection);
+src/event/ngx_event_openssl.c:1368:        if (c->ssl->no_wait_shutdown) {
+src/event/ngx_event_openssl.c:1372:        if (c->ssl->no_send_shutdown) {
+src/event/ngx_event_openssl.c:1376:        if (c->ssl->no_wait_shutdown && c->ssl->no_send_shutdown) {
+src/event/ngx_event_openssl.c:1377:            SSL_set_quiet_shutdown(c->ssl->connection, 1);
+src/event/ngx_event_openssl.c:1381:    SSL_set_shutdown(c->ssl->connection, mode);
+src/event/ngx_event_openssl.c:1383:    ngx_ssl_clear_error(c->log);
+src/event/ngx_event_openssl.c:1385:    n = SSL_shutdown(c->ssl->connection);
+src/event/ngx_event_openssl.c:1387:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "SSL_shutdown: %d", n);
+src/event/ngx_event_openssl.c:1394:        sslerr = SSL_get_error(c->ssl->connection, n);
+src/event/ngx_event_openssl.c:1396:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:1401:        SSL_free(c->ssl->connection);
+src/event/ngx_event_openssl.c:1402:        c->ssl = NULL;
+src/event/ngx_event_openssl.c:1408:        c->read->handler = ngx_ssl_shutdown_handler;
+src/event/ngx_event_openssl.c:1409:        c->write->handler = ngx_ssl_shutdown_handler;
+src/event/ngx_event_openssl.c:1411:        if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:1415:        if (ngx_handle_write_event(c->write, 0) != NGX_OK) {
+src/event/ngx_event_openssl.c:1420:            ngx_add_timer(c->read, 30000);
+src/event/ngx_event_openssl.c:1430:    SSL_free(c->ssl->connection);
+src/event/ngx_event_openssl.c:1431:    c->ssl = NULL;
+src/event/ngx_event_openssl.c:1444:    handler = c->ssl->handler;
+src/event/ngx_event_openssl.c:1447:        c->timedout = 1;
+src/event/ngx_event_openssl.c:1481:            switch (c->log_error) {
+src/event/ngx_event_openssl.c:1558:            switch (c->log_error) {
+src/event/ngx_event_openssl.c:1575:    ngx_ssl_error(level, c->log, err, text);
+src/event/ngx_event_openssl.c:1854:    ngx_log_debug3(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:1886:    ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/event/ngx_event_openssl.c:1920:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl.c:2176:    s->data = (u_char *) SSL_get_version(c->ssl->connection);
+src/event/ngx_event_openssl.c:2184:    s->data = (u_char *) SSL_get_cipher_name(c->ssl->connection);
+src/event/ngx_event_openssl.c:2196:    sess = SSL_get0_session(c->ssl->connection);
+src/event/ngx_event_openssl.c:2200:    buf = ngx_alloc(len, c->log);
+src/event/ngx_event_openssl.c:2232:    cert = SSL_get_peer_certificate(c->ssl->connection);
+src/event/ngx_event_openssl.c:2239:        ngx_ssl_error(NGX_LOG_ALERT, c->log, 0, "BIO_new() failed");
+src/event/ngx_event_openssl.c:2245:        ngx_ssl_error(NGX_LOG_ALERT, c->log, 0, "PEM_write_bio_X509() failed");
+src/event/ngx_event_openssl.c:2327:    cert = SSL_get_peer_certificate(c->ssl->connection);
+src/event/ngx_event_openssl.c:2369:    cert = SSL_get_peer_certificate(c->ssl->connection);
+src/event/ngx_event_openssl.c:2410:    cert = SSL_get_peer_certificate(c->ssl->connection);
+src/event/ngx_event_openssl.c:2445:    if (SSL_get_verify_result(c->ssl->connection) != X509_V_OK) {
+src/event/ngx_event_openssl.c:2450:    cert = SSL_get_peer_certificate(c->ssl->connection);
+src/event/modules/ngx_win32_select_module.c:134:                   "select add event fd:%d ev:%i", c->fd, event);
+src/event/modules/ngx_win32_select_module.c:138:                      "select event fd:%d ev:%i is already set", c->fd, event);
+src/event/modules/ngx_win32_select_module.c:147:                      ev->write ? "write" : "read", c->fd, event);
+src/event/modules/ngx_win32_select_module.c:161:        FD_SET(c->fd, &master_read_fd_set);
+src/event/modules/ngx_win32_select_module.c:165:        FD_SET(c->fd, &master_write_fd_set);
+src/event/modules/ngx_win32_select_module.c:194:                   "select del event fd:%d ev:%i", c->fd, event);
+src/event/modules/ngx_win32_select_module.c:197:        FD_CLR(c->fd, &master_read_fd_set);
+src/event/modules/ngx_win32_select_module.c:201:        FD_CLR(c->fd, &master_write_fd_set);
+src/event/modules/ngx_win32_select_module.c:234:                           "select event: fd:%d wr:%d", c->fd, ev->write);
+src/event/modules/ngx_win32_select_module.c:309:            if (FD_ISSET(c->fd, &work_write_fd_set)) {
+src/event/modules/ngx_win32_select_module.c:312:                               "select write %d", c->fd);
+src/event/modules/ngx_win32_select_module.c:316:            if (FD_ISSET(c->fd, &work_read_fd_set)) {
+src/event/modules/ngx_win32_select_module.c:319:                               "select read %d", c->fd);
+src/event/modules/ngx_epoll_module.c:397:        e = c->write;
+src/event/modules/ngx_epoll_module.c:404:        e = c->read;
+src/event/modules/ngx_epoll_module.c:424:                   c->fd, op, ee.events);
+src/event/modules/ngx_epoll_module.c:426:    if (epoll_ctl(ep, op, c->fd, &ee) == -1) {
+src/event/modules/ngx_epoll_module.c:428:                      "epoll_ctl(%d, %d) failed", op, c->fd);
+src/event/modules/ngx_epoll_module.c:464:        e = c->write;
+src/event/modules/ngx_epoll_module.c:468:        e = c->read;
+src/event/modules/ngx_epoll_module.c:485:                   c->fd, op, ee.events);
+src/event/modules/ngx_epoll_module.c:487:    if (epoll_ctl(ep, op, c->fd, &ee) == -1) {
+src/event/modules/ngx_epoll_module.c:489:                      "epoll_ctl(%d, %d) failed", op, c->fd);
+src/event/modules/ngx_epoll_module.c:505:    ee.data.ptr = (void *) ((uintptr_t) c | c->read->instance);
+src/event/modules/ngx_epoll_module.c:507:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/modules/ngx_epoll_module.c:508:                   "epoll add connection: fd:%d ev:%08XD", c->fd, ee.events);
+src/event/modules/ngx_epoll_module.c:510:    if (epoll_ctl(ep, EPOLL_CTL_ADD, c->fd, &ee) == -1) {
+src/event/modules/ngx_epoll_module.c:511:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/event/modules/ngx_epoll_module.c:512:                      "epoll_ctl(EPOLL_CTL_ADD, %d) failed", c->fd);
+src/event/modules/ngx_epoll_module.c:516:    c->read->active = 1;
+src/event/modules/ngx_epoll_module.c:517:    c->write->active = 1;
+src/event/modules/ngx_epoll_module.c:536:        c->read->active = 0;
+src/event/modules/ngx_epoll_module.c:537:        c->write->active = 0;
+src/event/modules/ngx_epoll_module.c:541:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/modules/ngx_epoll_module.c:542:                   "epoll del connection: fd:%d", c->fd);
+src/event/modules/ngx_epoll_module.c:548:    if (epoll_ctl(ep, op, c->fd, &ee) == -1) {
+src/event/modules/ngx_epoll_module.c:549:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/event/modules/ngx_epoll_module.c:550:                      "epoll_ctl(%d, %d) failed", op, c->fd);
+src/event/modules/ngx_epoll_module.c:554:    c->read->active = 0;
+src/event/modules/ngx_epoll_module.c:555:    c->write->active = 0;
+src/event/modules/ngx_epoll_module.c:621:        rev = c->read;
+src/event/modules/ngx_epoll_module.c:623:        if (c->fd == -1 || rev->instance != instance) {
+src/event/modules/ngx_epoll_module.c:639:                       c->fd, revents, event_list[i].data.ptr);
+src/event/modules/ngx_epoll_module.c:644:                           c->fd, revents);
+src/event/modules/ngx_epoll_module.c:651:                          c->fd, revents);
+src/event/modules/ngx_epoll_module.c:687:        wev = c->write;
+src/event/modules/ngx_epoll_module.c:691:            if (c->fd == -1 || wev->instance != instance) {
+src/event/modules/ngx_select_module.c:132:                   "select add event fd:%d ev:%i", c->fd, event);
+src/event/modules/ngx_select_module.c:136:                      "select event fd:%d ev:%i is already set", c->fd, event);
+src/event/modules/ngx_select_module.c:145:                      ev->write ? "write" : "read", c->fd, event);
+src/event/modules/ngx_select_module.c:150:        FD_SET(c->fd, &master_read_fd_set);
+src/event/modules/ngx_select_module.c:153:        FD_SET(c->fd, &master_write_fd_set);
+src/event/modules/ngx_select_module.c:156:    if (max_fd != -1 && max_fd < c->fd) {
+src/event/modules/ngx_select_module.c:157:        max_fd = c->fd;
+src/event/modules/ngx_select_module.c:185:                   "select del event fd:%d ev:%i", c->fd, event);
+src/event/modules/ngx_select_module.c:188:        FD_CLR(c->fd, &master_read_fd_set);
+src/event/modules/ngx_select_module.c:191:        FD_CLR(c->fd, &master_write_fd_set);
+src/event/modules/ngx_select_module.c:194:    if (max_fd == c->fd) {
+src/event/modules/ngx_select_module.c:224:            if (max_fd < c->fd) {
+src/event/modules/ngx_select_module.c:225:                max_fd = c->fd;
+src/event/modules/ngx_select_module.c:239:                           "select event: fd:%d wr:%d", c->fd, ev->write);
+src/event/modules/ngx_select_module.c:318:            if (FD_ISSET(c->fd, &work_write_fd_set)) {
+src/event/modules/ngx_select_module.c:321:                               "select write %d", c->fd);
+src/event/modules/ngx_select_module.c:325:            if (FD_ISSET(c->fd, &work_read_fd_set)) {
+src/event/modules/ngx_select_module.c:328:                               "select read %d", c->fd);
+src/event/modules/ngx_kqueue_module.c:326:                      "previous event on #%d were not passed in kernel", c->fd);
+src/event/modules/ngx_kqueue_module.c:415:                   c->fd, filter, flags);
+src/event/modules/ngx_kqueue_module.c:436:    kev->ident = c->fd;
+src/event/modules/ngx_aio_module.c:122:    if (c->read->active == 0 && c->write->active == 0) {
+src/event/modules/ngx_aio_module.c:130:    rc = aio_cancel(c->fd, NULL);
+src/event/modules/ngx_aio_module.c:132:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "aio_cancel: %d", rc);
+src/event/modules/ngx_aio_module.c:135:        c->read->active = 0;
+src/event/modules/ngx_aio_module.c:136:        c->write->active = 0;
+src/event/modules/ngx_aio_module.c:141:        c->read->active = 0;
+src/event/modules/ngx_aio_module.c:142:        c->write->active = 0;
+src/event/modules/ngx_aio_module.c:143:        ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/event/modules/ngx_aio_module.c:149:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/event/modules/ngx_aio_module.c:155:        ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/event/modules/ngx_eventport_module.c:311:        e = c->write;
+src/event/modules/ngx_eventport_module.c:318:        e = c->read;
+src/event/modules/ngx_eventport_module.c:330:                   "eventport add event: fd:%d ev:%04Xi", c->fd, events);
+src/event/modules/ngx_eventport_module.c:332:    if (port_associate(ep, PORT_SOURCE_FD, c->fd, events,
+src/event/modules/ngx_eventport_module.c:369:        e = c->write;
+src/event/modules/ngx_eventport_module.c:373:        e = c->read;
+src/event/modules/ngx_eventport_module.c:379:                       "eventport change event: fd:%d ev:%04Xi", c->fd, event);
+src/event/modules/ngx_eventport_module.c:381:        if (port_associate(ep, PORT_SOURCE_FD, c->fd, event,
+src/event/modules/ngx_eventport_module.c:392:                       "eventport del event: fd:%d", c->fd);
+src/event/modules/ngx_eventport_module.c:394:        if (port_dissociate(ep, PORT_SOURCE_FD, c->fd) == -1) {
+src/event/modules/ngx_eventport_module.c:530:            rev = c->read;
+src/event/modules/ngx_eventport_module.c:531:            wev = c->write;
+src/event/modules/ngx_eventport_module.c:565:                    if (port_associate(ep, PORT_SOURCE_FD, c->fd, POLLIN,
+src/event/modules/ngx_poll_module.c:125:                      "poll event fd:%d ev:%i is already set", c->fd, event);
+src/event/modules/ngx_poll_module.c:130:        e = c->write;
+src/event/modules/ngx_poll_module.c:136:        e = c->read;
+src/event/modules/ngx_poll_module.c:143:                   "poll add event: fd:%d ev:%i", c->fd, event);
+src/event/modules/ngx_poll_module.c:146:        event_list[nevents].fd = c->fd;
+src/event/modules/ngx_poll_module.c:178:                      c->fd, event);
+src/event/modules/ngx_poll_module.c:183:        e = c->write;
+src/event/modules/ngx_poll_module.c:189:        e = c->read;
+src/event/modules/ngx_poll_module.c:196:                   "poll del event: fd:%d ev:%i", c->fd, event);
+src/event/modules/ngx_poll_module.c:210:            if (c->fd == -1) {
+src/event/modules/ngx_poll_module.c:215:                if (c->read->index == (ngx_uint_t) nevents) {
+src/event/modules/ngx_poll_module.c:216:                    c->read->index = ev->index;
+src/event/modules/ngx_poll_module.c:219:                if (c->write->index == (ngx_uint_t) nevents) {
+src/event/modules/ngx_poll_module.c:220:                    c->write->index = ev->index;
+src/event/modules/ngx_poll_module.c:343:        if (c->fd == -1) {
+src/event/modules/ngx_poll_module.c:377:            ev = c->read;
+src/event/modules/ngx_poll_module.c:393:            ev = c->write;
+src/event/modules/ngx_devpoll_module.c:229:                   "devpoll add event: fd:%d ev:%04Xi", c->fd, event);
+src/event/modules/ngx_devpoll_module.c:251:                   "devpoll del event: fd:%d ev:%04Xi", c->fd, event);
+src/event/modules/ngx_devpoll_module.c:260:        e = (event == POLLIN) ? c->write : c->read;
+src/event/modules/ngx_devpoll_module.c:272:        e = c->write;
+src/event/modules/ngx_devpoll_module.c:276:        e = c->read;
+src/event/modules/ngx_devpoll_module.c:297:                   "devpoll fd:%d ev:%04Xi fl:%04Xi", c->fd, event, flags);
+src/event/modules/ngx_devpoll_module.c:313:    change_list[nchanges].fd = c->fd;
+src/event/modules/ngx_devpoll_module.c:416:        if (c == NULL || c->fd == -1) {
+src/event/modules/ngx_devpoll_module.c:495:        rev = c->read;
+src/event/modules/ngx_devpoll_module.c:517:        wev = c->write;
+src/event/modules/ngx_rtsig_module.c:213:    if (c->read->accept && c->read->disabled) {
+src/event/modules/ngx_rtsig_module.c:215:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/modules/ngx_rtsig_module.c:216:                       "rtsig enable connection: fd:%d", c->fd);
+src/event/modules/ngx_rtsig_module.c:218:        if (fcntl(c->fd, F_SETOWN, ngx_pid) == -1) {
+src/event/modules/ngx_rtsig_module.c:219:            ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/event/modules/ngx_rtsig_module.c:224:        c->read->active = 1;
+src/event/modules/ngx_rtsig_module.c:225:        c->read->disabled = 0;
+src/event/modules/ngx_rtsig_module.c:230:    signo = rtscf->signo + c->read->instance;
+src/event/modules/ngx_rtsig_module.c:232:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/modules/ngx_rtsig_module.c:233:                   "rtsig add connection: fd:%d signo:%ui", c->fd, signo);
+src/event/modules/ngx_rtsig_module.c:235:    if (fcntl(c->fd, F_SETFL, O_RDWR|O_NONBLOCK|O_ASYNC) == -1) {
+src/event/modules/ngx_rtsig_module.c:236:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/event/modules/ngx_rtsig_module.c:241:    if (fcntl(c->fd, F_SETSIG, (int) signo) == -1) {
+src/event/modules/ngx_rtsig_module.c:242:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/event/modules/ngx_rtsig_module.c:247:    if (fcntl(c->fd, F_SETOWN, ngx_pid) == -1) {
+src/event/modules/ngx_rtsig_module.c:248:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/event/modules/ngx_rtsig_module.c:254:    if (fcntl(c->fd, F_SETAUXFL, O_ONESIGFD) == -1) {
+src/event/modules/ngx_rtsig_module.c:255:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/event/modules/ngx_rtsig_module.c:261:    c->read->active = 1;
+src/event/modules/ngx_rtsig_module.c:262:    c->write->active = 1;
+src/event/modules/ngx_rtsig_module.c:271:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/modules/ngx_rtsig_module.c:272:                   "rtsig del connection: fd:%d", c->fd);
+src/event/modules/ngx_rtsig_module.c:274:    if ((flags & NGX_DISABLE_EVENT) && c->read->accept) {
+src/event/modules/ngx_rtsig_module.c:276:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/modules/ngx_rtsig_module.c:277:                       "rtsig disable connection: fd:%d", c->fd);
+src/event/modules/ngx_rtsig_module.c:279:        c->read->active = 0;
+src/event/modules/ngx_rtsig_module.c:280:        c->read->disabled = 1;
+src/event/modules/ngx_rtsig_module.c:285:        c->read->active = 0;
+src/event/modules/ngx_rtsig_module.c:286:        c->write->active = 0;
+src/event/modules/ngx_rtsig_module.c:290:    if (fcntl(c->fd, F_SETFL, O_RDWR|O_NONBLOCK) == -1) {
+src/event/modules/ngx_rtsig_module.c:291:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/event/modules/ngx_rtsig_module.c:296:    c->read->active = 0;
+src/event/modules/ngx_rtsig_module.c:297:    c->write->active = 0;
+src/event/modules/ngx_rtsig_module.c:387:        rev = c->read;
+src/event/modules/ngx_rtsig_module.c:417:        wev = c->write;
+src/event/modules/ngx_rtsig_module.c:505:            if (c == NULL || c->fd == -1) {
+src/event/modules/ngx_rtsig_module.c:511:            if (c->read->active && c->read->handler) {
+src/event/modules/ngx_rtsig_module.c:515:            if (c->write->active && c->write->handler) {
+src/event/modules/ngx_rtsig_module.c:523:            overflow_list[n].fd = c->fd;
+src/event/modules/ngx_rtsig_module.c:566:            rev = c->read;
+src/event/modules/ngx_rtsig_module.c:594:            wev = c->write;
+src/event/ngx_event_openssl_stapling.c:458:    ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/event/ngx_event_openssl_stapling.c:469:            ngx_ssl_error(NGX_LOG_ALERT, c->log, 0, "OPENSSL_malloc() failed");
+src/event/ngx_event_openssl_stapling.c:953:    ctx = c->data;
+src/event/ngx_event_openssl_stapling.c:1007:    ctx = c->data;
+src/event/ngx_event_connect.c:25:    rc = pc->get(pc, pc->data);
+src/event/ngx_event_connect.c:30:    s = ngx_socket(pc->sockaddr->sa_family, SOCK_STREAM, 0);
+src/event/ngx_event_connect.c:32:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, pc->log, 0, "socket %d", s);
+src/event/ngx_event_connect.c:35:        ngx_log_error(NGX_LOG_ALERT, pc->log, ngx_socket_errno,
+src/event/ngx_event_connect.c:41:    c = ngx_get_connection(s, pc->log);
+src/event/ngx_event_connect.c:45:            ngx_log_error(NGX_LOG_ALERT, pc->log, ngx_socket_errno,
+src/event/ngx_event_connect.c:52:    if (pc->rcvbuf) {
+src/event/ngx_event_connect.c:54:                       (const void *) &pc->rcvbuf, sizeof(int)) == -1)
+src/event/ngx_event_connect.c:56:            ngx_log_error(NGX_LOG_ALERT, pc->log, ngx_socket_errno,
+src/event/ngx_event_connect.c:63:        ngx_log_error(NGX_LOG_ALERT, pc->log, ngx_socket_errno,
+src/event/ngx_event_connect.c:69:    if (pc->local) {
+src/event/ngx_event_connect.c:70:        if (bind(s, pc->local->sockaddr, pc->local->socklen) == -1) {
+src/event/ngx_event_connect.c:71:            ngx_log_error(NGX_LOG_CRIT, pc->log, ngx_socket_errno,
+src/event/ngx_event_connect.c:72:                          "bind(%V) failed", &pc->local->name);
+src/event/ngx_event_connect.c:78:    c->recv = ngx_recv;
+src/event/ngx_event_connect.c:79:    c->send = ngx_send;
+src/event/ngx_event_connect.c:80:    c->recv_chain = ngx_recv_chain;
+src/event/ngx_event_connect.c:81:    c->send_chain = ngx_send_chain;
+src/event/ngx_event_connect.c:83:    c->sendfile = 1;
+src/event/ngx_event_connect.c:85:    c->log_error = pc->log_error;
+src/event/ngx_event_connect.c:87:    if (pc->sockaddr->sa_family != AF_INET) {
+src/event/ngx_event_connect.c:88:        c->tcp_nopush = NGX_TCP_NOPUSH_DISABLED;
+src/event/ngx_event_connect.c:89:        c->tcp_nodelay = NGX_TCP_NODELAY_DISABLED;
+src/event/ngx_event_connect.c:93:        c->sendfile = 0;
+src/event/ngx_event_connect.c:97:    rev = c->read;
+src/event/ngx_event_connect.c:98:    wev = c->write;
+src/event/ngx_event_connect.c:100:    rev->log = pc->log;
+src/event/ngx_event_connect.c:101:    wev->log = pc->log;
+src/event/ngx_event_connect.c:103:    pc->connection = c;
+src/event/ngx_event_connect.c:105:    c->number = ngx_atomic_fetch_add(ngx_connection_counter, 1);
+src/event/ngx_event_connect.c:111:    rev->lock = pc->lock;
+src/event/ngx_event_connect.c:112:    wev->lock = pc->lock;
+src/event/ngx_event_connect.c:113:    rev->own_lock = &c->lock;
+src/event/ngx_event_connect.c:114:    wev->own_lock = &c->lock;
+src/event/ngx_event_connect.c:124:    ngx_log_debug3(NGX_LOG_DEBUG_EVENT, pc->log, 0,
+src/event/ngx_event_connect.c:125:                   "connect to %V, fd:%d #%d", pc->name, s, c->number);
+src/event/ngx_event_connect.c:127:    rc = connect(s, pc->sockaddr, pc->socklen);
+src/event/ngx_event_connect.c:160:            ngx_log_error(level, c->log, err, "connect() to %V failed",
+src/event/ngx_event_connect.c:161:                          pc->name);
+src/event/ngx_event_connect.c:164:            pc->connection = NULL;
+src/event/ngx_event_connect.c:178:        ngx_log_debug0(NGX_LOG_DEBUG_EVENT, pc->log, 0, "connected");
+src/event/ngx_event_connect.c:187:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, pc->log, ngx_socket_errno,
+src/event/ngx_event_connect.c:193:            ngx_log_error(NGX_LOG_ALERT, pc->log, ngx_socket_errno,
+src/event/ngx_event_connect.c:239:    ngx_log_debug0(NGX_LOG_DEBUG_EVENT, pc->log, 0, "connected");
+src/event/ngx_event_connect.c:248:    pc->connection = NULL;
+src/event/ngx_event_openssl.h:123:#define ngx_ssl_get_session(c)      SSL_get1_session(c->ssl->connection)
+src/os/unix/ngx_solaris_sendfilev_chain.c:61:    wev = c->write;
+src/os/unix/ngx_solaris_sendfilev_chain.c:67:    if (!c->sendfile) {
+src/os/unix/ngx_solaris_sendfilev_chain.c:84:    vec.pool = c->pool;
+src/os/unix/ngx_solaris_sendfilev_chain.c:178:        n = sendfilev(c->fd, vec.elts, vec.nelts, &sent);
+src/os/unix/ngx_solaris_sendfilev_chain.c:197:            ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_solaris_sendfilev_chain.c:201:        ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_solaris_sendfilev_chain.c:208:        c->sent += sent;
+src/os/unix/ngx_aio_write.c:22:    wev = c->write;
+src/os/unix/ngx_aio_write.c:34:        wev->aiocb.aio_fildes = c->fd;
+src/os/unix/ngx_aio_write_chain.c:41:        if (!c->write->ready) {
+src/os/unix/ngx_aio_write_chain.c:70:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "aio_write: %z", n);
+src/os/unix/ngx_aio_write_chain.c:78:            c->sent += n;
+src/os/unix/ngx_aio_write_chain.c:81:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_aio_write_chain.c:82:                       "aio_write sent: %O", c->sent);
+src/os/unix/ngx_udp_recv.c:22:    rev = c->read;
+src/os/unix/ngx_udp_recv.c:25:        n = recv(c->fd, buf, size, 0);
+src/os/unix/ngx_udp_recv.c:27:        ngx_log_debug3(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_udp_recv.c:28:                       "recv: fd:%d %d of %d", c->fd, n, size);
+src/os/unix/ngx_udp_recv.c:51:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_udp_recv.c:80:    rev = c->read;
+src/os/unix/ngx_udp_recv.c:83:        n = recv(c->fd, buf, size, 0);
+src/os/unix/ngx_udp_recv.c:85:        ngx_log_debug3(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_udp_recv.c:86:                       "recv: fd:%d %d of %d", c->fd, n, size);
+src/os/unix/ngx_udp_recv.c:95:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_errno.c:15: * 1) strerror() and strerror_r() functions are not Async-Signal-Safe,
+src/os/unix/ngx_readv_chain.c:28:    rev = c->read;
+src/os/unix/ngx_readv_chain.c:31:        ngx_log_debug3(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_readv_chain.c:40:                ngx_log_error(NGX_LOG_INFO, c->log, rev->kq_errno,
+src/os/unix/ngx_readv_chain.c:65:    vec.pool = c->pool;
+src/os/unix/ngx_readv_chain.c:92:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_readv_chain.c:95:    rev = c->read;
+src/os/unix/ngx_readv_chain.c:98:        n = readv(c->fd, (struct iovec *) vec.elts, vec.nelts);
+src/os/unix/ngx_readv_chain.c:127:                    ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/os/unix/ngx_readv_chain.c:153:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_readv_chain.c:167:        c->read->error = 1;
+src/os/unix/ngx_readv_chain.c:193:    vec.pool = c->pool;
+src/os/unix/ngx_readv_chain.c:220:    ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_readv_chain.c:223:    rev = c->read;
+src/os/unix/ngx_readv_chain.c:226:        n = readv(c->fd, (struct iovec *) vec.elts, vec.nelts);
+src/os/unix/ngx_readv_chain.c:246:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_readv_chain.c:260:        c->read->error = 1;
+src/os/unix/ngx_channel.c:209:    c->pool = cycle->pool;
+src/os/unix/ngx_channel.c:211:    rev = c->read;
+src/os/unix/ngx_channel.c:212:    wev = c->write;
+src/os/unix/ngx_channel.c:218:    rev->lock = &c->lock;
+src/os/unix/ngx_channel.c:219:    wev->lock = &c->lock;
+src/os/unix/ngx_channel.c:220:    rev->own_lock = &c->lock;
+src/os/unix/ngx_channel.c:221:    wev->own_lock = &c->lock;
+src/os/unix/ngx_linux_sendfile_chain.c:57:    wev = c->write;
+src/os/unix/ngx_linux_sendfile_chain.c:76:    header.pool = c->pool;
+src/os/unix/ngx_linux_sendfile_chain.c:100:                ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/os/unix/ngx_linux_sendfile_chain.c:152:        if (c->tcp_nopush == NGX_TCP_NOPUSH_UNSET
+src/os/unix/ngx_linux_sendfile_chain.c:159:            if (c->tcp_nodelay == NGX_TCP_NODELAY_SET) {
+src/os/unix/ngx_linux_sendfile_chain.c:163:                if (setsockopt(c->fd, IPPROTO_TCP, TCP_NODELAY,
+src/os/unix/ngx_linux_sendfile_chain.c:182:                    c->tcp_nodelay = NGX_TCP_NODELAY_UNSET;
+src/os/unix/ngx_linux_sendfile_chain.c:184:                    ngx_log_debug0(NGX_LOG_DEBUG_HTTP, c->log, 0,
+src/os/unix/ngx_linux_sendfile_chain.c:189:            if (c->tcp_nodelay == NGX_TCP_NODELAY_UNSET) {
+src/os/unix/ngx_linux_sendfile_chain.c:191:                if (ngx_tcp_nopush(c->fd) == NGX_ERROR) {
+src/os/unix/ngx_linux_sendfile_chain.c:207:                    c->tcp_nopush = NGX_TCP_NOPUSH_SET;
+src/os/unix/ngx_linux_sendfile_chain.c:209:                    ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_linux_sendfile_chain.c:261:            ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_linux_sendfile_chain.c:264:            rc = sendfile(c->fd, file->file->fd, &offset, file_size);
+src/os/unix/ngx_linux_sendfile_chain.c:283:                ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_linux_sendfile_chain.c:289:            ngx_log_debug4(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_linux_sendfile_chain.c:294:            rc = writev(c->fd, header.elts, header.nelts);
+src/os/unix/ngx_linux_sendfile_chain.c:313:                ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_linux_sendfile_chain.c:319:            ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "writev: %O", sent);
+src/os/unix/ngx_linux_sendfile_chain.c:326:        c->sent += sent;
+src/os/unix/ngx_freebsd_sendfile_chain.c:57:    wev = c->write;
+src/os/unix/ngx_freebsd_sendfile_chain.c:87:    header.pool = c->pool;
+src/os/unix/ngx_freebsd_sendfile_chain.c:92:    trailer.pool = c->pool;
+src/os/unix/ngx_freebsd_sendfile_chain.c:231:                && c->tcp_nopush == NGX_TCP_NOPUSH_UNSET)
+src/os/unix/ngx_freebsd_sendfile_chain.c:233:                if (ngx_tcp_nopush(c->fd) == NGX_ERROR) {
+src/os/unix/ngx_freebsd_sendfile_chain.c:249:                    c->tcp_nopush = NGX_TCP_NOPUSH_SET;
+src/os/unix/ngx_freebsd_sendfile_chain.c:251:                    ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_freebsd_sendfile_chain.c:278:            flags = c->aio_sendfile ? SF_NODISKIO : 0;
+src/os/unix/ngx_freebsd_sendfile_chain.c:281:            rc = sendfile(file->file->fd, c->fd, file->file_pos,
+src/os/unix/ngx_freebsd_sendfile_chain.c:298:                    c->busy_sendfile = file;
+src/os/unix/ngx_freebsd_sendfile_chain.c:308:                ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_freebsd_sendfile_chain.c:324:                ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/os/unix/ngx_freebsd_sendfile_chain.c:331:            ngx_log_debug4(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_freebsd_sendfile_chain.c:336:            rc = writev(c->fd, header.elts, header.nelts);
+src/os/unix/ngx_freebsd_sendfile_chain.c:338:            ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_freebsd_sendfile_chain.c:358:                ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_freebsd_sendfile_chain.c:369:        c->sent += sent;
+src/os/unix/ngx_freebsd_sendfile_chain.c:409:        if (c->busy_sendfile) {
+src/os/unix/ngx_aio_read.c:22:    rev = c->read;
+src/os/unix/ngx_aio_read.c:25:        ngx_log_error(NGX_LOG_ALERT, c->log, 0, "second aio post");
+src/os/unix/ngx_aio_read.c:29:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_aio_read.c:31:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_aio_read.c:37:        rev->aiocb.aio_fildes = c->fd;
+src/os/unix/ngx_aio_read.c:54:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_aio_read.c:55:                       "aio_read: #%d OK", c->fd);
+src/os/unix/ngx_aio_read.c:65:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno, "aio_error() failed");
+src/os/unix/ngx_aio_read.c:73:                ngx_log_error(NGX_LOG_ALERT, c->log, n,
+src/os/unix/ngx_aio_read.c:80:        ngx_log_error(NGX_LOG_CRIT, c->log, n, "aio_read() failed");
+src/os/unix/ngx_aio_read.c:88:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/os/unix/ngx_aio_read.c:97:                   "aio_read: #%d %d", c->fd, n);
+src/os/unix/ngx_send.c:20:    wev = c->write;
+src/os/unix/ngx_send.c:34:        n = send(c->fd, buf, size, 0);
+src/os/unix/ngx_send.c:36:        ngx_log_debug3(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_send.c:37:                       "send: fd:%d %d of %d", c->fd, n, size);
+src/os/unix/ngx_send.c:44:            c->sent += n;
+src/os/unix/ngx_send.c:52:            ngx_log_error(NGX_LOG_ALERT, c->log, err, "send() returned zero");
+src/os/unix/ngx_send.c:60:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_aio_read_chain.c:21:    if (c->read->pending_eof) {
+src/os/unix/ngx_aio_read_chain.c:22:        c->read->ready = 0;
+src/os/unix/ngx_aio_read_chain.c:32:        if (!c->read->ready) {
+src/os/unix/ngx_aio_read_chain.c:50:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "aio_read: %d", n);
+src/os/unix/ngx_aio_read_chain.c:61:            c->read->pending_eof = 1;
+src/os/unix/ngx_aio_read_chain.c:63:                c->read->eof = 0;
+src/os/unix/ngx_aio_read_chain.c:64:                c->read->ready = 1;
+src/os/unix/ngx_aio_read_chain.c:73:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_process_cycle.c:1095:        n = ngx_read_channel(c->fd, &ch, sizeof(ngx_channel_t), ev->log);
+src/os/unix/ngx_darwin_sendfile_chain.c:55:    wev = c->write;
+src/os/unix/ngx_darwin_sendfile_chain.c:83:    header.pool = c->pool;
+src/os/unix/ngx_darwin_sendfile_chain.c:88:    trailer.pool = c->pool;
+src/os/unix/ngx_darwin_sendfile_chain.c:237:            ngx_log_debug3(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_darwin_sendfile_chain.c:241:            rc = sendfile(file->file->fd, c->fd, file->file_pos,
+src/os/unix/ngx_darwin_sendfile_chain.c:261:                ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_darwin_sendfile_chain.c:273:                ngx_log_error(NGX_LOG_ALERT, c->log, 0,
+src/os/unix/ngx_darwin_sendfile_chain.c:280:            ngx_log_debug4(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_darwin_sendfile_chain.c:285:            rc = writev(c->fd, header.elts, header.nelts);
+src/os/unix/ngx_darwin_sendfile_chain.c:287:            ngx_log_debug2(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_darwin_sendfile_chain.c:307:                ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_darwin_sendfile_chain.c:318:        c->sent += sent;
+src/os/unix/ngx_writev_chain.c:33:    wev = c->write;
+src/os/unix/ngx_writev_chain.c:61:    vec.pool = c->pool;
+src/os/unix/ngx_writev_chain.c:113:        n = writev(c->fd, vec.elts, vec.nelts);
+src/os/unix/ngx_writev_chain.c:132:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_writev_chain.c:138:        ngx_log_debug1(NGX_LOG_DEBUG_EVENT, c->log, 0, "writev: %z", sent);
+src/os/unix/ngx_writev_chain.c:144:        c->sent += sent;
+src/os/unix/ngx_recv.c:22:    rev = c->read;
+src/os/unix/ngx_recv.c:25:        ngx_log_debug3(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_recv.c:52:        n = recv(c->fd, buf, size, 0);
+src/os/unix/ngx_recv.c:54:        ngx_log_debug3(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_recv.c:55:                       "recv: fd:%d %d of %d", c->fd, n, size);
+src/os/unix/ngx_recv.c:104:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/os/unix/ngx_recv.c:133:    rev = c->read;
+src/os/unix/ngx_recv.c:136:        n = recv(c->fd, buf, size, 0);
+src/os/unix/ngx_recv.c:138:        ngx_log_debug3(NGX_LOG_DEBUG_EVENT, c->log, 0,
+src/os/unix/ngx_recv.c:139:                       "recv: fd:%d %d of %d", c->fd, n, size);
+src/os/unix/ngx_recv.c:160:            ngx_log_debug0(NGX_LOG_DEBUG_EVENT, c->log, err,
+src/core/ngx_open_file_cache.h:112:    /* ngx_connection_t stub to allow use c->fd as event ident */
+src/core/ngx_times.c:36: * localtime() and localtime_r() are not Async-Signal-Safe functions, therefore,
+src/core/ngx_regex.c:125:    ngx_regex_malloc_init(rc->pool);
+src/core/ngx_regex.c:127:    re = pcre_compile((const char *) rc->pattern.data, (int) rc->options,
+src/core/ngx_regex.c:134:        if ((size_t) erroff == rc->pattern.len) {
+src/core/ngx_regex.c:135:           rc->err.len = ngx_snprintf(rc->err.data, rc->err.len,
+src/core/ngx_regex.c:137:                               errstr, &rc->pattern)
+src/core/ngx_regex.c:138:                      - rc->err.data;
+src/core/ngx_regex.c:141:           rc->err.len = ngx_snprintf(rc->err.data, rc->err.len,
+src/core/ngx_regex.c:143:                               errstr, &rc->pattern, rc->pattern.data + erroff)
+src/core/ngx_regex.c:144:                      - rc->err.data;
+src/core/ngx_regex.c:150:    rc->regex = ngx_pcalloc(rc->pool, sizeof(ngx_regex_t));
+src/core/ngx_regex.c:151:    if (rc->regex == NULL) {
+src/core/ngx_regex.c:155:    rc->regex->code = re;
+src/core/ngx_regex.c:165:        elt->regex = rc->regex;
+src/core/ngx_regex.c:166:        elt->name = rc->pattern.data;
+src/core/ngx_regex.c:169:    n = pcre_fullinfo(re, NULL, PCRE_INFO_CAPTURECOUNT, &rc->captures);
+src/core/ngx_regex.c:175:    if (rc->captures == 0) {
+src/core/ngx_regex.c:179:    n = pcre_fullinfo(re, NULL, PCRE_INFO_NAMECOUNT, &rc->named_captures);
+src/core/ngx_regex.c:185:    if (rc->named_captures == 0) {
+src/core/ngx_regex.c:189:    n = pcre_fullinfo(re, NULL, PCRE_INFO_NAMEENTRYSIZE, &rc->name_size);
+src/core/ngx_regex.c:195:    n = pcre_fullinfo(re, NULL, PCRE_INFO_NAMETABLE, &rc->names);
+src/core/ngx_regex.c:205:    rc->err.len = ngx_snprintf(rc->err.data, rc->err.len, p, &rc->pattern, n)
+src/core/ngx_regex.c:206:                  - rc->err.data;
+src/core/ngx_palloc.c:51:    for (c = pool->cleanup; c; c = c->next) {
+src/core/ngx_palloc.c:52:        if (c->handler) {
+src/core/ngx_palloc.c:55:            c->handler(c->data);
+src/core/ngx_palloc.c:325:        c->data = ngx_palloc(p, size);
+src/core/ngx_palloc.c:326:        if (c->data == NULL) {
+src/core/ngx_palloc.c:331:        c->data = NULL;
+src/core/ngx_palloc.c:334:    c->handler = NULL;
+src/core/ngx_palloc.c:335:    c->next = p->cleanup;
+src/core/ngx_palloc.c:351:    for (c = p->cleanup; c; c = c->next) {
+src/core/ngx_palloc.c:352:        if (c->handler == ngx_pool_cleanup_file) {
+src/core/ngx_palloc.c:354:            cf = c->data;
+src/core/ngx_palloc.c:357:                c->handler(cf);
+src/core/ngx_palloc.c:358:                c->handler = NULL;
+src/core/ngx_palloc.c:371:    ngx_log_debug1(NGX_LOG_DEBUG_ALLOC, c->log, 0, "file cleanup: fd:%d",
+src/core/ngx_palloc.c:372:                   c->fd);
+src/core/ngx_palloc.c:374:    if (ngx_close_file(c->fd) == NGX_FILE_ERROR) {
+src/core/ngx_palloc.c:375:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/core/ngx_palloc.c:376:                      ngx_close_file_n " \"%s\" failed", c->name);
+src/core/ngx_palloc.c:388:    ngx_log_debug2(NGX_LOG_DEBUG_ALLOC, c->log, 0, "file cleanup: fd:%d %s",
+src/core/ngx_palloc.c:389:                   c->fd, c->name);
+src/core/ngx_palloc.c:391:    if (ngx_delete_file(c->name) == NGX_FILE_ERROR) {
+src/core/ngx_palloc.c:395:            ngx_log_error(NGX_LOG_CRIT, c->log, err,
+src/core/ngx_palloc.c:396:                          ngx_delete_file_n " \"%s\" failed", c->name);
+src/core/ngx_palloc.c:400:    if (ngx_close_file(c->fd) == NGX_FILE_ERROR) {
+src/core/ngx_palloc.c:401:        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+src/core/ngx_palloc.c:402:                      ngx_close_file_n " \"%s\" failed", c->name);
+src/core/ngx_open_file_cache.c:956:    c->file->count--;
+src/core/ngx_open_file_cache.c:958:    ngx_close_cached_file(c->cache, c->file, c->min_uses, c->log);
+src/core/ngx_open_file_cache.c:961:    ngx_expire_old_cached_files(c->cache, 1, c->log);
+src/core/ngx_md5.c:5: * http://openwall.info/wiki/people/solar/software/public-domain-source-code/md5
+src/core/ngx_string.c:59:    dst = ngx_pnalloc(pool, src->len);
+src/core/ngx_string.c:64:    ngx_memcpy(dst, src->data, src->len);
+src/core/ngx_string.c:1068:    len = src->len;
+src/core/ngx_string.c:1069:    s = src->data;
+src/core/ngx_string.c:1161:    for (len = 0; len < src->len; len++) {
+src/core/ngx_string.c:1162:        if (src->data[len] == '=') {
+src/core/ngx_string.c:1166:        if (basis[src->data[len]] == 77) {
+src/core/ngx_string.c:1175:    s = src->data;
+src/core/ngx_connection.c:702:            if (c->read->active) {
+src/core/ngx_connection.c:714:                    ngx_del_event(c->read, NGX_READ_EVENT, 0);
+src/core/ngx_connection.c:717:                    ngx_del_event(c->read, NGX_READ_EVENT, NGX_CLOSE_EVENT);
+src/core/ngx_connection.c:723:            c->fd = (ngx_socket_t) -1;
+src/core/ngx_connection.c:793:    ngx_cycle->free_connections = c->data;
+src/core/ngx_connection.c:802:    rev = c->read;
+src/core/ngx_connection.c:803:    wev = c->write;
+src/core/ngx_connection.c:807:    c->read = rev;
+src/core/ngx_connection.c:808:    c->write = wev;
+src/core/ngx_connection.c:809:    c->fd = s;
+src/core/ngx_connection.c:810:    c->log = log;
+src/core/ngx_connection.c:837:    c->data = ngx_cycle->free_connections;
+src/core/ngx_connection.c:844:        ngx_cycle->files[c->fd] = NULL;
+src/core/ngx_connection.c:856:    if (c->fd == -1) {
+src/core/ngx_connection.c:857:        ngx_log_error(NGX_LOG_ALERT, c->log, 0, "connection already closed");
+src/core/ngx_connection.c:861:    if (c->read->timer_set) {
+src/core/ngx_connection.c:862:        ngx_del_timer(c->read);
+src/core/ngx_connection.c:865:    if (c->write->timer_set) {
+src/core/ngx_connection.c:866:        ngx_del_timer(c->write);
+src/core/ngx_connection.c:873:        if (c->read->active || c->read->disabled) {
+src/core/ngx_connection.c:874:            ngx_del_event(c->read, NGX_READ_EVENT, NGX_CLOSE_EVENT);
+src/core/ngx_connection.c:877:        if (c->write->active || c->write->disabled) {
+src/core/ngx_connection.c:878:            ngx_del_event(c->write, NGX_WRITE_EVENT, NGX_CLOSE_EVENT);
+src/core/ngx_connection.c:892:    if (c->read->prev) {
+src/core/ngx_connection.c:893:        ngx_delete_posted_event(c->read);
+src/core/ngx_connection.c:896:    if (c->write->prev) {
+src/core/ngx_connection.c:897:        ngx_delete_posted_event(c->write);
+src/core/ngx_connection.c:900:    c->read->closed = 1;
+src/core/ngx_connection.c:901:    c->write->closed = 1;
+src/core/ngx_connection.c:903:    if (c->single_connection) {
+src/core/ngx_connection.c:904:        ngx_unlock(&c->lock);
+src/core/ngx_connection.c:905:        c->read->locked = 0;
+src/core/ngx_connection.c:906:        c->write->locked = 0;
+src/core/ngx_connection.c:913:    if (c->read->prev) {
+src/core/ngx_connection.c:914:        ngx_delete_posted_event(c->read);
+src/core/ngx_connection.c:917:    if (c->write->prev) {
+src/core/ngx_connection.c:918:        ngx_delete_posted_event(c->write);
+src/core/ngx_connection.c:921:    c->read->closed = 1;
+src/core/ngx_connection.c:922:    c->write->closed = 1;
+src/core/ngx_connection.c:928:    log_error = c->log_error;
+src/core/ngx_connection.c:932:    fd = c->fd;
+src/core/ngx_connection.c:933:    c->fd = (ngx_socket_t) -1;
+src/core/ngx_connection.c:959:        /* we use ngx_cycle->log because c->log was in c->pool */
+src/core/ngx_connection.c:970:    ngx_log_debug1(NGX_LOG_DEBUG_CORE, c->log, 0,
+src/core/ngx_connection.c:973:    if (c->reusable) {
+src/core/ngx_connection.c:974:        ngx_queue_remove(&c->queue);
+src/core/ngx_connection.c:977:    c->reusable = reusable;
+src/core/ngx_connection.c:983:            (ngx_queue_t *) &ngx_cycle->reusable_connections_queue, &c->queue);
+src/core/ngx_connection.c:1003:        ngx_log_debug0(NGX_LOG_DEBUG_CORE, c->log, 0,
+src/core/ngx_connection.c:1006:        c->close = 1;
+src/core/ngx_connection.c:1007:        c->read->handler(c->read);
+src/core/ngx_connection.c:1025:    switch (c->local_sockaddr->sa_family) {
+src/core/ngx_connection.c:1029:        sin6 = (struct sockaddr_in6 *) c->local_sockaddr;
+src/core/ngx_connection.c:1039:        sin = (struct sockaddr_in *) c->local_sockaddr;
+src/core/ngx_connection.c:1048:        if (getsockname(c->fd, (struct sockaddr *) &sa, &len) == -1) {
+src/core/ngx_connection.c:1053:        c->local_sockaddr = ngx_palloc(c->pool, len);
+src/core/ngx_connection.c:1054:        if (c->local_sockaddr == NULL) {
+src/core/ngx_connection.c:1058:        ngx_memcpy(c->local_sockaddr, &sa, len);
+src/core/ngx_connection.c:1065:    s->len = ngx_sock_ntop(c->local_sockaddr, s->data, s->len, port);
+src/core/ngx_connection.c:1082:        ) && c->log_error == NGX_ERROR_IGNORE_ECONNRESET)
+src/core/ngx_connection.c:1088:    if (err == NGX_EINVAL && c->log_error == NGX_ERROR_IGNORE_EINVAL) {
+src/core/ngx_connection.c:1108:        switch (c->log_error) {
+src/core/ngx_connection.c:1124:    ngx_log_error(level, c->log, err, text);
+src/core/ngx_resolver.c:883:    if (uc->connection == NULL) {
+src/core/ngx_resolver.c:885:        uc->log = *r->log;
+src/core/ngx_resolver.c:886:        uc->log.handler = ngx_resolver_log_error;
+src/core/ngx_resolver.c:887:        uc->log.data = uc;
+src/core/ngx_resolver.c:888:        uc->log.action = "resolving";
+src/core/ngx_resolver.c:894:        uc->connection->data = r;
+src/core/ngx_resolver.c:895:        uc->connection->read->handler = ngx_resolver_read_response;
+src/core/ngx_resolver.c:896:        uc->connection->read->resolver = 1;
+src/core/ngx_resolver.c:899:    n = ngx_send(uc->connection, rn->query, rn->qlen);
+src/core/ngx_resolver.c:906:        ngx_log_error(NGX_LOG_CRIT, &uc->log, 0, "send() incomplete");
+src/core/ngx_resolver.c:1015:        ngx_resolver_process_response(c->data, buf, n);
+src/core/ngx_resolver.c:2204:        p = ngx_snprintf(p, len, ", resolver: %V", &uc->server);
+src/core/ngx_resolver.c:2220:    s = ngx_socket(uc->sockaddr->sa_family, SOCK_DGRAM, 0);
+src/core/ngx_resolver.c:2222:    ngx_log_debug1(NGX_LOG_DEBUG_EVENT, &uc->log, 0, "UDP socket %d", s);
+src/core/ngx_resolver.c:2225:        ngx_log_error(NGX_LOG_ALERT, &uc->log, ngx_socket_errno,
+src/core/ngx_resolver.c:2230:    c = ngx_get_connection(s, &uc->log);
+src/core/ngx_resolver.c:2234:            ngx_log_error(NGX_LOG_ALERT, &uc->log, ngx_socket_errno,
+src/core/ngx_resolver.c:2242:        ngx_log_error(NGX_LOG_ALERT, &uc->log, ngx_socket_errno,
+src/core/ngx_resolver.c:2248:            ngx_log_error(NGX_LOG_ALERT, &uc->log, ngx_socket_errno,
+src/core/ngx_resolver.c:2255:    rev = c->read;
+src/core/ngx_resolver.c:2256:    wev = c->write;
+src/core/ngx_resolver.c:2258:    rev->log = &uc->log;
+src/core/ngx_resolver.c:2259:    wev->log = &uc->log;
+src/core/ngx_resolver.c:2261:    uc->connection = c;
+src/core/ngx_resolver.c:2263:    c->number = ngx_atomic_fetch_add(ngx_connection_counter, 1);
+src/core/ngx_resolver.c:2269:    rev->lock = &c->lock;
+src/core/ngx_resolver.c:2270:    wev->lock = &c->lock;
+src/core/ngx_resolver.c:2271:    rev->own_lock = &c->lock;
+src/core/ngx_resolver.c:2272:    wev->own_lock = &c->lock;
+src/core/ngx_resolver.c:2276:    ngx_log_debug3(NGX_LOG_DEBUG_EVENT, &uc->log, 0,
+src/core/ngx_resolver.c:2277:                   "connect to %V, fd:%d #%d", &uc->server, s, c->number);
+src/core/ngx_resolver.c:2279:    rc = connect(s, uc->sockaddr, uc->socklen);
+src/core/ngx_resolver.c:2284:        ngx_log_error(NGX_LOG_CRIT, &uc->log, ngx_socket_errno,
+src/core/ngx_file.c:545:        if (ngx_change_file_access(src->data, ext->access) == NGX_FILE_ERROR) {
+src/core/ngx_file.c:547:                          ngx_change_file_access_n " \"%s\" failed", src->data);
+src/core/ngx_file.c:556:        if (ngx_set_file_time(src->data, ext->fd, ext->time) != NGX_OK) {
+src/core/ngx_file.c:558:                          ngx_set_file_time_n " \"%s\" failed", src->data);
+src/core/ngx_file.c:564:    if (ngx_rename_file(src->data, to->data) != NGX_FILE_ERROR) {
+src/core/ngx_file.c:585:        if (ngx_rename_file(src->data, to->data) != NGX_FILE_ERROR) {
+src/core/ngx_file.c:620:        if (ngx_copy_file(src->data, name, &cf) == NGX_OK) {
+src/core/ngx_file.c:625:                if (ngx_delete_file(src->data) == NGX_FILE_ERROR) {
+src/core/ngx_file.c:628:                                  src->data);
+src/core/ngx_file.c:654:        if (ngx_delete_file(src->data) == NGX_FILE_ERROR) {
+src/core/ngx_file.c:656:                          ngx_delete_file_n " \"%s\" failed", src->data);
+src/core/ngx_file.c:663:                      src->data, to->data);
+src/core/ngx_output_chain.c:476:    if (src->in_file && src->file_pos >= NGX_SENDFILE_LIMIT) {
+src/core/ngx_output_chain.c:483:        ngx_memcpy(dst->pos, src->pos, (size_t) size);
+src/core/ngx_output_chain.c:484:        src->pos += (size_t) size;
+src/core/ngx_output_chain.c:487:        if (src->in_file) {
+src/core/ngx_output_chain.c:491:                dst->file = src->file;
+src/core/ngx_output_chain.c:492:                dst->file_pos = src->file_pos;
+src/core/ngx_output_chain.c:493:                dst->file_last = src->file_pos + size;
+src/core/ngx_output_chain.c:499:            src->file_pos += size;
+src/core/ngx_output_chain.c:505:        if (src->pos == src->last) {
+src/core/ngx_output_chain.c:506:            dst->flush = src->flush;
+src/core/ngx_output_chain.c:507:            dst->last_buf = src->last_buf;
+src/core/ngx_output_chain.c:508:            dst->last_in_chain = src->last_in_chain;
+src/core/ngx_output_chain.c:516:            if (ngx_directio_off(src->file->fd) == NGX_FILE_ERROR) {
+src/core/ngx_output_chain.c:519:                              src->file->name.data);
+src/core/ngx_output_chain.c:528:            n = ngx_file_aio_read(src->file, dst->pos, (size_t) size,
+src/core/ngx_output_chain.c:529:                                  src->file_pos, ctx->pool);
+src/core/ngx_output_chain.c:531:                ctx->aio_handler(ctx, src->file);
+src/core/ngx_output_chain.c:536:            n = ngx_read_file(src->file, dst->pos, (size_t) size,
+src/core/ngx_output_chain.c:537:                              src->file_pos);
+src/core/ngx_output_chain.c:541:        n = ngx_read_file(src->file, dst->pos, (size_t) size, src->file_pos);
+src/core/ngx_output_chain.c:552:            if (ngx_directio_on(src->file->fd) == NGX_FILE_ERROR) {
+src/core/ngx_output_chain.c:555:                              src->file->name.data);
+src/core/ngx_output_chain.c:572:                          n, size, src->file->name.data);
+src/core/ngx_output_chain.c:580:            dst->file = src->file;
+src/core/ngx_output_chain.c:581:            dst->file_pos = src->file_pos;
+src/core/ngx_output_chain.c:582:            dst->file_last = src->file_pos + n;
+src/core/ngx_output_chain.c:588:        src->file_pos += n;
+src/core/ngx_output_chain.c:590:        if (src->file_pos == src->file_last) {
+src/core/ngx_output_chain.c:591:            dst->flush = src->flush;
+src/core/ngx_output_chain.c:592:            dst->last_buf = src->last_buf;
+src/core/ngx_output_chain.c:593:            dst->last_in_chain = src->last_in_chain;
+src/core/ngx_output_chain.c:622:        ngx_log_debug2(NGX_LOG_DEBUG_CORE, c->log, 0,
+src/core/ngx_output_chain.c:637:    ngx_log_debug1(NGX_LOG_DEBUG_CORE, c->log, 0,
+src/core/ngx_output_chain.c:652:    if (size == 0 && !c->buffered) {
+src/core/ngx_output_chain.c:656:    ctx->out = c->send_chain(c, ctx->out, ctx->limit);
+src/core/ngx_output_chain.c:658:    ngx_log_debug1(NGX_LOG_DEBUG_CORE, c->log, 0,
+src/core/ngx_output_chain.c:668:        if (!c->buffered) {
+src/core/ngx_hash.c:82:    value = ngx_hash_find(&hwc->hash, key, &name[n], len - n);
+src/core/ngx_hash.c:113:                return hwc->value;
+src/core/ngx_hash.c:124:            return hwc->value;
+src/core/ngx_hash.c:142:    return hwc->value;
+src/core/ngx_hash.c:174:    value = ngx_hash_find(&hwc->hash, key, name, i);
+src/core/ngx_hash.c:200:            return hwc->value;
+src/core/ngx_hash.c:206:    return hwc->value;
+src/core/ngx_hash.c:582:                wdc->value = names[n].value;
+src/mail/ngx_mail_handler.c:41:    port = c->listening->servers;
+src/mail/ngx_mail_handler.c:58:        sa = c->local_sockaddr;
+src/mail/ngx_mail_handler.c:100:        switch (c->local_sockaddr->sa_family) {
+src/mail/ngx_mail_handler.c:116:    s = ngx_pcalloc(c->pool, sizeof(ngx_mail_session_t));
+src/mail/ngx_mail_handler.c:127:    c->data = s;
+src/mail/ngx_mail_handler.c:130:    ngx_log_error(NGX_LOG_INFO, c->log, 0, "*%ui client %V connected to %V",
+src/mail/ngx_mail_handler.c:131:                  c->number, &c->addr_text, s->addr_text);
+src/mail/ngx_mail_handler.c:133:    ctx = ngx_palloc(c->pool, sizeof(ngx_mail_log_ctx_t));
+src/mail/ngx_mail_handler.c:139:    ctx->client = &c->addr_text;
+src/mail/ngx_mail_handler.c:142:    c->log->connection = c->number;
+src/mail/ngx_mail_handler.c:143:    c->log->handler = ngx_mail_log_error;
+src/mail/ngx_mail_handler.c:144:    c->log->data = ctx;
+src/mail/ngx_mail_handler.c:145:    c->log->action = "sending client greeting line";
+src/mail/ngx_mail_handler.c:147:    c->log_error = NGX_ERROR_INFO;
+src/mail/ngx_mail_handler.c:156:        c->log->action = "SSL handshaking";
+src/mail/ngx_mail_handler.c:164:        c->log->action = "SSL handshaking";
+src/mail/ngx_mail_handler.c:167:            ngx_log_error(NGX_LOG_ERR, c->log, 0,
+src/mail/ngx_mail_handler.c:195:    s = c->data;
+src/mail/ngx_mail_handler.c:198:    c->log->action = "in starttls state";
+src/mail/ngx_mail_handler.c:219:        s = c->data;
+src/mail/ngx_mail_handler.c:223:        ngx_add_timer(c->read, cscf->timeout);
+src/mail/ngx_mail_handler.c:225:        c->ssl->handler = ngx_mail_ssl_handshake_handler;
+src/mail/ngx_mail_handler.c:240:    if (c->ssl->handshaked) {
+src/mail/ngx_mail_handler.c:242:        s = c->data;
+src/mail/ngx_mail_handler.c:247:            c->read->handler = cscf->protocol->init_protocol;
+src/mail/ngx_mail_handler.c:248:            c->write->handler = ngx_mail_send;
+src/mail/ngx_mail_handler.c:250:            cscf->protocol->init_protocol(c->read);
+src/mail/ngx_mail_handler.c:255:        c->read->ready = 0;
+src/mail/ngx_mail_handler.c:273:    s = c->data;
+src/mail/ngx_mail_handler.c:279:    s->ctx = ngx_pcalloc(c->pool, sizeof(void *) * ngx_mail_max_module);
+src/mail/ngx_mail_handler.c:285:    c->write->handler = ngx_mail_send;
+src/mail/ngx_mail_handler.c:295:    s->salt.data = ngx_pnalloc(c->pool,
+src/mail/ngx_mail_handler.c:318:    if (c->ssl) {
+src/mail/ngx_mail_handler.c:343:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_handler.c:347:    plain.data = ngx_pnalloc(c->pool, ngx_base64_decoded_length(arg[n].len));
+src/mail/ngx_mail_handler.c:353:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/mail/ngx_mail_handler.c:364:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/mail/ngx_mail_handler.c:374:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/mail/ngx_mail_handler.c:385:    ngx_log_debug2(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_handler.c:401:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_handler.c:404:    s->login.data = ngx_pnalloc(c->pool, ngx_base64_decoded_length(arg[n].len));
+src/mail/ngx_mail_handler.c:410:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/mail/ngx_mail_handler.c:415:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_handler.c:430:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_handler.c:434:    s->passwd.data = ngx_pnalloc(c->pool,
+src/mail/ngx_mail_handler.c:441:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/mail/ngx_mail_handler.c:447:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_handler.c:463:    p = ngx_pnalloc(c->pool, len + ngx_base64_encoded_length(s->salt.len) + 2);
+src/mail/ngx_mail_handler.c:492:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_handler.c:495:    s->login.data = ngx_pnalloc(c->pool, ngx_base64_decoded_length(arg[0].len));
+src/mail/ngx_mail_handler.c:501:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/mail/ngx_mail_handler.c:519:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/mail/ngx_mail_handler.c:524:    ngx_log_debug2(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_handler.c:542:    s = c->data;
+src/mail/ngx_mail_handler.c:545:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/mail/ngx_mail_handler.c:546:        c->timedout = 1;
+src/mail/ngx_mail_handler.c:552:        if (ngx_handle_write_event(c->write, 0) != NGX_OK) {
+src/mail/ngx_mail_handler.c:559:    n = c->send(c, s->out.data, s->out.len);
+src/mail/ngx_mail_handler.c:574:            c->read->handler(c->read);
+src/mail/ngx_mail_handler.c:589:    ngx_add_timer(c->write, cscf->timeout);
+src/mail/ngx_mail_handler.c:591:    if (ngx_handle_write_event(c->write, 0) != NGX_OK) {
+src/mail/ngx_mail_handler.c:606:    n = c->recv(c, s->buffer->last, s->buffer->end - s->buffer->last);
+src/mail/ngx_mail_handler.c:618:        if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/mail/ngx_mail_handler.c:639:        ngx_log_error(NGX_LOG_INFO, c->log, 0,
+src/mail/ngx_mail_handler.c:668:    if (c->read->timer_set) {
+src/mail/ngx_mail_handler.c:669:        ngx_del_timer(c->read);
+src/mail/ngx_mail_handler.c:697:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_handler.c:698:                   "close mail connection: %d", c->fd);
+src/mail/ngx_mail_handler.c:702:    if (c->ssl) {
+src/mail/ngx_mail_handler.c:704:            c->ssl->handler = ngx_mail_close_connection;
+src/mail/ngx_mail_handler.c:715:    c->destroyed = 1;
+src/mail/ngx_mail_handler.c:717:    pool = c->pool;
+src/mail/ngx_mail_proxy_module.c:207:        s = c->data;
+src/mail/ngx_mail_proxy_module.c:228:    s = c->data;
+src/mail/ngx_mail_proxy_module.c:231:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT,
+src/mail/ngx_mail_proxy_module.c:233:        c->timedout = 1;
+src/mail/ngx_mail_proxy_module.c:257:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:276:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:293:        c->write->handler = ngx_mail_proxy_handler;
+src/mail/ngx_mail_proxy_module.c:297:        ngx_del_timer(c->read);
+src/mail/ngx_mail_proxy_module.c:299:        c->log->action = NULL;
+src/mail/ngx_mail_proxy_module.c:300:        ngx_log_error(NGX_LOG_INFO, c->log, 0, "client logged in");
+src/mail/ngx_mail_proxy_module.c:313:    if (c->send(c, line.data, line.len) < (ssize_t) line.len) {
+src/mail/ngx_mail_proxy_module.c:341:    s = c->data;
+src/mail/ngx_mail_proxy_module.c:344:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT,
+src/mail/ngx_mail_proxy_module.c:346:        c->timedout = 1;
+src/mail/ngx_mail_proxy_module.c:372:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:391:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:411:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:427:        c->write->handler = ngx_mail_proxy_handler;
+src/mail/ngx_mail_proxy_module.c:431:        ngx_del_timer(c->read);
+src/mail/ngx_mail_proxy_module.c:433:        c->log->action = NULL;
+src/mail/ngx_mail_proxy_module.c:434:        ngx_log_error(NGX_LOG_INFO, c->log, 0, "client logged in");
+src/mail/ngx_mail_proxy_module.c:447:    if (c->send(c, line.data, line.len) < (ssize_t) line.len) {
+src/mail/ngx_mail_proxy_module.c:477:    s = c->data;
+src/mail/ngx_mail_proxy_module.c:480:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT,
+src/mail/ngx_mail_proxy_module.c:482:        c->timedout = 1;
+src/mail/ngx_mail_proxy_module.c:508:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:545:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:577:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:601:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:621:        line.data = ngx_pnalloc(c->pool, line.len);
+src/mail/ngx_mail_proxy_module.c:651:        c->write->handler = ngx_mail_proxy_handler;
+src/mail/ngx_mail_proxy_module.c:655:        ngx_del_timer(c->read);
+src/mail/ngx_mail_proxy_module.c:657:        c->log->action = NULL;
+src/mail/ngx_mail_proxy_module.c:658:        ngx_log_error(NGX_LOG_INFO, c->log, 0, "client logged in");
+src/mail/ngx_mail_proxy_module.c:671:    if (c->send(c, line.data, line.len) < (ssize_t) line.len) {
+src/mail/ngx_mail_proxy_module.c:695:        s = c->data;
+src/mail/ngx_mail_proxy_module.c:849:    s = c->data;
+src/mail/ngx_mail_proxy_module.c:852:        c->log->action = "proxying";
+src/mail/ngx_mail_proxy_module.c:855:            ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT,
+src/mail/ngx_mail_proxy_module.c:857:            c->timedout = 1;
+src/mail/ngx_mail_proxy_module.c:860:            ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT,
+src/mail/ngx_mail_proxy_module.c:905:                   do_write, src->fd, dst->fd);
+src/mail/ngx_mail_proxy_module.c:914:                c->log->action = send_action;
+src/mail/ngx_mail_proxy_module.c:936:        if (size && src->read->ready) {
+src/mail/ngx_mail_proxy_module.c:937:            c->log->action = recv_action;
+src/mail/ngx_mail_proxy_module.c:939:            n = src->recv(src, b->last, size);
+src/mail/ngx_mail_proxy_module.c:953:                src->read->eof = 1;
+src/mail/ngx_mail_proxy_module.c:960:    c->log->action = "proxying";
+src/mail/ngx_mail_proxy_module.c:968:        action = c->log->action;
+src/mail/ngx_mail_proxy_module.c:969:        c->log->action = NULL;
+src/mail/ngx_mail_proxy_module.c:970:        ngx_log_error(NGX_LOG_INFO, c->log, 0, "proxied session done");
+src/mail/ngx_mail_proxy_module.c:971:        c->log->action = action;
+src/mail/ngx_mail_proxy_module.c:987:    if (ngx_handle_write_event(src->write, 0) != NGX_OK) {
+src/mail/ngx_mail_proxy_module.c:992:    if (ngx_handle_read_event(src->read, 0) != NGX_OK) {
+src/mail/ngx_mail_proxy_module.c:999:        ngx_add_timer(c->read, pcf->timeout);
+src/mail/ngx_mail_smtp_handler.c:70:    if (c->sockaddr->sa_family != AF_INET) {
+src/mail/ngx_mail_smtp_handler.c:76:    c->log->action = "in resolving client address";
+src/mail/ngx_mail_smtp_handler.c:86:    sin = (struct sockaddr_in *) c->sockaddr;
+src/mail/ngx_mail_smtp_handler.c:109:        ngx_log_error(NGX_LOG_ERR, c->log, 0,
+src/mail/ngx_mail_smtp_handler.c:111:                      &c->addr_text, ctx->state,
+src/mail/ngx_mail_smtp_handler.c:128:    c->log->action = "in resolving client hostname";
+src/mail/ngx_mail_smtp_handler.c:130:    s->host.data = ngx_pstrdup(c->pool, &ctx->name);
+src/mail/ngx_mail_smtp_handler.c:141:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_smtp_handler.c:144:    c->read->handler = ngx_mail_smtp_resolve_name;
+src/mail/ngx_mail_smtp_handler.c:146:    ngx_post_event(c->read, &ngx_posted_events);
+src/mail/ngx_mail_smtp_handler.c:159:    s = c->data;
+src/mail/ngx_mail_smtp_handler.c:194:        ngx_log_error(NGX_LOG_ERR, c->log, 0,
+src/mail/ngx_mail_smtp_handler.c:210:        sin = (struct sockaddr_in *) c->sockaddr;
+src/mail/ngx_mail_smtp_handler.c:216:            ngx_log_debug4(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_smtp_handler.c:246:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_smtp_handler.c:253:    ngx_add_timer(c->read, timeout);
+src/mail/ngx_mail_smtp_handler.c:255:    if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/mail/ngx_mail_smtp_handler.c:260:         c->read->handler = ngx_mail_smtp_invalid_pipelining;
+src/mail/ngx_mail_smtp_handler.c:264:    c->read->handler = ngx_mail_smtp_init_protocol;
+src/mail/ngx_mail_smtp_handler.c:268:    ngx_mail_send(c->write);
+src/mail/ngx_mail_smtp_handler.c:281:    s = c->data;
+src/mail/ngx_mail_smtp_handler.c:283:    c->log->action = "in delay pipelining state";
+src/mail/ngx_mail_smtp_handler.c:287:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, c->log, 0, "delay greeting");
+src/mail/ngx_mail_smtp_handler.c:293:        c->read->handler = ngx_mail_smtp_init_protocol;
+src/mail/ngx_mail_smtp_handler.c:295:        ngx_add_timer(c->read, cscf->timeout);
+src/mail/ngx_mail_smtp_handler.c:297:        if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/mail/ngx_mail_smtp_handler.c:308:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, c->log, 0, "invalid pipelining");
+src/mail/ngx_mail_smtp_handler.c:326:    ngx_mail_send(c->write);
+src/mail/ngx_mail_smtp_handler.c:338:    c->log->action = "in auth state";
+src/mail/ngx_mail_smtp_handler.c:341:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/mail/ngx_mail_smtp_handler.c:342:        c->timedout = 1;
+src/mail/ngx_mail_smtp_handler.c:347:    s = c->data;
+src/mail/ngx_mail_smtp_handler.c:356:    c->read->handler = ngx_mail_smtp_auth_state;
+src/mail/ngx_mail_smtp_handler.c:367:    if (ngx_array_init(&s->args, c->pool, 2, sizeof(ngx_str_t)) == NGX_ERROR) {
+src/mail/ngx_mail_smtp_handler.c:374:    s->buffer = ngx_create_temp_buf(c->pool, sscf->client_buffer_size);
+src/mail/ngx_mail_smtp_handler.c:392:    s = c->data;
+src/mail/ngx_mail_smtp_handler.c:394:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, c->log, 0, "smtp auth state");
+src/mail/ngx_mail_smtp_handler.c:397:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/mail/ngx_mail_smtp_handler.c:398:        c->timedout = 1;
+src/mail/ngx_mail_smtp_handler.c:404:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, c->log, 0, "smtp send handler busy");
+src/mail/ngx_mail_smtp_handler.c:514:        ngx_mail_send(c->write);
+src/mail/ngx_mail_smtp_handler.c:535:    s->smtp_helo.data = ngx_pnalloc(c->pool, arg[0].len);
+src/mail/ngx_mail_smtp_handler.c:555:        if (c->ssl == NULL) {
+src/mail/ngx_mail_smtp_handler.c:699:    s->smtp_from.data = ngx_pnalloc(c->pool, l.len);
+src/mail/ngx_mail_smtp_handler.c:706:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_smtp_handler.c:752:    s->smtp_to.data = ngx_pnalloc(c->pool, l.len);
+src/mail/ngx_mail_smtp_handler.c:759:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_smtp_handler.c:785:    if (c->ssl == NULL) {
+src/mail/ngx_mail_smtp_handler.c:798:            c->read->handler = ngx_mail_starttls_handler;
+src/mail/ngx_mail_smtp_handler.c:815:    n = c->recv(c, s->buffer->last, s->buffer->end - s->buffer->last);
+src/mail/ngx_mail_smtp_handler.c:827:        if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/mail/ngx_mail_smtp_handler.c:852:    if (c->log->log_level < NGX_LOG_INFO) {
+src/mail/ngx_mail_smtp_handler.c:871:    ngx_log_error(NGX_LOG_INFO, c->log, 0, err, &cmd);
+src/mail/ngx_mail_auth_http_module.c:236:    s = c->data;
+src/mail/ngx_mail_auth_http_module.c:299:    s = c->data;
+src/mail/ngx_mail_auth_http_module.c:866:    s = c->data;
+src/mail/ngx_mail_auth_http_module.c:885:        c->log->action = "in auth state";
+src/mail/ngx_mail_auth_http_module.c:887:        ngx_mail_send(c->write);
+src/mail/ngx_mail_auth_http_module.c:889:        if (c->destroyed) {
+src/mail/ngx_mail_auth_http_module.c:1110:        s = c->data;
+src/mail/ngx_mail_imap_handler.c:45:    c->read->handler = ngx_mail_imap_init_protocol;
+src/mail/ngx_mail_imap_handler.c:47:    ngx_add_timer(c->read, cscf->timeout);
+src/mail/ngx_mail_imap_handler.c:49:    if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/mail/ngx_mail_imap_handler.c:53:    ngx_mail_send(c->write);
+src/mail/ngx_mail_imap_handler.c:66:    c->log->action = "in auth state";
+src/mail/ngx_mail_imap_handler.c:69:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/mail/ngx_mail_imap_handler.c:70:        c->timedout = 1;
+src/mail/ngx_mail_imap_handler.c:75:    s = c->data;
+src/mail/ngx_mail_imap_handler.c:78:        if (ngx_array_init(&s->args, c->pool, 2, sizeof(ngx_str_t))
+src/mail/ngx_mail_imap_handler.c:87:        s->buffer = ngx_create_temp_buf(c->pool, iscf->client_buffer_size);
+src/mail/ngx_mail_imap_handler.c:95:    c->read->handler = ngx_mail_imap_auth_state;
+src/mail/ngx_mail_imap_handler.c:112:    s = c->data;
+src/mail/ngx_mail_imap_handler.c:114:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, c->log, 0, "imap auth state");
+src/mail/ngx_mail_imap_handler.c:117:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/mail/ngx_mail_imap_handler.c:118:        c->timedout = 1;
+src/mail/ngx_mail_imap_handler.c:124:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, c->log, 0, "imap send handler busy");
+src/mail/ngx_mail_imap_handler.c:143:        ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0, "imap auth command: %i",
+src/mail/ngx_mail_imap_handler.c:256:            s->tagged_line.data = ngx_pnalloc(c->pool, s->tagged_line.len);
+src/mail/ngx_mail_imap_handler.c:292:    ngx_mail_send(c->write);
+src/mail/ngx_mail_imap_handler.c:314:    s->login.data = ngx_pnalloc(c->pool, s->login.len);
+src/mail/ngx_mail_imap_handler.c:322:    s->passwd.data = ngx_pnalloc(c->pool, s->passwd.len);
+src/mail/ngx_mail_imap_handler.c:330:    ngx_log_debug2(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_imap_handler.c:334:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_imap_handler.c:417:    if (c->ssl == NULL) {
+src/mail/ngx_mail_imap_handler.c:446:    if (c->ssl == NULL) {
+src/mail/ngx_mail_imap_handler.c:449:            c->read->handler = ngx_mail_starttls_handler;
+src/mail/ngx_mail_pop3_handler.c:50:        s->out.data = ngx_pnalloc(c->pool, sizeof(pop3_greeting) + s->salt.len);
+src/mail/ngx_mail_pop3_handler.c:66:    c->read->handler = ngx_mail_pop3_init_protocol;
+src/mail/ngx_mail_pop3_handler.c:68:    ngx_add_timer(c->read, cscf->timeout);
+src/mail/ngx_mail_pop3_handler.c:70:    if (ngx_handle_read_event(c->read, 0) != NGX_OK) {
+src/mail/ngx_mail_pop3_handler.c:74:    ngx_mail_send(c->write);
+src/mail/ngx_mail_pop3_handler.c:86:    c->log->action = "in auth state";
+src/mail/ngx_mail_pop3_handler.c:89:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/mail/ngx_mail_pop3_handler.c:90:        c->timedout = 1;
+src/mail/ngx_mail_pop3_handler.c:95:    s = c->data;
+src/mail/ngx_mail_pop3_handler.c:98:        if (ngx_array_init(&s->args, c->pool, 2, sizeof(ngx_str_t))
+src/mail/ngx_mail_pop3_handler.c:105:        s->buffer = ngx_create_temp_buf(c->pool, 128);
+src/mail/ngx_mail_pop3_handler.c:113:    c->read->handler = ngx_mail_pop3_auth_state;
+src/mail/ngx_mail_pop3_handler.c:127:    s = c->data;
+src/mail/ngx_mail_pop3_handler.c:129:    ngx_log_debug0(NGX_LOG_DEBUG_MAIL, c->log, 0, "pop3 auth state");
+src/mail/ngx_mail_pop3_handler.c:132:        ngx_log_error(NGX_LOG_INFO, c->log, NGX_ETIMEDOUT, "client timed out");
+src/mail/ngx_mail_pop3_handler.c:133:        c->timedout = 1;
+src/mail/ngx_mail_pop3_handler.c:139:        ngx_log_debug0(NGX_LOG_DEBUG_MAIL, c->log, 0, "pop3 send handler busy");
+src/mail/ngx_mail_pop3_handler.c:274:        ngx_mail_send(c->write);
+src/mail/ngx_mail_pop3_handler.c:295:    s->login.data = ngx_pnalloc(c->pool, s->login.len);
+src/mail/ngx_mail_pop3_handler.c:302:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_pop3_handler.c:322:    s->passwd.data = ngx_pnalloc(c->pool, s->passwd.len);
+src/mail/ngx_mail_pop3_handler.c:330:    ngx_log_debug1(NGX_LOG_DEBUG_MAIL, c->log, 0,
+src/mail/ngx_mail_pop3_handler.c:347:    if (stls && c->ssl == NULL) {
+src/mail/ngx_mail_pop3_handler.c:376:    if (c->ssl == NULL) {
+src/mail/ngx_mail_pop3_handler.c:379:            c->read->handler = ngx_mail_starttls_handler;
+src/mail/ngx_mail_pop3_handler.c:415:    s->login.data = ngx_pnalloc(c->pool, s->login.len);
+src/mail/ngx_mail_pop3_handler.c:423:    s->passwd.data = ngx_pnalloc(c->pool, s->passwd.len);
+src/mail/ngx_mail_pop3_handler.c:430:    ngx_log_debug2(NGX_LOG_DEBUG_MAIL, c->log, 0,
+tags:1904:expires	src/http/modules/ngx_http_userid_filter_module.c	/^static u_char expires[] = "; expires=Thu, 31-Dec-37 23:55:55 GMT";$/;"	v	file:
+CHANGES.ru:1866:    *) Исправление: при использовании HTTP Basic-аутентификации на Windows
+Binary file objs/nginx matches
+objs/ngx_auto_config.h:1:#define NGX_CONFIGURE " --without-pcre --without-http_rewrite_module --without-http_gzip_module --with-debug --with-cc-opt='-O0 -g'"
+Binary file objs/src/http/ngx_http_file_cache.o matches
+Binary file objs/src/http/modules/ngx_http_proxy_module.o matches
+Binary file objs/src/http/modules/ngx_http_uwsgi_module.o matches
+Binary file objs/src/http/modules/ngx_http_userid_filter_module.o matches
+Binary file objs/src/http/ngx_http.o matches
+Binary file objs/src/core/nginx.o matches

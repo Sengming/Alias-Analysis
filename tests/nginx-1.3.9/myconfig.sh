@@ -1,0 +1,1 @@
+CC=clang ./configure --without-pcre --without-http_rewrite_module --without-http_gzip_module --with-debug --with-cc-opt='-O0 -g' &&cp makefiles/Makefile.llvm objs/Makefile && cp makefiles/Makefile Makefile

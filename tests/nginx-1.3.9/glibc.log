@@ -1,0 +1,1341 @@
+Breakpoint 1 at 0x7efc7bb47e90: memcpy. (2 locations)
+Breakpoint 2 at 0x7efc7bbed470: file ../sysdeps/x86_64/multiarch/memset.S, line 28.
+Breakpoint 3 at 0x7efc7bb3f510: free. (2 locations)
+Breakpoint 4 at 0x7efc7bb3ef10: malloc. (2 locations)
+Breakpoint 5 at 0x7efc7bae45c0: __errno_location. (2 locations)
+Breakpoint 6 at 0x7efc7bbadb30: recv. (2 locations)
+Breakpoint 7 at gnu-indirect-function resolver at 0x7efc7bb47940: file ../sysdeps/x86_64/multiarch/memcmp.S, line 29.
+Breakpoint 8 at 0x7efc7bba3c00: file ../sysdeps/unix/syscall-template.S, line 84.
+Breakpoint 9 at 0x7efc7bba50a0: file ../sysdeps/unix/syscall-template.S, line 84.
+Breakpoint 10 at 0x7efc7bb9f960: write. (2 locations)
+Breakpoint 11 at 0x7efc7bb9f6e0: open. (2 locations)
+Breakpoint 12 at 0x7efc7bb9ff20: close. (2 locations)
+Function "fstat" not defined.
+Breakpoint 13 (fstat) pending.
+Breakpoint 14 at 0x7efc7bb40fb0: file malloc.c, line 5064.
+Breakpoint 15 at 0x7efc7bbad2d0: file ../sysdeps/unix/syscall-template.S, line 84.
+Breakpoint 16 at 0x7efc7bb6c8d0: gettimeofday. (2 locations)
+Breakpoint 17 at 0x7efc7bbadee0: file ../sysdeps/unix/syscall-template.S, line 84.
+Breakpoint 18 at 0x7efc7bbadeb0: file ../sysdeps/unix/syscall-template.S, line 84.
+Breakpoint 19 at 0x7efc7bbae1a0: file ../sysdeps/unix/sysv/linux/accept4.c, line 40.
+Breakpoint 20 at 0x7efc7bbad2a0: file ../sysdeps/unix/syscall-template.S, line 84.
+Breakpoint 21 at 0x7efc7bb6c000: file localtime.c, line 29.
+Type commands for breakpoint(s) 21, one per line.
+End with a line saying just "end".
+Continuing.
+
+Breakpoint 5, __errno_location () at ../csu/errno-loc.c:26
+26	../csu/errno-loc.c: No such file or directory.
+Continuing.
+
+Breakpoint 16, 0x00007fff9389e7a0 in gettimeofday ()
+Continuing.
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+
+Breakpoint 21, __localtime_r (t=t@entry=0x7fff93868bb8, tp=tp@entry=0x7fff93868c20) at localtime.c:29
+29	localtime.c: No such file or directory.
+#0  __localtime_r (t=t@entry=0x7fff93868bb8, tp=tp@entry=0x7fff93868c20) at localtime.c:29
+#1  0x000055fa6d3b608b in ngx_localtime (s=<optimized out>, s@entry=1577246593, tm=tm@entry=0x7fff93868c20) at src/os/unix/ngx_time.c:60
+#2  0x000055fa6d3a8660 in ngx_time_update () at src/core/ngx_times.c:130
+#3  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#4  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#5  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#6  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Type commands for definition of "hook-stop".
+End with a line saying just "end".
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d3ff675 "d:%02d:%02d", fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d", args=args@entry=0x7fff93868ae8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42b23c <cached_err_log_time+60> "2019/12/24 ", fmt=fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a86bc in ngx_time_update () at src/core/ngx_times.c:145
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d3ff67f "d", fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d", args=args@entry=0x7fff93868ae8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42b23c <cached_err_log_time+60> "2019/12/24 23:03:", fmt=fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a86bc in ngx_time_update () at src/core/ngx_times.c:145
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404219 "d:%02d:%02d:%02d %c%02d%02d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a411 <cached_http_log_time+81> "24/Dec/", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404223 "d:%02d %c%02d%02d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a411 <cached_http_log_time+81> "24/Dec/2019:23:0", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d40422f "d%02d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a411 <cached_http_log_time+81> "24/Dec/2019:23:03:13 -0", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d40423a "d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429d8e <cached_http_log_iso8601+78> "", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404244 "dT%02d:%02d:%02d%c%02d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429d8e <cached_http_log_iso8601+78> "2019-12-", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d40424e "d:%02d%c%02d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429d8e <cached_http_log_iso8601+78> "2019-12-24T23:0", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404259 "d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429d8e <cached_http_log_iso8601+78> "2019-12-24T23:03:13-0", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+#1  0x000055fa6d3bb096 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:577
+#2  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#3  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#4  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 16, 0x00007fff9389e7a0 in gettimeofday ()
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d4041ef "d %s %4d %02d:%02d:%02d GMT", fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT", args=args@entry=0x7fff93868ad8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42aaf8 <cached_http_time+120> "Wed, ", fmt=fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a864f in ngx_time_update () at src/core/ngx_times.c:118
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d4041fb "d:%02d:%02d GMT", fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT", args=args@entry=0x7fff93868ad8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42aaf8 <cached_http_time+120> "Wed, 25 Dec 2019 0", fmt=fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a864f in ngx_time_update () at src/core/ngx_times.c:118
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404205 "d GMT", fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT", args=args@entry=0x7fff93868ad8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42aaf8 <cached_http_time+120> "Wed, 25 Dec 2019 04:06:", fmt=fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a864f in ngx_time_update () at src/core/ngx_times.c:118
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 21, __localtime_r (t=t@entry=0x7fff93868bb8, tp=tp@entry=0x7fff93868c20) at localtime.c:29
+29	localtime.c: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d3ff666 "d/%02d/%02d %02d:%02d:%02d", fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d", args=args@entry=0x7fff93868ae8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42b250 <cached_err_log_time+80> "", fmt=fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a86bc in ngx_time_update () at src/core/ngx_times.c:145
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d3ff670 "d %02d:%02d:%02d", fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d", args=args@entry=0x7fff93868ae8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42b250 <cached_err_log_time+80> "2019/12/", fmt=fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a86bc in ngx_time_update () at src/core/ngx_times.c:145
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d3ff67a "d:%02d", fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d", args=args@entry=0x7fff93868ae8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42b250 <cached_err_log_time+80> "2019/12/24 23:0", fmt=fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a86bc in ngx_time_update () at src/core/ngx_times.c:145
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404213 "d/%s/%d:%02d:%02d:%02d %c%02d%02d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a42c <cached_http_log_time+108> "", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d40421e "d:%02d:%02d %c%02d%02d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a42c <cached_http_log_time+108> "24/Dec/2019:", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404228 "d %c%02d%02d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a42c <cached_http_log_time+108> "24/Dec/2019:23:06:", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404233 "d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a42c <cached_http_log_time+108> "24/Dec/2019:23:06:29 -050", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d40423f "d-%02dT%02d:%02d:%02d%c%02d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429da8 <cached_http_log_iso8601+104> "2019-", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404249 "d:%02d:%02d%c%02d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429da8 <cached_http_log_iso8601+104> "2019-12-24T", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404253 "d%c%02d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429da8 <cached_http_log_iso8601+104> "2019-12-24T23:06:", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d40425e "d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429da8 <cached_http_log_iso8601+104> "2019-12-24T23:06:29-05:0", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 19, accept4 (fd=6, addr=addr@entry=..., addr_len=addr_len@entry=0x7fff93868c5c, flags=flags@entry=2048) at ../sysdeps/unix/sysv/linux/accept4.c:40
+40	../sysdeps/unix/sysv/linux/accept4.c: No such file or directory.
+Continuing.
+#0  __posix_memalign (memptr=memptr@entry=0x7fff93868b78, alignment=alignment@entry=16, size=size@entry=256) at malloc.c:5064
+#1  0x000055fa6d3b6282 in ngx_memalign (alignment=alignment@entry=16, size=size@entry=256, log=log@entry=0x55fa6f359320) at src/os/unix/ngx_alloc.c:57
+#2  0x000055fa6d39fc0c in ngx_create_pool (size=256, log=0x55fa6f359320) at src/core/ngx_palloc.c:21
+#3  0x000055fa6d3b4831 in ngx_event_accept (ev=0x55fa6f378930) at src/event/ngx_event_accept.c:159
+#4  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#5  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#6  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#7  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 4, __GI___libc_malloc (bytes=256) at malloc.c:2917
+2917	malloc.c: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3b486e in ngx_event_accept (ev=0x55fa6f378930) at src/event/ngx_event_accept.c:171
+#2  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#3  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#4  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#5  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0x55fa6f35722f "", ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, buf@entry=0x55fa6f357220 "127.", last=0x55fa6f35722f "", fmt=0x55fa6d3ff4b8 "d.%ud.%ud", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a317f in ngx_snprintf (buf=buf@entry=0x55fa6f357220 "127.", max=<optimized out>, fmt=fmt@entry=0x55fa6d3ff4b2 "%ud.%ud.%ud.%ud") at src/core/ngx_string.c:123
+#4  0x000055fa6d3a46e9 in ngx_sock_ntop (sa=<optimized out>, text=0x55fa6f357220 "127.", len=<optimized out>, port=port@entry=0) at src/core/ngx_inet.c:200
+#5  0x000055fa6d3b4991 in ngx_event_accept (ev=0x55fa6f378930) at src/event/ngx_event_accept.c:278
+#6  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#7  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#8  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#9  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0x55fa6f35722f "", ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, buf@entry=0x55fa6f357220 "127.0.0.", last=0x55fa6f35722f "", fmt=0x55fa6d3ff4c0 "d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a317f in ngx_snprintf (buf=buf@entry=0x55fa6f357220 "127.0.0.", max=<optimized out>, fmt=fmt@entry=0x55fa6d3ff4b2 "%ud.%ud.%ud.%ud") at src/core/ngx_string.c:123
+#4  0x000055fa6d3a46e9 in ngx_sock_ntop (sa=<optimized out>, text=0x55fa6f357220 "127.0.0.", len=<optimized out>, port=port@entry=0) at src/core/ngx_inet.c:200
+#5  0x000055fa6d3b4991 in ngx_event_accept (ev=0x55fa6f378930) at src/event/ngx_event_accept.c:278
+#6  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#7  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#8  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#9  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 20, epoll_ctl () at ../sysdeps/unix/syscall-template.S:84
+84	../sysdeps/unix/syscall-template.S: No such file or directory.
+Continuing.
+#0  epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+#1  0x000055fa6d3bb096 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:577
+#2  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#3  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#4  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 16, 0x00007fff9389e7a0 in gettimeofday ()
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d4041ef "d %s %4d %02d:%02d:%02d GMT", fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT", args=args@entry=0x7fff93868ad8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42ab16 <cached_http_time+150> "Wed, ", fmt=fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a864f in ngx_time_update () at src/core/ngx_times.c:118
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d4041fb "d:%02d:%02d GMT", fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT", args=args@entry=0x7fff93868ad8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42ab16 <cached_http_time+150> "Wed, 25 Dec 2019 0", fmt=fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a864f in ngx_time_update () at src/core/ngx_times.c:118
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404205 "d GMT", fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT", args=args@entry=0x7fff93868ad8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42ab16 <cached_http_time+150> "Wed, 25 Dec 2019 04:06:", fmt=fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a864f in ngx_time_update () at src/core/ngx_times.c:118
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 21, __localtime_r (t=t@entry=0x7fff93868bb8, tp=tp@entry=0x7fff93868c20) at localtime.c:29
+29	localtime.c: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d3ff666 "d/%02d/%02d %02d:%02d:%02d", fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d", args=args@entry=0x7fff93868ae8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42b264 <cached_err_log_time+100> "", fmt=fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a86bc in ngx_time_update () at src/core/ngx_times.c:145
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d3ff670 "d %02d:%02d:%02d", fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d", args=args@entry=0x7fff93868ae8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42b264 <cached_err_log_time+100> "2019/12/", fmt=fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a86bc in ngx_time_update () at src/core/ngx_times.c:145
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d3ff67a "d:%02d", fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d", args=args@entry=0x7fff93868ae8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42b264 <cached_err_log_time+100> "2019/12/24 23:0", fmt=fmt@entry=0x55fa6d3ff664 "%4d/%02d/%02d %02d:%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a86bc in ngx_time_update () at src/core/ngx_times.c:145
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404213 "d/%s/%d:%02d:%02d:%02d %c%02d%02d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a447 <cached_http_log_time+135> "", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d40421e "d:%02d:%02d %c%02d%02d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a447 <cached_http_log_time+135> "24/Dec/2019:", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404228 "d %c%02d%02d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a447 <cached_http_log_time+135> "24/Dec/2019:23:06:", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404233 "d", fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d42a447 <cached_http_log_time+135> "24/Dec/2019:23:06:41 -050", fmt=fmt@entry=0x55fa6d404210 "%02d/%s/%d:%02d:%02d:%02d %c%02d%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8760 in ngx_time_update () at src/core/ngx_times.c:153
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d40423f "d-%02dT%02d:%02d:%02d%c%02d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429dc2 <cached_http_log_iso8601+130> "2019-", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404249 "d:%02d:%02d%c%02d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429dc2 <cached_http_log_iso8601+130> "2019-12-24T", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404253 "d%c%02d:%02d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429dc2 <cached_http_log_iso8601+130> "2019-12-24T23:06:", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d40425e "d", fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d", args=args@entry=0x7fff93868ac8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6d429dc2 <cached_http_log_iso8601+130> "2019-12-24T23:06:41-05:0", fmt=fmt@entry=0x55fa6d404238 "%4d-%02d-%02dT%02d:%02d:%02d%c%02d:%02d") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8807 in ngx_time_update () at src/core/ngx_times.c:162
+#5  0x000055fa6d3bb0b7 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=60000, flags=1) at src/event/modules/ngx_epoll_module.c:582
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __GI___libc_malloc (bytes=bytes@entry=1272) at malloc.c:2917
+#1  0x000055fa6d3b61f5 in ngx_alloc (size=1272, log=0x55fa6f3571f0) at src/os/unix/ngx_alloc.c:22
+#2  0x000055fa6d39fd89 in ngx_palloc_large (pool=0x55fa6f357190, size=<optimized out>) at src/core/ngx_palloc.c:223
+#3  0x000055fa6d39fd72 in ngx_palloc (pool=<optimized out>, size=size@entry=1272) at src/core/ngx_palloc.c:142
+#4  0x000055fa6d39fee4 in ngx_pcalloc (pool=<optimized out>, size=size@entry=1272) at src/core/ngx_palloc.c:305
+#5  0x000055fa6d3c65c1 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:303
+#6  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#7  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#8  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#9  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+135	in ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S
+Continuing.
+#0  __posix_memalign (memptr=memptr@entry=0x7fff93868bd8, alignment=alignment@entry=16, size=size@entry=256) at malloc.c:5064
+#1  0x000055fa6d3b6282 in ngx_memalign (alignment=alignment@entry=16, size=size@entry=256, log=0x55fa6f3571f0) at src/os/unix/ngx_alloc.c:57
+#2  0x000055fa6d39fb32 in ngx_palloc_block (pool=0x55fa6f357190, size=size@entry=80) at src/core/ngx_palloc.c:185
+#3  0x000055fa6d39fd60 in ngx_palloc (pool=pool@entry=0x55fa6f357190, size=size@entry=80) at src/core/ngx_palloc.c:139
+#4  0x000055fa6d39fee4 in ngx_pcalloc (pool=pool@entry=0x55fa6f357190, size=size@entry=80) at src/core/ngx_palloc.c:305
+#5  0x000055fa6d3a171c in ngx_create_temp_buf (pool=0x55fa6f357190, size=1024) at src/core/ngx_buf.c:17
+#6  0x000055fa6d3c6842 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:449
+#7  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#8  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#9  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#10 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 4, __GI___libc_malloc (bytes=256) at malloc.c:2917
+2917	malloc.c: No such file or directory.
+Continuing.
+#0  __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+#1  0x000055fa6d39fefc in ngx_pcalloc (pool=pool@entry=0x55fa6f357190, size=size@entry=80) at src/core/ngx_palloc.c:307
+#2  0x000055fa6d3a171c in ngx_create_temp_buf (pool=0x55fa6f357190, size=1024) at src/core/ngx_buf.c:17
+#3  0x000055fa6d3c6842 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:449
+#4  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#5  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#6  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#7  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 4, __GI___libc_malloc (bytes=bytes@entry=1024) at malloc.c:2917
+2917	in malloc.c
+Continuing.
+#0  __posix_memalign (memptr=memptr@entry=0x7fff93868c28, alignment=alignment@entry=16, size=size@entry=4096) at malloc.c:5064
+#1  0x000055fa6d3b6282 in ngx_memalign (alignment=alignment@entry=16, size=size@entry=4096, log=log@entry=0x55fa6f3571f0) at src/os/unix/ngx_alloc.c:57
+#2  0x000055fa6d39fc0c in ngx_create_pool (size=4096, log=0x55fa6f3571f0) at src/core/ngx_palloc.c:21
+#3  0x000055fa6d3c66ac in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:461
+#4  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#5  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#6  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#7  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 4, __GI___libc_malloc (bytes=4096) at malloc.c:2917
+2917	in malloc.c
+Continuing.
+#0  __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+#1  0x000055fa6d39fefc in ngx_pcalloc (pool=<optimized out>, size=304) at src/core/ngx_palloc.c:307
+#2  0x000055fa6d3c6732 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:477
+#3  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#4  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#5  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#6  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __libc_recv (fd=7, buf=buf@entry=0x55fa6f363950, n=n@entry=1024, flags=flags@entry=0) at ../sysdeps/unix/sysv/linux/x86_64/recv.c:28
+#1  0x000055fa6d3b6ceb in ngx_unix_recv (c=0x7efc7cdbe0c8, buf=0x55fa6f363950 "\230\341\345{\374~", size=1024) at src/os/unix/ngx_recv.c:136
+#2  0x000055fa6d3c8318 in ngx_http_read_request_header (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1185
+#3  0x000055fa6d3c8af9 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:743
+#4  0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#5  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#6  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3c87af in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1106
+#2  0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#3  0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#4  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#5  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#6  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#7  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memcmp_sse4_1 () at ../sysdeps/x86_64/multiarch/memcmp-sse4.S:47
+#1  0x000055fa6d3c29c4 in ngx_http_core_find_static_location (node=0x55fa6f375368, r=0x55fa6f363450) at src/http/ngx_http_core_module.c:1642
+#2  ngx_http_core_find_location (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1556
+#3  0x000055fa6d3c2ffd in ngx_http_core_find_config_phase (r=0x55fa6f363450, ph=<optimized out>) at src/http/ngx_http_core_module.c:970
+#4  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#5  0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#6  0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#7  0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#8  0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#9  0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#10 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#11 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#12 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#13 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3db0b4 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:176
+#2  0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#3  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#4  0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#5  0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#6  0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#7  0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#8  0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#9  0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#10 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#11 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#12 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memcmp_sse4_1 () at ../sysdeps/x86_64/multiarch/memcmp-sse4.S:47
+#1  0x000055fa6d3c29c4 in ngx_http_core_find_static_location (node=0x55fa6f375368, r=0x55fa6f363450) at src/http/ngx_http_core_module.c:1642
+#2  ngx_http_core_find_location (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1556
+#3  0x000055fa6d3c2ffd in ngx_http_core_find_config_phase (r=0x55fa6f363450, ph=<optimized out>) at src/http/ngx_http_core_module.c:970
+#4  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#5  0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#6  0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#7  0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#8  0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#9  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#10 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#11 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#12 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#13 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#14 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#15 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#16 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#17 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#18 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 7, __memcmp_sse4_1 () at ../sysdeps/x86_64/multiarch/memcmp-sse4.S:47
+47	../sysdeps/x86_64/multiarch/memcmp-sse4.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3c3909 in ngx_http_map_uri_to_path (r=r@entry=0x55fa6f363450, path=path@entry=0x7fff93868880, root_length=root_length@entry=0x7fff93868898, reserved=reserved@entry=0) at src/http/ngx_http_core_module.c:1997
+#2  0x000055fa6d3da59b in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:77
+#3  0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#4  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#5  0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#6  0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#7  0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#8  0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#9  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#10 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#11 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#12 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#13 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#14 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#15 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#16 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#17 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#18 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 11, open64 () at ../sysdeps/unix/syscall-template.S:84
+84	../sysdeps/unix/syscall-template.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d4005f3 "T-%xO\"", fmt@entry=0x55fa6d4005f0 "\"%xT-%xO\"", args=args@entry=0x7fff93868708) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=<optimized out>, fmt=fmt@entry=0x55fa6d4005f0 "\"%xT-%xO\"") at src/core/ngx_string.c:109
+#4  0x000055fa6d3c34f3 in ngx_http_set_etag (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1844
+#5  0x000055fa6d3da895 in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:223
+#6  0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#7  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#8  0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#9  0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#10 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#11 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#12 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#13 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#14 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#15 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#16 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#17 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#18 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#19 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#20 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#21 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+#1  0x000055fa6d39fefc in ngx_pcalloc (pool=<optimized out>, size=size@entry=80) at src/core/ngx_palloc.c:307
+#2  0x000055fa6d3da8ea in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:239
+#3  0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#4  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#5  0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#6  0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#7  0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#8  0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#9  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#10 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#11 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#12 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#13 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#14 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#15 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#16 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#17 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#18 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+#1  0x000055fa6d39fefc in ngx_pcalloc (pool=pool@entry=0x55fa6f363d60, size=size@entry=80) at src/core/ngx_palloc.c:307
+#2  0x000055fa6d3a171c in ngx_create_temp_buf (pool=0x55fa6f363d60, size=254) at src/core/ngx_buf.c:17
+#3  0x000055fa6d3cb7c8 in ngx_http_header_filter (r=0x55fa6f363450) at src/http/ngx_http_header_filter_module.c:435
+#4  0x000055fa6d3db811 in ngx_http_chunked_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_chunked_filter_module.c:95
+#5  0x000055fa6d3db9c3 in ngx_http_range_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_range_filter_module.c:265
+#6  0x000055fa6d3e0d84 in ngx_http_gzip_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_gzip_filter_module.c:257
+#7  0x000055fa6d3e1861 in ngx_http_ssi_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_ssi_filter_module.c:332
+#8  0x000055fa6d3e6a8d in ngx_http_charset_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_charset_filter_module.c:236
+#9  0x000055fa6d3e77d9 in ngx_http_userid_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_userid_filter_module.c:209
+#10 0x000055fa6d3dcc54 in ngx_http_headers_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_headers_filter_module.c:164
+#11 0x000055fa6d3dd360 in ngx_http_not_modified_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_not_modified_filter_module.c:108
+#12 0x000055fa6d3c354c in ngx_http_send_header (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1941
+#13 0x000055fa6d3da91f in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:249
+#14 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#15 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#16 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#17 0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#18 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#19 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#20 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#21 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#22 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#23 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#24 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#25 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#26 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#27 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#28 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#29 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3cba50 in ngx_http_header_filter (r=0x55fa6f363450) at src/http/ngx_http_header_filter_module.c:462
+#2  0x000055fa6d3db811 in ngx_http_chunked_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_chunked_filter_module.c:95
+#3  0x000055fa6d3db9c3 in ngx_http_range_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_range_filter_module.c:265
+#4  0x000055fa6d3e0d84 in ngx_http_gzip_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_gzip_filter_module.c:257
+#5  0x000055fa6d3e1861 in ngx_http_ssi_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_ssi_filter_module.c:332
+#6  0x000055fa6d3e6a8d in ngx_http_charset_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_charset_filter_module.c:236
+#7  0x000055fa6d3e77d9 in ngx_http_userid_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_userid_filter_module.c:209
+#8  0x000055fa6d3dcc54 in ngx_http_headers_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_headers_filter_module.c:164
+#9  0x000055fa6d3dd360 in ngx_http_not_modified_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_not_modified_filter_module.c:108
+#10 0x000055fa6d3c354c in ngx_http_send_header (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1941
+#11 0x000055fa6d3da91f in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:249
+#12 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#13 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#14 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#15 0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#16 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#17 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#18 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#19 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#20 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#21 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#22 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#23 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#24 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#25 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#26 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#27 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3cbaec in ngx_http_header_filter (r=0x55fa6f363450) at src/http/ngx_http_header_filter_module.c:477
+#2  0x000055fa6d3db811 in ngx_http_chunked_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_chunked_filter_module.c:95
+#3  0x000055fa6d3db9c3 in ngx_http_range_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_range_filter_module.c:265
+#4  0x000055fa6d3e0d84 in ngx_http_gzip_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_gzip_filter_module.c:257
+#5  0x000055fa6d3e1861 in ngx_http_ssi_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_ssi_filter_module.c:332
+#6  0x000055fa6d3e6a8d in ngx_http_charset_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_charset_filter_module.c:236
+#7  0x000055fa6d3e77d9 in ngx_http_userid_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_userid_filter_module.c:209
+#8  0x000055fa6d3dcc54 in ngx_http_headers_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_headers_filter_module.c:164
+#9  0x000055fa6d3dd360 in ngx_http_not_modified_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_not_modified_filter_module.c:108
+#10 0x000055fa6d3c354c in ngx_http_send_header (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1941
+#11 0x000055fa6d3da91f in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:249
+#12 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#13 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#14 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#15 0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#16 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#17 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#18 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#19 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#20 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#21 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#22 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#23 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#24 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#25 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#26 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#27 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d4041ef "d %s %4d %02d:%02d:%02d GMT", fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT", args=args@entry=0x7fff938683e8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6f364998 "Wed, 0", fmt=fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8a11 in ngx_http_time (buf=0x55fa6f364998 "Wed, 0", t=<optimized out>) at src/core/ngx_times.c:244
+#5  0x000055fa6d3cbbf2 in ngx_http_header_filter (r=0x55fa6f363450) at src/http/ngx_http_header_filter_module.c:509
+#6  0x000055fa6d3db811 in ngx_http_chunked_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_chunked_filter_module.c:95
+#7  0x000055fa6d3db9c3 in ngx_http_range_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_range_filter_module.c:265
+#8  0x000055fa6d3e0d84 in ngx_http_gzip_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_gzip_filter_module.c:257
+#9  0x000055fa6d3e1861 in ngx_http_ssi_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_ssi_filter_module.c:332
+#10 0x000055fa6d3e6a8d in ngx_http_charset_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_charset_filter_module.c:236
+#11 0x000055fa6d3e77d9 in ngx_http_userid_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_userid_filter_module.c:209
+#12 0x000055fa6d3dcc54 in ngx_http_headers_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_headers_filter_module.c:164
+#13 0x000055fa6d3dd360 in ngx_http_not_modified_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_not_modified_filter_module.c:108
+#14 0x000055fa6d3c354c in ngx_http_send_header (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1941
+#15 0x000055fa6d3da91f in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:249
+#16 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#17 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#18 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#19 0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#20 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#21 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#22 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#23 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#24 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#25 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#26 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#27 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#28 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#29 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#30 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#31 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d4041fb "d:%02d:%02d GMT", fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT", args=args@entry=0x7fff938683e8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6f364998 "Wed, 02 Oct 2019 ", fmt=fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8a11 in ngx_http_time (buf=0x55fa6f364998 "Wed, 02 Oct 2019 ", t=<optimized out>) at src/core/ngx_times.c:244
+#5  0x000055fa6d3cbbf2 in ngx_http_header_filter (r=0x55fa6f363450) at src/http/ngx_http_header_filter_module.c:509
+#6  0x000055fa6d3db811 in ngx_http_chunked_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_chunked_filter_module.c:95
+#7  0x000055fa6d3db9c3 in ngx_http_range_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_range_filter_module.c:265
+#8  0x000055fa6d3e0d84 in ngx_http_gzip_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_gzip_filter_module.c:257
+#9  0x000055fa6d3e1861 in ngx_http_ssi_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_ssi_filter_module.c:332
+#10 0x000055fa6d3e6a8d in ngx_http_charset_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_charset_filter_module.c:236
+#11 0x000055fa6d3e77d9 in ngx_http_userid_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_userid_filter_module.c:209
+#12 0x000055fa6d3dcc54 in ngx_http_headers_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_headers_filter_module.c:164
+#13 0x000055fa6d3dd360 in ngx_http_not_modified_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_not_modified_filter_module.c:108
+#14 0x000055fa6d3c354c in ngx_http_send_header (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1941
+#15 0x000055fa6d3da91f in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:249
+#16 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#17 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#18 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#19 0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#20 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#21 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#22 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#23 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#24 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#25 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#26 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#27 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#28 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#29 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#30 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#31 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d404205 "d GMT", fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT", args=args@entry=0x7fff938683e8) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=buf@entry=0x55fa6f364998 "Wed, 02 Oct 2019 17:01:", fmt=fmt@entry=0x55fa6d4041e8 "%s, %02d %s %4d %02d:%02d:%02d GMT") at src/core/ngx_string.c:109
+#4  0x000055fa6d3a8a11 in ngx_http_time (buf=0x55fa6f364998 "Wed, 02 Oct 2019 17:01:", t=<optimized out>) at src/core/ngx_times.c:244
+#5  0x000055fa6d3cbbf2 in ngx_http_header_filter (r=0x55fa6f363450) at src/http/ngx_http_header_filter_module.c:509
+#6  0x000055fa6d3db811 in ngx_http_chunked_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_chunked_filter_module.c:95
+#7  0x000055fa6d3db9c3 in ngx_http_range_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_range_filter_module.c:265
+#8  0x000055fa6d3e0d84 in ngx_http_gzip_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_gzip_filter_module.c:257
+#9  0x000055fa6d3e1861 in ngx_http_ssi_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_ssi_filter_module.c:332
+#10 0x000055fa6d3e6a8d in ngx_http_charset_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_charset_filter_module.c:236
+#11 0x000055fa6d3e77d9 in ngx_http_userid_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_userid_filter_module.c:209
+#12 0x000055fa6d3dcc54 in ngx_http_headers_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_headers_filter_module.c:164
+#13 0x000055fa6d3dd360 in ngx_http_not_modified_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_not_modified_filter_module.c:108
+#14 0x000055fa6d3c354c in ngx_http_send_header (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1941
+#15 0x000055fa6d3da91f in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:249
+#16 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#17 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#18 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#19 0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#20 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#21 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#22 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#23 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#24 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#25 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#26 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#27 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#28 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#29 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#30 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#31 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3cbd67 in ngx_http_header_filter (r=0x55fa6f363450) at src/http/ngx_http_header_filter_module.c:594
+#2  0x000055fa6d3db811 in ngx_http_chunked_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_chunked_filter_module.c:95
+#3  0x000055fa6d3db9c3 in ngx_http_range_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_range_filter_module.c:265
+#4  0x000055fa6d3e0d84 in ngx_http_gzip_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_gzip_filter_module.c:257
+#5  0x000055fa6d3e1861 in ngx_http_ssi_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_ssi_filter_module.c:332
+#6  0x000055fa6d3e6a8d in ngx_http_charset_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_charset_filter_module.c:236
+#7  0x000055fa6d3e77d9 in ngx_http_userid_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_userid_filter_module.c:209
+#8  0x000055fa6d3dcc54 in ngx_http_headers_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_headers_filter_module.c:164
+#9  0x000055fa6d3dd360 in ngx_http_not_modified_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_not_modified_filter_module.c:108
+#10 0x000055fa6d3c354c in ngx_http_send_header (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1941
+#11 0x000055fa6d3da91f in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:249
+#12 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#13 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#14 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#15 0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#16 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#17 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#18 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#19 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#20 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#21 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#22 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#23 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#24 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#25 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#26 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#27 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3cbd67 in ngx_http_header_filter (r=0x55fa6f363450) at src/http/ngx_http_header_filter_module.c:594
+#2  0x000055fa6d3db811 in ngx_http_chunked_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_chunked_filter_module.c:95
+#3  0x000055fa6d3db9c3 in ngx_http_range_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_range_filter_module.c:265
+#4  0x000055fa6d3e0d84 in ngx_http_gzip_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_gzip_filter_module.c:257
+#5  0x000055fa6d3e1861 in ngx_http_ssi_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_ssi_filter_module.c:332
+#6  0x000055fa6d3e6a8d in ngx_http_charset_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_charset_filter_module.c:236
+#7  0x000055fa6d3e77d9 in ngx_http_userid_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_userid_filter_module.c:209
+#8  0x000055fa6d3dcc54 in ngx_http_headers_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_headers_filter_module.c:164
+#9  0x000055fa6d3dd360 in ngx_http_not_modified_header_filter (r=0x55fa6f363450) at src/http/modules/ngx_http_not_modified_filter_module.c:108
+#10 0x000055fa6d3c354c in ngx_http_send_header (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:1941
+#11 0x000055fa6d3da91f in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:249
+#12 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#13 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#14 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#15 0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#16 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#17 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#18 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#19 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#20 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#21 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#22 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#23 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#24 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#25 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#26 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#27 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 2, __memset_avx2_unaligned_erms () at ../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:135
+135	../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  writev () at ../sysdeps/unix/syscall-template.S:84
+#1  0x000055fa6d3bbc36 in ngx_linux_sendfile_chain (c=0x7efc7cdbe0c8, in=<optimized out>, limit=2147479551) at src/os/unix/ngx_linux_sendfile_chain.c:294
+#2  0x000055fa6d3cc29b in ngx_http_write_filter (r=0x55fa6f363450, in=<optimized out>) at src/http/ngx_http_write_filter_module.c:238
+#3  0x000055fa6d3db544 in ngx_http_chunked_body_filter (r=0x55fa6f363450, in=0x7fff93868870) at src/http/modules/ngx_http_chunked_filter_module.c:110
+#4  0x000055fa6d3e04bc in ngx_http_gzip_body_filter (r=0x55fa6f363450, in=0x7fff93868870) at src/http/modules/ngx_http_gzip_filter_module.c:325
+#5  0x000055fa6d3e128c in ngx_http_postpone_filter (r=0x55fa6f363450, in=<optimized out>) at src/http/ngx_http_postpone_filter_module.c:83
+#6  0x000055fa6d3e37e1 in ngx_http_ssi_body_filter (r=0x55fa6f363450, in=<optimized out>) at src/http/modules/ngx_http_ssi_filter_module.c:396
+#7  0x000055fa6d3e5d7b in ngx_http_charset_body_filter (r=0x55fa6f363450, in=0x7fff93868870) at src/http/modules/ngx_http_charset_filter_module.c:553
+#8  0x000055fa6d3a1aec in ngx_output_chain (ctx=ctx@entry=0x55fa6f364a20, in=in@entry=0x7fff93868870) at src/core/ngx_output_chain.c:66
+#9  0x000055fa6d3cc570 in ngx_http_copy_filter (r=0x55fa6f363450, in=0x7fff93868870) at src/http/ngx_http_copy_filter_module.c:143
+#10 0x000055fa6d3dc1d8 in ngx_http_range_body_filter (r=0x55fa6f363450, in=<optimized out>) at src/http/modules/ngx_http_range_filter_module.c:587
+#11 0x000055fa6d3c355c in ngx_http_output_filter (r=r@entry=0x55fa6f363450, in=in@entry=0x7fff93868870) at src/http/ngx_http_core_module.c:1956
+#12 0x000055fa6d3da9ff in ngx_http_static_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_static_module.c:270
+#13 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377098) at src/http/ngx_http_core_module.c:1411
+#14 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#15 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#16 0x000055fa6d3c470f in ngx_http_internal_redirect (r=r@entry=0x55fa6f363450, uri=uri@entry=0x7fff93868ae0, args=args@entry=0x55fa6f363778) at src/http/ngx_http_core_module.c:2589
+#17 0x000055fa6d3db444 in ngx_http_index_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_index_module.c:277
+#18 0x000055fa6d3c39aa in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1411
+#19 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#20 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#21 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#22 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#23 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#24 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#25 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#26 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#27 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#28 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 8, sendfile64 () at ../sysdeps/unix/syscall-template.S:84
+84	../sysdeps/unix/syscall-template.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3cd880 in ngx_http_log_variable (r=<optimized out>, buf=0x55fa6f364a98 "", op=<optimized out>) at src/http/modules/ngx_http_log_module.c:664
+#2  0x000055fa6d3cdec3 in ngx_http_log_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_log_module.c:297
+#3  0x000055fa6d3c5b9b in ngx_http_log_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:3109
+#4  0x000055fa6d3c5c17 in ngx_http_free_request (r=r@entry=0x55fa6f363450, rc=rc@entry=0) at src/http/ngx_http_request.c:3064
+#5  0x000055fa6d3c73e1 in ngx_http_set_keepalive (r=0x55fa6f363450) at src/http/ngx_http_request.c:2529
+#6  ngx_http_finalize_connection (r=0x55fa6f363450) at src/http/ngx_http_request.c:2219
+#7  0x000055fa6d3c7dd3 in ngx_http_finalize_request (r=r@entry=0x55fa6f363450, rc=<optimized out>) at src/http/ngx_http_request.c:1956
+#8  0x000055fa6d3c39fd in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1414
+#9  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#10 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#11 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#12 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#13 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#14 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#15 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#16 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#17 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#18 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S: No such file or directory.
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3cd880 in ngx_http_log_variable (r=<optimized out>, buf=0x55fa6f364ac4 "", op=<optimized out>) at src/http/modules/ngx_http_log_module.c:664
+#2  0x000055fa6d3cdec3 in ngx_http_log_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_log_module.c:297
+#3  0x000055fa6d3c5b9b in ngx_http_log_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:3109
+#4  0x000055fa6d3c5c17 in ngx_http_free_request (r=r@entry=0x55fa6f363450, rc=rc@entry=0) at src/http/ngx_http_request.c:3064
+#5  0x000055fa6d3c73e1 in ngx_http_set_keepalive (r=0x55fa6f363450) at src/http/ngx_http_request.c:2529
+#6  ngx_http_finalize_connection (r=0x55fa6f363450) at src/http/ngx_http_request.c:2219
+#7  0x000055fa6d3c7dd3 in ngx_http_finalize_request (r=r@entry=0x55fa6f363450, rc=<optimized out>) at src/http/ngx_http_request.c:1956
+#8  0x000055fa6d3c39fd in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1414
+#9  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#10 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#11 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#12 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#13 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#14 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#15 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#16 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#17 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#18 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+#1  0x000055fa6d3a26b3 in ngx_sprintf_num (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, ui64=<optimized out>, zero=<optimized out>, hexadecimal=<optimized out>, width=<optimized out>) at src/core/ngx_string.c:553
+#2  0x000055fa6d3a2a5f in ngx_vslprintf (buf=<optimized out>, last=last@entry=0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, fmt=0x55fa6d401298 "O", fmt@entry=0x55fa6d401297 "%O", args=args@entry=0x7fff93868908) at src/core/ngx_string.c:458
+#3  0x000055fa6d3a30f2 in ngx_sprintf (buf=<optimized out>, fmt=fmt@entry=0x55fa6d401297 "%O") at src/core/ngx_string.c:109
+#4  0x000055fa6d3cd12c in ngx_http_log_body_bytes_sent (r=<optimized out>, buf=<optimized out>, op=<optimized out>) at src/http/modules/ngx_http_log_module.c:594
+#5  0x000055fa6d3cdec3 in ngx_http_log_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_log_module.c:297
+#6  0x000055fa6d3c5b9b in ngx_http_log_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:3109
+#7  0x000055fa6d3c5c17 in ngx_http_free_request (r=r@entry=0x55fa6f363450, rc=rc@entry=0) at src/http/ngx_http_request.c:3064
+#8  0x000055fa6d3c73e1 in ngx_http_set_keepalive (r=0x55fa6f363450) at src/http/ngx_http_request.c:2529
+#9  ngx_http_finalize_connection (r=0x55fa6f363450) at src/http/ngx_http_request.c:2219
+#10 0x000055fa6d3c7dd3 in ngx_http_finalize_request (r=r@entry=0x55fa6f363450, rc=<optimized out>) at src/http/ngx_http_request.c:1956
+#11 0x000055fa6d3c39fd in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1414
+#12 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#13 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#14 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#15 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#16 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#17 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#18 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#19 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#20 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#21 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 1, __memmove_avx_unaligned_erms () at ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:210
+210	in ../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+Continuing.
+#0  write () at ../sysdeps/unix/syscall-template.S:84
+#1  0x000055fa6d3cda91 in ngx_write_fd (n=86, buf=0x55fa6f364a98, fd=<optimized out>) at src/os/unix/ngx_files.h:142
+#2  ngx_http_log_write (r=r@entry=0x55fa6f363450, log=log@entry=0x55fa6f3724e0, buf=buf@entry=0x55fa6f364a98 "127.0.0.1 - - [24/Dec/2019:23:06:41 -0500] \"GET / HTTP/1.1\" 200 612 \"-\" \"curl/7.52.1\"\n", len=86) at src/http/modules/ngx_http_log_module.c:320
+#3  0x000055fa6d3cdef2 in ngx_http_log_handler (r=0x55fa6f363450) at src/http/modules/ngx_http_log_module.c:302
+#4  0x000055fa6d3c5b9b in ngx_http_log_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:3109
+#5  0x000055fa6d3c5c17 in ngx_http_free_request (r=r@entry=0x55fa6f363450, rc=rc@entry=0) at src/http/ngx_http_request.c:3064
+#6  0x000055fa6d3c73e1 in ngx_http_set_keepalive (r=0x55fa6f363450) at src/http/ngx_http_request.c:2529
+#7  ngx_http_finalize_connection (r=0x55fa6f363450) at src/http/ngx_http_request.c:2219
+#8  0x000055fa6d3c7dd3 in ngx_http_finalize_request (r=r@entry=0x55fa6f363450, rc=<optimized out>) at src/http/ngx_http_request.c:1956
+#9  0x000055fa6d3c39fd in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1414
+#10 0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#11 0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#12 0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#13 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#14 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#15 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#16 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#17 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#18 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#19 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 12, close () at ../sysdeps/unix/syscall-template.S:84
+84	../sysdeps/unix/syscall-template.S: No such file or directory.
+Continuing.
+#0  __GI___libc_free (mem=mem@entry=0x55fa6f363d60) at malloc.c:2954
+#1  0x000055fa6d39fc98 in ngx_destroy_pool (pool=<optimized out>) at src/core/ngx_palloc.c:87
+#2  0x000055fa6d3c5c75 in ngx_http_free_request (r=r@entry=0x55fa6f363450, rc=rc@entry=0) at src/http/ngx_http_request.c:3092
+#3  0x000055fa6d3c73e1 in ngx_http_set_keepalive (r=0x55fa6f363450) at src/http/ngx_http_request.c:2529
+#4  ngx_http_finalize_connection (r=0x55fa6f363450) at src/http/ngx_http_request.c:2219
+#5  0x000055fa6d3c7dd3 in ngx_http_finalize_request (r=r@entry=0x55fa6f363450, rc=<optimized out>) at src/http/ngx_http_request.c:1956
+#6  0x000055fa6d3c39fd in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1414
+#7  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#8  0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#9  0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#10 0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#11 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#12 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#13 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#14 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#15 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#16 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 3, __GI___libc_free (mem=mem@entry=0x55fa6f363450) at malloc.c:2954
+2954	malloc.c: No such file or directory.
+Continuing.
+#0  __GI___libc_free (mem=0x55fa6f363950) at malloc.c:2954
+#1  0x000055fa6d39febe in ngx_pfree (pool=<optimized out>, p=<optimized out>) at src/core/ngx_palloc.c:289
+#2  0x000055fa6d3c75fa in ngx_http_set_keepalive (r=<optimized out>) at src/http/ngx_http_request.c:2575
+#3  ngx_http_finalize_connection (r=<optimized out>) at src/http/ngx_http_request.c:2219
+#4  0x000055fa6d3c7dd3 in ngx_http_finalize_request (r=r@entry=0x55fa6f363450, rc=<optimized out>) at src/http/ngx_http_request.c:1956
+#5  0x000055fa6d3c39fd in ngx_http_core_content_phase (r=0x55fa6f363450, ph=0x55fa6f377068) at src/http/ngx_http_core_module.c:1414
+#6  0x000055fa6d3be91c in ngx_http_core_run_phases (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:885
+#7  0x000055fa6d3be9c6 in ngx_http_handler (r=r@entry=0x55fa6f363450) at src/http/ngx_http_core_module.c:868
+#8  0x000055fa6d3c8452 in ngx_http_process_request (r=r@entry=0x55fa6f363450) at src/http/ngx_http_request.c:1698
+#9  0x000055fa6d3c88cf in ngx_http_process_request_headers (rev=rev@entry=0x55fa6f378998) at src/http/ngx_http_request.c:1143
+#10 0x000055fa6d3c8f44 in ngx_http_process_request_line (rev=0x55fa6f378998) at src/http/ngx_http_request.c:941
+#11 0x000055fa6d3c6830 in ngx_http_init_request (rev=0x55fa6f378998) at src/http/ngx_http_request.c:527
+#12 0x000055fa6d3bb2ac in ngx_epoll_process_events (cycle=<optimized out>, timer=<optimized out>, flags=<optimized out>) at src/event/modules/ngx_epoll_module.c:683
+#13 0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#14 0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#15 0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 18, setsockopt () at ../sysdeps/unix/syscall-template.S:84
+84	../sysdeps/unix/syscall-template.S: No such file or directory.
+Continuing.
+#0  __GI___libc_malloc (bytes=bytes@entry=1024) at malloc.c:2917
+#1  0x000055fa6d3b61f5 in ngx_alloc (size=1024, log=0x55fa6f3571f0) at src/os/unix/ngx_alloc.c:22
+#2  0x000055fa6d39fd89 in ngx_palloc_large (pool=0x55fa6f357190, size=<optimized out>) at src/core/ngx_palloc.c:223
+#3  0x000055fa6d39fd72 in ngx_palloc (pool=<optimized out>, size=size@entry=1024) at src/core/ngx_palloc.c:142
+#4  0x000055fa6d3c6e9c in ngx_http_keepalive_handler (rev=0x55fa6f378998) at src/http/ngx_http_request.c:2732
+#5  0x000055fa6d3b3d98 in ngx_event_process_posted (cycle=cycle@entry=0x55fa6f358c60, posted=0x55fa6d438698 <ngx_posted_events>) at src/event/ngx_event_posted.c:40
+#6  0x000055fa6d3b3969 in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:274
+#7  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#8  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 5, __errno_location () at ../csu/errno-loc.c:26
+26	../csu/errno-loc.c: No such file or directory.
+Continuing.
+#0  __libc_recv (fd=7, buf=buf@entry=0x55fa6f363450, n=n@entry=1024, flags=flags@entry=0) at ../sysdeps/unix/sysv/linux/x86_64/recv.c:28
+#1  0x000055fa6d3b6ceb in ngx_unix_recv (c=0x7efc7cdbe0c8, buf=0x55fa6f363450 "\310\341\345{\374~", size=1024) at src/os/unix/ngx_recv.c:136
+#2  0x000055fa6d3c6e2f in ngx_http_keepalive_handler (rev=0x55fa6f378998) at src/http/ngx_http_request.c:2751
+#3  0x000055fa6d3b3d98 in ngx_event_process_posted (cycle=cycle@entry=0x55fa6f358c60, posted=0x55fa6d438698 <ngx_posted_events>) at src/event/ngx_event_posted.c:40
+#4  0x000055fa6d3b3969 in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:274
+#5  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#6  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 12, close () at ../sysdeps/unix/syscall-template.S:84
+84	../sysdeps/unix/syscall-template.S: No such file or directory.
+Continuing.
+#0  __GI___libc_free (mem=0x55fa6f363450) at malloc.c:2954
+#1  0x000055fa6d39fcd5 in ngx_destroy_pool (pool=pool@entry=0x55fa6f357190) at src/core/ngx_palloc.c:64
+#2  0x000055fa6d3c5d43 in ngx_http_close_connection (c=c@entry=0x7efc7cdbe0c8) at src/http/ngx_http_request.c:3143
+#3  0x000055fa6d3c6e7d in ngx_http_keepalive_handler (rev=0x55fa6f378998) at src/http/ngx_http_request.c:2786
+#4  0x000055fa6d3b3d98 in ngx_event_process_posted (cycle=cycle@entry=0x55fa6f358c60, posted=0x55fa6d438698 <ngx_posted_events>) at src/event/ngx_event_posted.c:40
+#5  0x000055fa6d3b3969 in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:274
+#6  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#7  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 3, __GI___libc_free (mem=mem@entry=0x55fa6f357190) at malloc.c:2954
+2954	malloc.c: No such file or directory.
+Continuing.
+#0  __GI___libc_free (mem=mem@entry=0x55fa6f3572a0) at malloc.c:2954
+#1  0x000055fa6d39fc98 in ngx_destroy_pool (pool=pool@entry=0x55fa6f357190) at src/core/ngx_palloc.c:87
+#2  0x000055fa6d3c5d43 in ngx_http_close_connection (c=c@entry=0x7efc7cdbe0c8) at src/http/ngx_http_request.c:3143
+#3  0x000055fa6d3c6e7d in ngx_http_keepalive_handler (rev=0x55fa6f378998) at src/http/ngx_http_request.c:2786
+#4  0x000055fa6d3b3d98 in ngx_event_process_posted (cycle=cycle@entry=0x55fa6f358c60, posted=0x55fa6d438698 <ngx_posted_events>) at src/event/ngx_event_posted.c:40
+#5  0x000055fa6d3b3969 in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:274
+#6  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#7  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 15, epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+84	../sysdeps/unix/syscall-template.S: No such file or directory.
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+#0  0x00007efc7bbad2e3 in __epoll_wait_nocancel () at ../sysdeps/unix/syscall-template.S:84
+#1  0x000055fa6d3bb096 in ngx_epoll_process_events (cycle=0x55fa6f358c60, timer=18446744073709551615, flags=1) at src/event/modules/ngx_epoll_module.c:577
+#2  0x000055fa6d3b390e in ngx_process_events_and_timers (cycle=cycle@entry=0x55fa6f358c60) at src/event/ngx_event.c:247
+#3  0x000055fa6d3bac5a in ngx_single_process_cycle (cycle=0x55fa6f358c60) at src/os/unix/ngx_process_cycle.c:315
+#4  0x000055fa6d39ec13 in main (argc=1, argv=<optimized out>) at src/core/nginx.c:409
+
+Breakpoint 5, __errno_location () at ../csu/errno-loc.c:26
+26	../csu/errno-loc.c: No such file or directory.
+Detaching from program: /home/sengming/research/nginx-1.3.9/objs/nginx, process 8993
