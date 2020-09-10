@@ -95,7 +95,8 @@ void MVXAA::visitLoadInst(LoadInst &I) {
 }
 
 /**
- * @brief Check if call instructions within visited function are indirect calls
+ * @brief Check if call instructions within visited function are indirect
+ calls
  * aka function ptrs.
  *
  * @param I
@@ -146,7 +147,8 @@ Value *MVXAA::aliasesGlobal(Value *V) const {
     Value *retVal = nullptr;
     assert(m_pwpa && "WPA pointer not initialized!");
     for (Value *GV : *m_pglobals) {
-        if (m_pwpa->alias(MemoryLocation(V), MemoryLocation(GV))) {
+        if (m_pwpa->alias(MemoryLocation(V), MemoryLocation(GV)) &&
+            !(cast<GlobalVariable>(GV)->isConstant())) {
             retVal = GV;
             break;
         }
