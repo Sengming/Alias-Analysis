@@ -1,7 +1,9 @@
 CC=/usr/local/bin/clang
 CXX=/usr/local/bin/clang++
-INC=-I/usr/local/include/ -I ./include/ -I ../SVF/include/
-SVF_LIB=../SVF/lib
+SVF=./SVF
+INC=-I/usr/local/include/ -I ./include/ -I $(SVF)/include/
+SVF_LIB=$(SVF)/Release-build/lib
+
 SOURCES:= $(shell find . -maxdepth 1 -type f -name '*.cpp')
 OBJECTS:= $(SOURCES:.cpp=.o)
 #DEBUG:= -DDEBUG_BUILD
@@ -16,9 +18,8 @@ TINY_TARGET_SOURCES:=$(shell find ./tests/tiny-web-server -type f -name '*.c')
 TINY_TARGET_OBJECTS:=$(TINY_TARGET_SOURCES:.c=.o)
 TINY_TARGET_BC:=$(TINY_TARGET_SOURCES:.c=_m2r.bc)
 
-CXXFLAGS = -rdynamic $(shell llvm-config --cxxflags) $(INC) -g -O0 -fPIC $(DEBUG) 
+CXXFLAGS = -rdynamic $(shell llvm-config --cxxflags) $(INC) -g -O0 -fPIC $(DEBUG)
 LINKFLAGS=$(shell llvm-config --ldflags --libs --cxxflags --system-libs) 
-
 
 all: mvxaa.so
 
@@ -50,10 +51,14 @@ run_mvxaa_tiny: $(TINY_TARGET_BC) all
 	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="rio_readlineb" ./tests/tiny-web-server/tiny_merged.bc -o /dev/zero
 
 run_mvxaa_sshd: all sshd
-	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="server_accept_loop" ./tests/openssh-portable/sshd_merged.bc -o /dev/zero
+	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="main" ./tests/openssh-portable/sshd_merged.bc -o /dev/zero
 
 run_mvxaa_nginx: all nginx
-	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="ngx_single_process_cycle" ./tests/nginx-1.3.9/nginx_merged_m2r.bc -o /dev/zero
+	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="connection_state_machine" ./tests/nginx-1.3.9/nginx_merged_m2r.bc -o /dev/zero
+
+run_mvxaa_lighttpd: all lighttpd
+	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="main" ./tests/lighttpd-1.4.50/src/lighttpd_merged_m2r.bc -o /dev/zero
+	#opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="http_request_parse" ./tests/lighttpd-1.4.50/src/lighttpd_merged_m2r.bc -o /dev/zero
 
 # Builds of tests
 
@@ -62,6 +67,10 @@ sshd:
 
 nginx:
 	cd ./tests/nginx-1.3.9/ && ./myconfig.sh && $(MAKE) build
+
+lighttpd:
+	#cd ./tests/lighttpd-1.4.50/ && ./myconfig.sh && $(MAKE)
+	cd ./tests/lighttpd-1.4.50/src && $(MAKE) lighttpd_merged
 
 # Haven't fully tested
 debug_mvxaa: ./tests/target_app_m2r.bc all  

@@ -41,7 +41,7 @@ class MVXAA : public ModulePass, public InstVisitor<MVXAA> {
     Module *m_pmainmodule;
 
     StringRef m_mvxFunc;
-    std::unique_ptr<WPAPass> m_pwpa;
+    std::unique_ptr<SVF::WPAPass> m_pwpa;
     DenseSet<Value *> m_targetGlobals;
     DenseSet<Value *> m_targetGEPSet;
 

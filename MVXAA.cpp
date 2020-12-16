@@ -27,8 +27,8 @@ bool MVXAA::runOnModule(Module &M) {
     m_pglobals = getAnalysis<CollectGlobals>().getResult();
     m_pmainmodule = &M;
     // Create SVF and run on module
-    SVFModule *svfModule = LLVMModuleSet::getLLVMModuleSet()->buildSVFModule(M);
-    m_pwpa = std::make_unique<WPAPass>();
+    SVF::SVFModule *svfModule = SVF::LLVMModuleSet::getLLVMModuleSet()->buildSVFModule(M);
+    m_pwpa = std::make_unique<SVF::WPAPass>();
     m_pwpa->runOnModule(svfModule);
     // Andersen *ander = AndersenWaveDiff::createAndersenWaveDiff(svfModule);
 
@@ -107,12 +107,14 @@ void MVXAA::visitCallInst(CallInst &I) {
         m_fpointers.insert(&I);
 
         LoadInst *loadInst = dyn_cast_or_null<LoadInst>(I.getCalledOperand());
-        assert(loadInst && "Indirect call's operand should be a load inst!");
+        // assert(loadInst && "Indirect call's operand should be a load inst!");
+        if (loadInst != nullptr) {
 
-        // If the load instruction's pointer operand aliases any globals
-        if (Value *aliasedGlobal =
-                aliasesGlobal(loadInst->getPointerOperand())) {
-            processPointerOperand(loadInst->getPointerOperand());
+            // If the load instruction's pointer operand aliases any globals
+            if (Value *aliasedGlobal =
+                    aliasesGlobal(loadInst->getPointerOperand())) {
+                processPointerOperand(loadInst->getPointerOperand());
+            }
         }
     }
 }
@@ -195,15 +197,20 @@ void MVXAA::resolveGEPParents(const DenseSet<Value *> &gepSet) {
         // Next, check the offset of the member and push that into the pair.
         if (LoadInst *LI = dyn_cast<LoadInst>(GEPinst->getPointerOperand())) {
             if (Value *globalAlias = aliasesGlobal(LI)) {
-                if (ConstantInt *CI =
-                        dyn_cast<ConstantInt>(GEPinst->getOperand(2))) {
-                    LLVM_DEBUG(
-                        dbgs() << "GEP Parent Resolution: " << *globalAlias
-                               << " offset: " << CI->getZExtValue() << "\n";);
-                    m_globalsAndOffsets.insert(GlobalPair_t(
-                        globalAlias->getName(), CI->getZExtValue()));
-                } else {
-                    llvm_unreachable("GEP Offset is not a constant int!");
+                if (GEPinst->getNumOperands() >= 3) {
+                    if (ConstantInt *CI =
+                            dyn_cast<ConstantInt>(GEPinst->getOperand(2))) {
+                        LLVM_DEBUG(dbgs() << "GEP Parent Resolution: "
+                                          << *globalAlias << " offset: "
+                                          << CI->getZExtValue() << "\n";);
+                        m_globalsAndOffsets.insert(GlobalPair_t(
+                            globalAlias->getName(), CI->getZExtValue()));
+                    } else {
+                        // llvm_unreachable("GEP Offset is not a constant
+                        // int!");
+                        LLVM_DEBUG(dbgs()
+                                   << "GEP Offset is not a constant int!\n");
+                    }
                 }
             }
         } else if (m_pglobals->find(GEPinst->getPointerOperand()) !=
@@ -220,7 +227,8 @@ void MVXAA::resolveGEPParents(const DenseSet<Value *> &gepSet) {
                 m_globalsAndOffsets.insert(
                     GlobalPair_t(globalMatch->getName(), CI->getZExtValue()));
             } else {
-                llvm_unreachable("GEP Offset is not a constant int!");
+                // llvm_unreachable("GEP Offset is not a constant int!");
+                LLVM_DEBUG(dbgs() << "GEP Offset is not a constant int!\n");
             }
         }
     }

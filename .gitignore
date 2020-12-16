@@ -5,7 +5,10 @@
 *.slo
 *.lo
 *.o
+*.la
 *.obj
+*.Po
+*.Plo
 
 # Precompiled Headers
 *.gch
