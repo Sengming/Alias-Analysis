@@ -8,10 +8,15 @@ SOURCES:= $(shell find . -maxdepth 1 -type f -name '*.cpp')
 OBJECTS:= $(SOURCES:.cpp=.o)
 #DEBUG:= -DDEBUG_BUILD
 
-# Test Targets
+# Globals Microbench Targets
 TARGET_SOURCES:=$(shell find ./tests -maxdepth 1 -type f -name '*.c')
 TARGET_OBJECTS:=$(TARGET_SOURCES:.c=.o)
 TARGET_BC:=$(TARGET_SOURCES:.c=_m2r.bc)
+
+# Malloc Microbench Test
+MALLOC_TARGET_SOURCES:=$(shell find ./tests/malloc_test -type f -name '*.c')
+MALLOC_TARGET_OBJECTS:=$(MALLOC_TARGET_SOURCES:.c=.o)
+MALLOC_TARGET_BC:=$(MALLOC_TARGET_SOURCES:.c=_m2r.bc)
 
 # Tiny Webserver Test
 TINY_TARGET_SOURCES:=$(shell find ./tests/tiny-web-server -type f -name '*.c')
@@ -23,11 +28,16 @@ LINKFLAGS=$(shell llvm-config --ldflags --libs --cxxflags --system-libs)
 
 all: mvxaa.so
 
+# Create bitcode for test targets
 ./tests/%_m2r.bc: ./tests/%.c
 	clang -Xclang -O0 -emit-llvm -c $^ -o $(^:.c=.bc)
 	opt -mem2reg $(^:.c=.bc) -o $@
 
 ./tests/tiny-web-server/%_m2r.bc: ./tests/tiny-web-server/%.c
+	clang -Xclang -O0 -emit-llvm -c $^ -o $(^:.c=.bc)
+	opt -mem2reg $(^:.c=.bc) -o $@
+
+./tests/malloc_test/%_m2r.bc: ./tests/malloc_test/%.c
 	clang -Xclang -O0 -emit-llvm -c $^ -o $(^:.c=.bc)
 	opt -mem2reg $(^:.c=.bc) -o $@
 
@@ -39,7 +49,7 @@ mvxaa.so: $(OBJECTS)
 	$(CXX) $(LINKFLAGS) -dylib -shared  $^ $(SVF_LIB)/libSvf.a $(SVF_LIB)/CUDD/libCudd.a -o $@
 
 clean:
-	rm -f *.o *~ *.so tests/*.bc tests/*.o tests/target_app target_app_merged *.dump
+	rm -f *.o *~ *.so tests/*.bc tests/malloc_test/*.bc tests/*.o tests/target_app target_app_merged *.dump
 
 # Run
 run_mvxaa: $(TARGET_BC) all
@@ -49,6 +59,10 @@ run_mvxaa: $(TARGET_BC) all
 run_mvxaa_tiny: $(TINY_TARGET_BC) all
 	llvm-link $(TINY_TARGET_BC) -o ./tests/tiny-web-server/tiny_merged.bc
 	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="rio_readlineb" ./tests/tiny-web-server/tiny_merged.bc -o /dev/zero
+
+run_mvxaa_malloctest: $(MALLOC_TARGET_BC) all
+	llvm-link $(MALLOC_TARGET_BC) -o ./tests/malloc_test/malloc_merged.bc
+	opt -load ./mvxaa.so --mvxaa-cm -debug-only="mallocs_collect" ./tests/malloc_test/malloc_merged.bc -o /dev/zero
 
 run_mvxaa_sshd: all sshd
 	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="main" ./tests/openssh-portable/sshd_merged.bc -o /dev/zero
@@ -71,6 +85,9 @@ nginx:
 lighttpd:
 	#cd ./tests/lighttpd-1.4.50/ && ./myconfig.sh && $(MAKE)
 	cd ./tests/lighttpd-1.4.50/src && $(MAKE) lighttpd_merged
+
+malloc_test:
+	cd ./tests/malloc_test && $(MAKE) malloc
 
 # Haven't fully tested
 debug_mvxaa: ./tests/target_app_m2r.bc all  
