@@ -30,8 +30,17 @@ struct storage_struct anotherstorage;
 struct storage_struct *copy_storage;
 
 int main() {
+    void *newtestptr = NULL;
+    void *copyptr1 = NULL;
+    struct storage_struct *copyptr2 = NULL;
     struct storage_struct *malloc_ptr =
         (struct storage_struct *)malloc(sizeof(struct storage_struct));
     malloc_ptr->ptr = &pointed;
+    newtestptr = malloc(1000);
+    *((unsigned long *)(newtestptr + 8)) = 10;
+    copyptr1 = &(malloc_ptr->a);
+    malloc_ptr->ptr->b = 2;
+    copyptr2 = copyptr1 - 32;
+    copyptr2 = &anotherstorage;
     return 0;
 }

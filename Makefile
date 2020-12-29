@@ -60,9 +60,21 @@ run_mvxaa_tiny: $(TINY_TARGET_BC) all
 	llvm-link $(TINY_TARGET_BC) -o ./tests/tiny-web-server/tiny_merged.bc
 	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="rio_readlineb" ./tests/tiny-web-server/tiny_merged.bc -o /dev/zero
 
-run_mvxaa_malloctest: $(MALLOC_TARGET_BC) all
+run_malloc_collect_test: $(MALLOC_TARGET_BC) all
 	llvm-link $(MALLOC_TARGET_BC) -o ./tests/malloc_test/malloc_merged.bc
 	opt -load ./mvxaa.so --mvxaa-cm -debug-only="mallocs_collect" ./tests/malloc_test/malloc_merged.bc -o /dev/zero
+
+run_malloc_trace_test: $(MALLOC_TARGET_BC) all
+	llvm-link $(MALLOC_TARGET_BC) -o ./tests/malloc_test/malloc_merged.bc
+	opt -load ./mvxaa.so --mvxaa-tm -sfrander -debug-only="mallocs_trace" -mvx-func="main" ./tests/malloc_test/malloc_merged.bc -o /dev/zero
+
+run_mvxaa_malloc_tiny: $(TINY_TARGET_BC) all
+	llvm-link $(TINY_TARGET_BC) -o ./tests/tiny-web-server/tiny_merged.bc
+	opt -load ./mvxaa.so --mvxaa-tm -sfrander -debug-only="mallocs_trace" -mvx-func="rio_readlineb" ./tests/tiny-web-server/tiny_merged.bc -o /dev/zero
+
+run_mvxaa_malloc_lighttpd: all lighttpd
+	#opt -load ./mvxaa.so --mvxaa-tm -sfrander -debug-only="mallocs_trace" -mvx-func="chunkqueue_get_append_tempfile" ./tests/lighttpd-1.4.50/src/lighttpd_merged_m2r.bc -o /dev/zero
+	opt -load ./mvxaa.so --mvxaa-tm -sfrander -debug-only="mallocs_trace" -mvx-func="server_main" ./tests/lighttpd-1.4.50/src/lighttpd_merged_m2r.bc -o /dev/zero
 
 run_mvxaa_sshd: all sshd
 	opt -load ./mvxaa.so --mvx-aa -sfrander -debug-only="mvxaa" -mvx-func="main" ./tests/openssh-portable/sshd_merged.bc -o /dev/zero

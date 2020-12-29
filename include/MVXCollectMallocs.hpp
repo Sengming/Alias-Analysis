@@ -30,11 +30,12 @@ class MVXCollectMallocs : public ModulePass,
 
     MVXCollectMallocs()
         : ModulePass(ID), m_mallocCalls(new DenseSet<CallInst *>) {}
+
     std::unique_ptr<DenseSet<CallInst *>> getResult();
 
     bool doInitialization(Module &M) override;
     virtual bool runOnModule(Module &M) override;
-    virtual void visitCallInst(CallInst &I);
+    void visitCallInst(CallInst &I);
 
     void getAnalysisUsage(AnalysisUsage &AU) const override;
 };

@@ -6,7 +6,7 @@
 #include <llvm/Transforms/IPO/PassManagerBuilder.h>
 
 #define DEBUG_TYPE "mallocs_collect"
-#define USE_SET_SIZE (32)
+#define USE_SET_SIZE (4096)
 
 using namespace llvm;
 
@@ -17,7 +17,7 @@ bool MVXCollectMallocs::runOnModule(Module &M) {
 
 void MVXCollectMallocs::visitCallInst(CallInst &I) {
     // If this is a malloc, then collect
-    if (I.getCalledFunction()->getName() == "malloc") {
+    if (I.getCalledFunction() && I.getCalledFunction()->getName() == "malloc") {
         LLVM_DEBUG(dbgs() << "MALLOC:" << I << "\n");
         this->m_mallocCalls->insert(&I);
     }
@@ -37,7 +37,7 @@ char MVXCollectMallocs::ID = 3;
 RegisterPass<MVXCollectMallocs> Z("mvxaa-cm", "Collect Mallocs");
 
 // Automatically enable the pass.
-static void registerGlobalCollectionPass(const PassManagerBuilder &PB,
+static void registerMallocCollectionPass(const PassManagerBuilder &PB,
                                          legacy::PassManagerBase &PM) {
     PM.add(new MVXCollectMallocs());
 }
