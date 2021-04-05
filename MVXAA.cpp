@@ -27,7 +27,8 @@ bool MVXAA::runOnModule(Module &M) {
     m_pglobals = getAnalysis<CollectGlobals>().getResult();
     m_pmainmodule = &M;
     // Create SVF and run on module
-    SVF::SVFModule *svfModule = SVF::LLVMModuleSet::getLLVMModuleSet()->buildSVFModule(M);
+    SVF::SVFModule *svfModule =
+        SVF::LLVMModuleSet::getLLVMModuleSet()->buildSVFModule(M);
     m_pwpa = std::make_unique<SVF::WPAPass>();
     m_pwpa->runOnModule(svfModule);
     // Andersen *ander = AndersenWaveDiff::createAndersenWaveDiff(svfModule);
